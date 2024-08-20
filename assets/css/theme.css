@@ -3174,6 +3174,23 @@ body{
   }
 }
 
+
+.fw-medium{
+  display: block;
+  text-align: left;
+  margin-right: 16px;
+  color: #8c8c8c;
+}
+.fw-medium span{
+  display: block;
+  font-size: 1.5rem;
+  color: #ff5702;
+  font-weight: 100;
+}
+.btn-diff-lan:hover{
+  text-decoration: none;
+}
+
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
   .slider-caption {
