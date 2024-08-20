@@ -484,10 +484,12 @@ hr {
   align-items: center;
   overflow: hidden;
   background-color: #F4F4F4;
-  border-top: 1px solid #F77301;
-  border-bottom: 1px solid #F77301;
+  border-top: 1px solid #FF5701;
+  border-bottom: 1px solid #FF5701;
   padding: 1rem;
   margin-bottom: 4rem;
+  font-size: 2rem;
+  color: #FF5701;
 }
 
 .news p {
