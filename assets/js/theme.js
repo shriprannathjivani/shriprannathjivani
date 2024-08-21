@@ -50,6 +50,13 @@ $('.eventBox').slick({
           slidesToShow: 1,
           slidesToScroll: 1
         }
+      },
+      {
+        breakpoint: 320,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
       }
       // You can unslick at a given breakpoint now by adding:
       // settings: "unslick"
@@ -124,6 +131,13 @@ $('.kidsLesson').slick({
         slidesToShow: 1,
         slidesToScroll: 1
       }
+    },
+    {
+      breakpoint: 320,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
     }
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
@@ -166,12 +180,71 @@ $('.eventsLesson').slick({
         slidesToShow: 1,
         slidesToScroll: 1
       }
+    },
+    {
+      breakpoint: 320,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
     }
     // You can unslick at a given breakpoint now by adding:
     // settings: "unslick"
     // instead of a settings object
   ]
 });
+
+//eventsLessonsktk
+$('.eventsLessonsktk').slick({
+  centerMode: false,
+  centerPadding: '0px',
+  dots: false,
+  autoplay: true,
+  infinite: true,
+  prevArrow: '<button type="button" class="slick-prev"> <i data-feather="arrow-left"></i> </button>',
+  nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
+  speed: 300,
+  arrows: true,
+  slidesToShow: 3,
+  slidesToScroll: 3,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 320,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+
+
 //TestimonialSlider
 
 $('.TestimonialSlider').slick({
@@ -206,6 +279,13 @@ $('.TestimonialSlider').slick({
     },
     {
       breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 320,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
@@ -256,6 +336,13 @@ $('.satgure-for').slick({
     },
     {
       breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 320,
       settings: {
         slidesToShow: 1,
         slidesToScroll: 1
