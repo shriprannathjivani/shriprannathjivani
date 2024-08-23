@@ -2814,13 +2814,13 @@ body{
   left: 0;
   width: 16px;
   height: 16px;
-  background: url('../img/leaf_one.webp') no-repeat;
+  background: url('../img/leaf_two.svg') no-repeat;
   background-size: 100%;
   transform-style: preserve-3d;
   backface-visibility: visible;
 }
 .leaf-scene div:nth-child(odd) {
-  background: url('../img/leaf_one.webp') no-repeat;
+  background: url('../img/leaf_two.svg') no-repeat;
   background-size: 100%;
 }
 /* end if leaf falling */ 
