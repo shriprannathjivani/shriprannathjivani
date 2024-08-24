@@ -2554,7 +2554,7 @@ button.slick-next.slick-arrow svg {
   background-color: #fabea1;
 }
 .mark--secondary {
-  background-color: #c2dddf;
+  background-color: #fabea1;
 }
 .mark--tertiary {
   background-color: #F8E177;
@@ -3242,7 +3242,12 @@ body{
 
 /* ALL media query end  */
 
-
+/* Media Query for Laptops and Desktops */
+@media (min-width: 1800px) and (max-width: 2400px) {
+  .eventContent{
+    height: 750px;
+  }
+}
 /* Water color effect */
 
 /* end Water color effect */
