@@ -306,7 +306,7 @@ hr {
   font-weight: 900;
   line-height: 4rem;
   margin-top: 0rem;
-  color: #fdf10d;
+  color: #ffffff;
 }
 .slider-caption .h-lh-text{
   font-size: 2.3rem;
@@ -3245,8 +3245,45 @@ body{
 /* Media Query for Laptops and Desktops */
 @media (min-width: 2400px) and (max-width: 3840px) {
   .eventContent{
-    height: 750px;
+    height: 1070px;
   }
+  .events .ec-title::after{
+    left: 65%;
+  }
+  .slider-caption h4 {
+    font-size: 6rem;
+    margin-bottom: 3rem !important;
+    line-height: 7rem;
+  }
+  .slider-caption p , .satguru p{
+    font-size: 2.0rem;
+  }
+  .slider-caption::before{
+    right: -17rem;
+    width: 294px;
+  }
+  .btn-primary{
+    font-size: 2rem;
+  }
+  .ShortNotes .mask-top {
+    position: absolute;
+    transform: scale(1.5);
+    top: -115px;
+  }
+  .ShortNotes-carousel{
+    padding: 156px 6.9444% 180px 6.9444%;
+  }
+  .ShortNotes .mask{
+    position: absolute;
+    bottom: -105px;
+    left: 0px;
+    width: 100%;
+    z-index: 10;
+    transform: scale(1);
+  }
+  .reviews {
+    padding-bottom: 14rem;
+}
 }
 /* Water color effect */
 
