@@ -1325,8 +1325,8 @@ button.slick-next.slick-arrow svg {
   display: block;
   background-size: contain;
   position: absolute;
-  left: 55%;
-  top: 20px;
+  left: 64%;
+  top: 12px;
   transform: rotate(15deg);
 }
 
