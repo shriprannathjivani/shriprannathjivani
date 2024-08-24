@@ -301,7 +301,7 @@ hr {
 }
 
 .slider-caption h4 {
-  font-size: 3.3rem;
+  font-size: 2.4rem;
   margin-bottom: 1rem;
   font-weight: 900;
   line-height: 4rem;
@@ -1263,7 +1263,7 @@ button.slick-next.slick-arrow svg {
   font-size: 1.2rem;
   background-color: #1E5192;
   background-repeat: no-repeat;
-  height: 950px;
+  height: 650px;
   display: flex !important;
   flex-direction: column;
   align-items: flex-start;
@@ -1274,23 +1274,26 @@ button.slick-next.slick-arrow svg {
 }
 
 .eventContent:nth-child(3n-1) {
-  background-color: #1E5192;
+  background-color: #f3e6f4;
   -webkit-mask-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHZpZXdCb3g9IjAgMCA1NjAgNjgwIiBmaWxsPSJub25lIj4KICA8cGF0aCBmaWxsPSIjZmZmIiBkPSJNNTQ5Ljg3OSA1LjYzNzc4TDIzLjkzMTMgMS4xNDc0NEMyMy45MzEzIDEuMTQ3NDQgLTIyLjUyNTYgMTc5LjY4MiAxNS42Mzc2IDMzMy43MzNDNTMuODAwOCA0ODcuNzgzIDcuMzQzODMgNjY2LjMxOCA3LjM0MzgzIDY2Ni4zMThMNTMzLjA3NyA2NzkuNDI4QzUzMy4wNzcgNjc5LjQyOCA1ODQuNDk5IDQ2Mi4yMDQgNTQxLjQ3OCAzNDIuNTMzQzQ5OC40NTcgMjIyLjg2MyA1NDkuODc5IDUuNjM3NzggNTQ5Ljg3OSA1LjYzNzc4WiIgLz4KPC9zdmc+);
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-composite: exclude;
-  transform: scale(1.15);
   transition: all .2s;
+  transform: scale(1.15);
 }
+.eventContent .slick-active.slick-center{
 
+  transform: scale(1.15);
+}
 .eventContent:nth-child(3n-2) {
-  background-color: #DB3A49;
+  background-color: #e0e3ff;
   display: block;
   margin: 0 auto;
 }
 
 .eventContent:nth-child(3n-3) {
-  background-color: #38AC4B;
+  background-color: #e5f2f4;
 }
 
 .events .mask {
@@ -1328,14 +1331,22 @@ button.slick-next.slick-arrow svg {
 }
 
 .eventContent .event-title {
-  font-size: 1.5rem;
   line-height: normal;
+  background-color: #fff;
+  color: #f77300;
+  border-radius: 24px;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin: -24px auto;
 }
 
 .eventContent .event-img {
   width: 100%;
-  margin-bottom: 2rem;
-  margin-top: 4rem;
+  margin-bottom: 0rem;
+  margin-top: 2rem;
+  border-radius: 16px;
+  aspect-ratio: 1 / .8;
+    object-fit: cover;
 }
 
 .eventContent .event-tag {
