@@ -3251,7 +3251,7 @@ body{
     left: 65%;
   }
   .slider-caption h4 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     margin-bottom: 1rem !important;
     line-height: 6rem;
   }
@@ -3259,7 +3259,7 @@ body{
     font-size: 2.0rem;
   }
   .slider-caption::before{
-    right: -17rem;
+    right: -11rem;
     width: 294px;
   }
   .btn-primary{
