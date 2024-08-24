@@ -3243,7 +3243,7 @@ body{
 /* ALL media query end  */
 
 /* Media Query for Laptops and Desktops */
-@media (min-width: 1800px) and (max-width: 2400px) {
+@media (min-width: 2400px) and (max-width: 3840px) {
   .eventContent{
     height: 750px;
   }
