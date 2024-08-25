@@ -3203,6 +3203,13 @@ body{
 .btn-diff-lan:hover{
   text-decoration: none;
 }
+/* common p tag changes */
+p ,.satguru p, .reviewItem .reviewDes{
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: calc(.2em + 1vw);
+}
+/* end common p tag changes */
 
 /* Media Query for low resolution  Tablets, Ipads */
 @media (min-width: 481px) and (max-width: 767px) {
