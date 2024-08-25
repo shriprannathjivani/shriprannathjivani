@@ -1362,7 +1362,8 @@ button.slick-next.slick-arrow svg {
 
 /*  reviews events */
 .reviews {
-  padding-bottom: 10rem;
+  padding-bottom: 0rem;
+  padding-top: 4rem;
 }
 
 .reviews .hasTagGreen {
@@ -1850,7 +1851,7 @@ button.slick-next.slick-arrow svg {
 
 /*   childrenCorner */
 .childrenCorner {
-  padding-top: 6rem;
+  padding-bottom: 16rem;
 }
 
 .childrenCorner p {
