@@ -3066,6 +3066,12 @@ body{
   margin: 2rem 0;
   line-height: normal;
 }
+.kidsPaiting .kidsPaitingItem span{
+  color: #f7951d;
+  padding: 8px 0px;
+  display: block;
+  text-align: center;
+}
 .kidsPaiting .kidsPaitingItem p{
   color: #767676;
   margin-bottom: .5rem;
