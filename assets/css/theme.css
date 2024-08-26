@@ -1859,6 +1859,12 @@ button.slick-next.slick-arrow svg {
   margin-top: -50px;
 }
 
+.single.childrenCorner {
+  background-color: #ffffff;
+  margin-top: -50px;
+  padding-top: 5rem;
+}
+
 .childrenCorner p {
   font-size: 1.2rem;
   margin-bottom: 2rem;
@@ -2451,12 +2457,18 @@ button.slick-next.slick-arrow svg {
   background-color: #FFF6F4;
   padding: 1rem;
   border-radius: .5rem;
-  color:#7b5422;
+  color:#38322b;
   position: relative;
   flex-basis: 24%;
 }
 .temple-content-box .temp-cont-listing img{
   margin-bottom: 1rem;
+}
+.temple-content-box .temp-cont-listing h4{
+  font-size: 1.6rem;
+    color: #FF5701;
+    margin-bottom: 1.5rem;
+    display: block;
 }
 
 
@@ -3058,7 +3070,7 @@ body{
     bottom: -153px;
   }
   .Testimonial .TestimonialSliderItem{
-    padding: 8rem 0rem;
+    padding: 2rem 1.5rem;
     padding-top: 0;
   }
   .podcast-entry .text {
@@ -3177,6 +3189,7 @@ body{
 
   .bg-footer-black {
     padding-top: 40px;
+    margin-top: 6rem;
   }
 
   .bg-footer-black::before {
@@ -3190,6 +3203,66 @@ body{
 
   .bg-footer-black .mb-5 {
     margin-bottom: 0 !important;
+  }
+
+  .contact-listing{
+    margin-top: -18px;
+  }
+  p ,.satguru p, .reviewItem .reviewDes, .satguruMahima p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: calc(1.0em + 1vw);
+  }
+  .container.p-0 {
+      padding: 0 calc(var(--bs-gutter-x)* .5) !important;
+  }
+  .magazine-column{
+    padding: 0 0rem;
+  }
+  .bg-footer-black .d-flex.align-items-center.justify-content-between.mt-4{
+    flex-flow: wrap;
+    justify-content: space-around !important;
+  }
+  .kidsNumberBox .text-pink ,.kidsNumberBox .text-green{
+    margin-top: 0rem;
+  }
+  #schedule .nav-tabs li{
+    display: inline-block;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+  .temple-content-box .temp-cont-listing{
+    flex-basis: 100%;
+  }
+  .spjv-googlemap{
+    height: 50vh;
+  }
+  .news{
+    font-size: 1rem;
+  }
+  .events .ec-title::after{
+    height: 30px;
+    width: 130px;
+    display: block;
+    background-size: contain;
+    position: absolute;
+    left: 79%;
+  }
+  .reviewItem:nth-child(even){
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+  }
+  .reviewItem:nth-child(odd){
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+  }
+  .reviews .hasTagGreen, .reviews .hasTagBlue, .reviews .hasTagRed{
+    margin: 1rem 0rem;
+  }
+  .kidslessCon{
+    width: 100%;
+    margin-top: -2rem;
+    margin: 0px 0rem;
   }
 }
 
@@ -3252,7 +3325,13 @@ body{
 @media (min-width: 1025px) and (max-width: 1280px) {}
 
 /* Media Query for Large screens */
-@media (min-width: 1281px) {}
+@media (min-width: 1281px) {
+  p ,.satguru p, .reviewItem .reviewDes{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: calc(.2em + 1vw);
+  }
+}
 
 /* ALL media query end  */
 
