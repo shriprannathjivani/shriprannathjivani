@@ -3050,6 +3050,24 @@ body{
 
 /* amzon box end */
 
+/* qrcodebox */
+.qrcodebox{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.qrcodebox .qrcodeItem{
+
+}
+.qrcodebox .qrcodeItem h2{
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.qrcodebox .qrcodeItem img {
+  width: 160px;
+}
+/* end of qrcodebox */
+
 /* kidsPaiting */
 .kidsPaiting .kidsPaitingItem{
   padding: 1rem 1rem;
@@ -3334,7 +3352,17 @@ body{
   .childrenCorner svg.mask {
       height: 67px;
   }
-
+  .qrcodebox {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 1rem;
+  }
+  .qrcodebox .qrcodeItem img {
+      width: 116px;
+  }
 }
 /* mobile view end */
 
@@ -3480,3 +3508,5 @@ body{
 .home_page {
   overflow-x: hidden;
 }
+
+
