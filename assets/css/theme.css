@@ -1206,7 +1206,7 @@ hr {
 
 /*   events */
 .events {
-  padding: 6rem 0rem;
+  padding: 6rem 0rem 0rem 0rem;
   position: relative;
 }
 
@@ -1221,7 +1221,7 @@ button.slick-arrow {
   height: 3rem;
   border: 1px solid #f77300;
   position: absolute;
-  top: -5%;
+  top: -2%;
   transform: translate(0, -50%);
 }
 
@@ -1579,19 +1579,19 @@ button.slick-next.slick-arrow svg {
  
 }
 .ShortNotes-carousel__item{
-  opacity: .4;
+  opacity: 1;
 }
-.ShortNotes-carousel__item.slick-current.slick-active{
+/* .ShortNotes-carousel__item.slick-current.slick-active{
   opacity: 1;
 }
 .ShortNotes-carousel__item:last-child, .ShortNotes-carousel__item:nth-last-child(2){
   opacity: 1;
-}
+} */
 .ShortNotes-carousel__item .shortnoteImgBox {
   margin: 1rem 0;
   gap: 8px;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
 }
 .ShortNotes-carousel__item .shortnoteImgBox img{
   display: block;
@@ -1599,6 +1599,10 @@ button.slick-next.slick-arrow svg {
   object-fit: cover;
   width: 100%;
   border: 4px solid #fff6f4;
+}
+.ShortNotes-carousel__item .shortnoteImgBox iframe{
+  border: 4px solid #fff6f4;
+  height: 220px;
 }
 @keyframes slide {
   from { transform: translate3d(-472px, 0px, 0px); }
@@ -1676,10 +1680,10 @@ button.slick-next.slick-arrow svg {
   background-image: url('../img/timeline_bg.svg');
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 3rem 2rem;
+  padding: 1rem 1.5rem;
   position: relative;
   z-index: 0;
-  margin: 0px 35px -47px 13px;
+  margin: 0px 16px -7px 0px;
 }
 
 @keyframes shortpulse {
@@ -1850,7 +1854,9 @@ button.slick-next.slick-arrow svg {
 
 /*   childrenCorner */
 .childrenCorner {
-  padding-top: 6rem;
+  padding-top: 10rem;
+  background-color: #FFF6F4;
+  margin-top: -50px;
 }
 
 .childrenCorner p {
@@ -2325,9 +2331,9 @@ button.slick-next.slick-arrow svg {
 
 /* Testimonial */
 .Testimonial {
-  padding: 8rem 0rem 0rem 0rem;
+  padding: 0rem 0rem 0rem 0rem;
   position: relative;
-  background-color: #FFF6F4;
+  background-color: #fff;
   margin-bottom: 4rem;
   margin-top: -50px;
   color: #fff;
@@ -2350,7 +2356,7 @@ button.slick-next.slick-arrow svg {
 
 .Testimonial .TestimonialSliderItem {
   position: relative;
-  padding: 6rem .5rem;
+  padding: 2rem 1.0rem;
   text-align: left;
   font-size: 1.2rem;
   font-weight: 100;
@@ -3209,11 +3215,7 @@ body{
 /* end of timeline for kids */
 
 /* common p tag changes */
-p ,.satguru p, .reviewItem .reviewDes{
-  margin-top: 0;
-  margin-bottom: 1rem;
-  font-size: calc(.2em + 1vw);
-}
+
 /* end common p tag changes */
 
 /* Media Query for low resolution  Tablets, Ipads */
@@ -3294,8 +3296,16 @@ p ,.satguru p, .reviewItem .reviewDes{
     transform: scale(1);
   }
   .reviews {
-    padding-bottom: 14rem;
-}
+      padding-bottom: 14rem;
+  }
+  p ,.satguru p, .reviewItem .reviewDes{
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-size: calc(.2em + 1vw);
+  }
+  .ShortNotes-carousel__item-inner .year{
+    padding: 3.6rem 0rem 0.6rem 0rem;
+  }
 }
 /* Water color effect */
 
