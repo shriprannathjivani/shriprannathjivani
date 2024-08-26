@@ -3037,9 +3037,42 @@ body{
 
 /* amzon box end */
 
+/* kidsPaiting */
+.kidsPaiting .kidsPaitingItem{
+  padding: 1rem 1rem;
+}
+.kidsPaiting .kidsPaiting_img{
+  width: 100%;
+  border-radius: 16px;
+  border: 16px solid #FFF6F4;
+}
+.kidsPaiting .kidsPaitingItem h2{
+  color: #090b20;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 900;
+}
+.kidsPaiting .kidsPaitingItem h3{
+  color: #525252;
+  font-size: 1.4rem;
+  margin: 2rem 0;
+  line-height: normal;
+}
+.kidsPaiting .kidsPaitingItem p{
+  color: #767676;
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+}
+
+/* kidsPaiting end */
+
 /* ALL media query  */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  .kidsPaiting .kidsPaitingItem{
+    padding: 0;
+  }
   .slider-video-box{
     height: 376px;
   }
