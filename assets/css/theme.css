@@ -3018,8 +3018,24 @@ body{
 /* Footer  end*/
 
 
+/* amazon box */
 
+.amazonbox{
+  background-color: #FFF6F4;
+  border-radius: 20px 20px 20px 20px;
+  padding: 16px;
+}
+.amazonbox h2.text-secondary{
+  color: #1D2352;
+  margin-bottom: .5rem;
+  font-size: 1.25rem;
+}
+.amazonbox .aksdja{
+  color: #FF5701;
+  font-size: 2.25rem;
+}
 
+/* amzon box end */
 
 /* ALL media query  */
 /* Media Query for Mobile Devices */
@@ -3264,8 +3280,13 @@ body{
     margin-top: -2rem;
     margin: 0px 0rem;
   }
-}
+  .amazonbox{
+    background-color: #FFF6F4;
+    border-radius: 20px 20px 20px 20px;
+  }
 
+}
+/* mobile view end */
 
 .fw-medium{
   display: block;
