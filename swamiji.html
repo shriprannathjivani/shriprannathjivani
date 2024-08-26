@@ -167,8 +167,76 @@
 
                                     </article>
                                     <article>
+                                        <svg class="svg-filters" width="0" height="0" viewBox="0 0 0 0"
+                                        xmlns="http://www.w3.org/2000/svg" version="1.1"
+                                        style="position: absolute; visibility: hidden;">
+                                        <defs>
+                                            <filter id="watercolor">
+    
+                                                <!-- FILL -->
+                                                <feTurbulence seed="1" result="noise" type="fractalNoise"
+                                                    baseFrequency="0.0015" numOctaves="4" />
+                                                <feColorMatrix type="saturate" values="0" />
+                                                <feColorMatrix type="matrix" values="20 0 0 0 -4
+                                                                    0 20 0 0 -4
+                                                                    0 0 20 0 -4
+                                                                    0 0 0 1 1">
+                                                    <animate attributeName="values" values="20 0 0 0 -14
+                                                                        0 20 0 0 -14
+                                                                        0 0 20 0 -14
+                                                                        0 0 0 1 1;
+                                                                        20 0 0 0 -4
+                                                                        0 20 0 0 -4
+                                                                        0 0 20 0 -4
+                                                                        0 0 0 1 1" dur="10s" repeatCount="1" />
+                                                </feColorMatrix>
+                                                <feColorMatrix result="fill" type="luminanceToAlpha" />
+    
+                                                <!-- LINE -->
+                                                <feConvolveMatrix in="SourceGraphic" kernelMatrix="3 0 0
+                                                          0 0 0
+                                                          0 0 -2" />
+                                                <feColorMatrix type="saturate" values="0" />
+                                                <feColorMatrix type="matrix" result="line" values="9 0 0 0 -1
+                                                                    0 9 0 0 -1
+                                                                    0 0 9 0 -1
+                                                                    0 0 0 1 1" />
+    
+                                                <!-- FILL2 -->
+                                                <feColorMatrix in="noise" type="saturate" values="0" />
+                                                <feColorMatrix type="matrix" values="20 0 0 0 -4
+                                                                    0 20 0 0 -4
+                                                                    0 0 20 0 -4
+                                                                    0 0 0 1 1">
+                                                    <animate attributeName="values" values="20 0 0 0 -14
+                                                                        0 20 0 0 -14
+                                                                        0 0 20 0 -14
+                                                                        0 0 0 1 1;
+                                                                        20 0 0 0 -4
+                                                                        0 20 0 0 -4
+                                                                        0 0 20 0 -4
+                                                                        0 0 0 1 1" dur="30s" repeatCount="1" />
+                                                </feColorMatrix>
+                                                <feColorMatrix result="fill2" type="luminanceToAlpha" />
+    
+                                                <!-- COMP -->
+                                                <feFlood result="flood" flood-color="#fff" />
+                                                <feComposite in="line" in2="fill" operator="in" />
+                                                <feComposite result="fill3" in="fill2" operator="and" />
+                                                <feComposite in2="flood" operator="and" />
+                                                <feColorMatrix type="matrix" values="-1 0 0 0 1 
+                                                                     0 -1 0 0 1 
+                                                                     0 0 -1 0 1 
+                                                                     0 0 0 1 0" />
+                                                <feColorMatrix result="fill4" type="luminanceToAlpha" />
+    
+                                                <feComposite in="SourceGraphic" in2="fill4" operator="in" />
+                                                <feComposite in2="SourceAlpha" operator="in" />
+                                            </filter>
+                                        </defs>
+                                    </svg>
                                         <div class="imgBox">
-                                            <img src="assets/img/jyaantemple.jpeg" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 11.03.14 AM.jpeg" class="w-100">
                                             <p>Shri Prannath Jyanpeeth.Nakud Road, Sarsawa Saharanpur, U.P. 247232
                                                 India</p>
                                         </div>
@@ -193,7 +261,7 @@
 
                                         </p>
                                         <div class="imgBox leftBox">
-                                            <img src="assets/img/rajan_swamiji.jpeg" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 2.35.06 PM.jpeg" class="w-100">
                                             <p>श्री राजन स्वामी</p>
                                         </div>
                                         <p> <span class="h-s-text"> स्वामी जी ने १८ वर्ष की </span> अल्पायु में गृह
@@ -211,7 +279,7 @@
                                             ही रात्रि
                                             बितायी।</p>
                                         <div class="imgBox rightBox">
-                                            <img src="assets/img/sarsawa_pic.png" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 2.35.09 PM.jpeg" class="w-100">
                                             <p>Shri Prannath Jyanpeeth.Nakud Road, Sarsawa Saharanpur, U.P. 247232
                                                 India</p>
                                         </div>
@@ -250,13 +318,22 @@
                                             माध्यम से आप समाज में ब्रह्मज्ञान व शिक्षा का प्रचार करने में तल्लीन हैं
                                             तथा अपना
                                             शेष जीवन इसी महान उद्देश्य के लिए समर्पित कर दिया है ।</p>
+                                           
+                                    </article>
+                                    <article class="post">
+                                        <div class="video-entry mb-5">
+                                            <iframe width="100%" height="600"  src="https://www.youtube.com/embed/aerAEwAVPPA?si=_vVOTrbupPyT1m2L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video-entry">
+                                            <iframe width="100%" height="600"  src="https://www.youtube.com/embed/4RQEodssH0o?si=rV6tSwKDmiOl6vEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+                                        </div>
                                     </article>
                                     <article class="post">
                                         <div class="thankyouBox">
                                             <img src="assets/img/thankyouhand.png" class="w-100">
                                             <h3 class="thanks_title"> सप्रेम प्रणाम जी !</h3>
                                             <p>सतगुरु व परमहंस संक्षिप्त परिचय पढ़ने के लिए और समय निकालने के लिए
-                                                धन्यवाद. <br>
+                                                धन्यवाद। <br>
                                                  हम आपसे अनुरोध करते हैं कि आप हमें अपनी ईमानदार प्रतिक्रिया दें।
                                             </p>
                                         </div>
@@ -275,7 +352,7 @@
                                     </article>
                                     <article>
                                         <div class="imgBox">
-                                            <img src="assets/img/jyaantemple.jpeg" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 11.03.14 AM.jpeg" class="w-100">
                                             <p>Shri Prannath Jyanpeeth.Nakud Road, Sarsawa Saharanpur, U.P. 247232
                                                 India</p>
                                         </div>
@@ -293,7 +370,7 @@
 
                                         </p>
                                         <div class="imgBox leftBox">
-                                            <img src="assets/img/rajan_swamiji.jpeg" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 2.35.06 PM.jpeg" class="w-100">
                                             <p>श्री राजन स्वामी</p>
                                         </div>
                                         <p>  <span class="h-s-text">સ્વામીજીએ 18 વર્ષની</span> નાની ઉંમરે પોતાનું ઘર છોડ્યું અને સન્યાસ લીધો. તે પછી
@@ -304,7 +381,7 @@
                                             અને પવિત્ર ગ્રંથોનો પણ અભ્યાસ કર્યો. ધ્યાનના સમયગાળા દરમિયાન, તમે ક્યારેય
                                             આડા પડીને સૂતા નહોતા, પરંતુ ધ્યાન બેસીને રાત વિતાવી હતી.</p>
                                         <div class="imgBox rightBox">
-                                            <img src="assets/img/sarsawa_pic.png" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 2.35.09 PM.jpeg" class="w-100">
                                             <p>Shri Prannath Jyanpeeth.Nakud Road, Sarsawa Saharanpur, U.P. 247232
                                                 India</p>
                                         </div>
@@ -325,6 +402,15 @@
                                             પ્રેરણાથી,  <span class="h-s-text">તમે 2005 માં સરસાવામાં શ્રી પ્રાણનાથ જ્ઞાનપીઠની સ્થાપના કરી.</span> આ
                                             સંસ્થા દ્વારા તેઓ સમાજમાં ધર્મશાસ્ત્રીય જ્ઞાન અને શિક્ષણનો ફેલાવો કરવામાં
                                             વ્યસ્ત છે અને આ મહાન હેતુ માટે તેમણે બાકીનું જીવન સમર્પિત કર્યું છે.</p>
+                                    </article>
+
+                                    <article class="post">
+                                        <div class="video-entry mb-5">
+                                            <iframe width="100%" height="600"  src="https://www.youtube.com/embed/aerAEwAVPPA?si=_vVOTrbupPyT1m2L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video-entry">
+                                            <iframe width="100%" height="600"  src="https://www.youtube.com/embed/4RQEodssH0o?si=rV6tSwKDmiOl6vEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+                                        </div>
                                     </article>
                                     <article class="post">
                                         <div class="thankyouBox">
@@ -349,7 +435,7 @@
                                     </article>
                                     <article>
                                         <div class="imgBox">
-                                            <img src="assets/img/jyaantemple.jpeg" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 11.03.14 AM.jpeg" class="w-100">
                                             <p>Shri Prannath Jyanpeeth.Nakud Road, Sarsawa Saharanpur, U.P. 247232
                                                 India</p>
                                         </div>
@@ -366,7 +452,7 @@
                                             कामबाट अलग हुन थाल्यो।
                                         </p>
                                         <div class="imgBox leftBox">
-                                            <img src="assets/img/rajan_swamiji.jpeg" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 2.35.06 PM.jpeg" class="w-100">
                                             <p>श्री राजन स्वामी</p>
                                         </div>
                                         <p> <span class="h-s-text">स्वामीजीले १८ वर्षको </span>उमेरमा आफ्नो घर छोडेर सन्यास लिनुभयो। त्यसपछि कहिल्यै
@@ -377,7 +463,7 @@
                                             पवित्र ग्रन्थहरू पनि पढ्नुभयो। ध्यानको अवधिमा, तपाईं कहिल्यै सुत्नुहुन्न, तर
                                             रात ध्यानमा बसेर बिताउनुभयो।</p>
                                         <div class="imgBox rightBox">
-                                            <img src="assets/img/sarsawa_pic.png" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 2.35.09 PM.jpeg" class="w-100">
                                             <p>Shri Prannath Jyanpeeth.Nakud Road, Sarsawa Saharanpur, U.P. 247232
                                                 India</p>
                                         </div>
@@ -401,6 +487,15 @@
                                             गर्नुभयो।</span> यस संस्थाको माध्यमबाट समाजमा धर्मशास्त्रीय ज्ञान र शिक्षा फैलाउने
                                             काममा तल्लिन रहँदै उनले आफ्नो बाँकी जीवन यही महान उद्देश्यमा समर्पित गरेका
                                             छन् ।</p>
+                                    </article>
+
+                                    <article class="post">
+                                        <div class="video-entry mb-5">
+                                            <iframe width="100%" height="600"  src="https://www.youtube.com/embed/aerAEwAVPPA?si=_vVOTrbupPyT1m2L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video-entry">
+                                            <iframe width="100%" height="600"  src="https://www.youtube.com/embed/4RQEodssH0o?si=rV6tSwKDmiOl6vEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+                                        </div>
                                     </article>
                                     <article class="post">
                                         <div class="thankyouBox">
@@ -428,7 +523,7 @@
                                     </article>
                                     <article>
                                         <div class="imgBox">
-                                            <img src="assets/img/jyaantemple.jpeg" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 11.03.14 AM.jpeg" class="w-100">
                                             <p>Shri Prannath Jyanpeeth.Nakud Road, Sarsawa Saharanpur, U.P. 247232
                                                 India</p>
                                         </div>
@@ -448,7 +543,7 @@
 
                                         </p>
                                         <div class="imgBox leftBox">
-                                            <img src="assets/img/rajan_swamiji.jpeg" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 2.35.06 PM.jpeg" class="w-100">
                                             <p>श्री राजन स्वामी</p>
                                         </div>
                                         <p> Swamiji left his home at the <span class="h-s-text">young age of 18 </span>and took
@@ -461,7 +556,7 @@
                                                 you never slept lying down, but spent the night sitting in meditation.
                                         </p>
                                         <div class="imgBox rightBox">
-                                            <img src="assets/img/sarsawa_pic.png" class="w-100">
+                                            <img src="assets/img/bitak_shri_swami_ji/WhatsApp Image 2024-08-26 at 2.35.09 PM.jpeg" class="w-100">
                                             <p>Shri Prannath Jyanpeeth.Nakud Road, Sarsawa Saharanpur, U.P. 247232
                                                 India</p>
                                         </div>
@@ -489,6 +584,15 @@
                                             Prannath Gyanpeeth in Sarsawa in 2005</span>. Through this organization, he is
                                             engrossed in spreading theological knowledge and education in the society
                                             and has dedicated the rest of his life to this great purpose.</p>
+                                    </article>
+
+                                    <article class="post">
+                                        <div class="video-entry mb-5">
+                                            <iframe width="100%" height="600"  src="https://www.youtube.com/embed/aerAEwAVPPA?si=_vVOTrbupPyT1m2L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+                                        </div>
+                                        <div class="video-entry">
+                                            <iframe width="100%" height="600"  src="https://www.youtube.com/embed/4RQEodssH0o?si=rV6tSwKDmiOl6vEx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"  allowfullscreen></iframe>
+                                        </div>
                                     </article>
                                     <article class="post">
                                         <div class="thankyouBox">
