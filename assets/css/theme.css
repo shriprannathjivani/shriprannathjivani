@@ -3468,3 +3468,8 @@ body{
 .read-more-link:hover, .read-less-link:hover {
   color: #f7951d;
 }
+
+.review_video {
+  border: 16px solid #ffffff;
+  border-radius: 24px;
+}
