@@ -19,7 +19,7 @@ $('.eventBox').slick({
     centerMode: true,
     centerPadding: '0px',
     dots: false,
-    autoplay: false,
+    autoplay: true,
     infinite: true,
     prevArrow: '<button type="button" class="slick-prev"> <i data-feather="arrow-left"></i> </button>',
     nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
@@ -70,7 +70,7 @@ $('.eventBox').slick({
 
 function carousel() {
   $.js('ShortNotes-carousel').slick({
-    focusOnSelect: true,
+    focusOnSelect: false,
     centerMode: false,
     centerPadding: '10px',
     infinite: false,
@@ -597,3 +597,22 @@ $('.count').each(function () {
   });
 });
 
+$(function () {
+  $(".shortDecBox").moreLess({
+    moreLabel: "... Read more",
+    lessLabel: "... Read less",
+    moreClass: "read-more-link",
+    lessClass: "read-less-link",
+    wordsCount: 50,
+  });
+});
+
+$(function () {
+  $(".tesReviewBox").moreLess({
+    moreLabel: "... Read more",
+    lessLabel: "... Read less",
+    moreClass: "read-more-link",
+    lessClass: "read-less-link",
+    wordsCount: 160,
+  });
+});

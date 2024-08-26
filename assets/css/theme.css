@@ -3456,3 +3456,15 @@ body{
 /* Water color effect */
 
 /* end Water color effect */
+
+
+.read-more-link, .read-less-link {
+  font-size: 18px;
+  padding: 4px 6px;
+  border-radius: 22px;
+  color: #f7951d;
+  font-weight: 600;
+}
+.read-more-link:hover, .read-less-link:hover {
+  color: #f7951d;
+}
