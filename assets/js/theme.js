@@ -300,18 +300,18 @@ $('.eventsLessonsktk').slick({
 //TestimonialSlider
 
 $('.TestimonialSlider').slick({
-  adaptiveHeight: true,
+  adaptiveHeight: false,
   centerMode: false,
   centerPadding: '0px',
   dots: false,
-  infinite: true,
+  infinite: false,
   prevArrow: '<button type="button" class="slick-prev"> <i data-feather="arrow-left"></i> </button>',
   nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
   speed: 300,
   autoplay: true,
   arrows: true,
   slidesToShow: 2,
-  slidesToScroll: 1,
+  slidesToScroll: 2,
   responsive: [
     {
       breakpoint: 1024,
@@ -597,22 +597,20 @@ $('.count').each(function () {
   });
 });
 
-$(function () {
-  $(".shortDecBox").moreLess({
-    moreLabel: "... Read more",
-    lessLabel: "... Read less",
-    moreClass: "read-more-link",
-    lessClass: "read-less-link",
-    wordsCount: 50,
-  });
+
+
+$('.tesReviewBox').readMore({
+    moreLabel: '... Read more',
+    lessLabel: '... Read less',
+    moreClass: 'read-more-link',
+    lessClass: 'read-less-link',
+    wordsCount: 120
 });
 
-$(function () {
-  $(".tesReviewBox").moreLess({
-    moreLabel: "... Read more",
-    lessLabel: "... Read less",
-    moreClass: "read-more-link",
-    lessClass: "read-less-link",
-    wordsCount: 160,
-  });
+$('.shortDecBox_more').readMore({
+  moreLabel: '... Read more',
+  lessLabel: '... Read less',
+  moreClass: 'read-more-link',
+  lessClass: 'read-less-link',
+  wordsCount: 50
 });
