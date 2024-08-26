@@ -349,19 +349,6 @@
     $('.video-popup').magnificPopup({
         type: 'iframe'
     });
-    $.ajax({
-        type: "GET", 
-        url:'https://content.googleapis.com/youtube/v3/playlists',
-        dataType: 'jsonp',
-        data: {'channelId': 'UC_x5XG1OV2P6uZZ5FSM9Ttw',
-                        'maxResults': '25',
-                        'part': 'snippet,contentDetails', 
-                        'key': "YOUR_API_KEY"},
-        success: function(response){
-        // handle response
-        console.log(response);
-        }
-    });
 </script>
 
 <!-- <script type="text/javascript"

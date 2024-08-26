@@ -599,18 +599,3 @@ $('.count').each(function () {
 
 
 
-$('.tesReviewBox').readMore({
-    moreLabel: '... Read more',
-    lessLabel: '... Read less',
-    moreClass: 'read-more-link',
-    lessClass: 'read-less-link',
-    wordsCount: 120
-});
-
-$('.shortDecBox_more').readMore({
-  moreLabel: '... Read more',
-  lessLabel: '... Read less',
-  moreClass: 'read-more-link',
-  lessClass: 'read-less-link',
-  wordsCount: 50
-});
