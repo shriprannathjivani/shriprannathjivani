@@ -3145,12 +3145,13 @@ body{
 }
 .gifbox {
   height: 229px;
-  width: 380px;
+  width: 260px;
   display: block;
   margin: 0px auto;
   background-position: center;
   background-size: 350px;
   background-repeat: no-repeat;
+  overflow: hidden;
   background-image: url('../img/pranam.gif');
 }
 /* 404 page */
