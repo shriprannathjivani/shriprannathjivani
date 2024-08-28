@@ -3137,7 +3137,25 @@ body{
   font-size: 1.25rem;
 }
 
+
 /* kidsPaiting end */
+.gifblock {
+  display: block;
+  text-align: center;
+}
+.gifbox {
+  height: 229px;
+  width: 380px;
+  display: block;
+  margin: 0px auto;
+  background-position: center;
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-image: url('../img/pranam.gif');
+}
+/* 404 page */
+
+/* end 404 page */
 
 /* ALL media query  */
 /* Media Query for Mobile Devices */
