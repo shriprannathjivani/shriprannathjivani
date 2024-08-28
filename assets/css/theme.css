@@ -3068,6 +3068,41 @@ body{
 }
 /* end of qrcodebox */
 
+
+/* qr code page */
+
+.qr_code_page{
+  background-color: #fff;
+}
+.qrcodelinksBox{
+  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.qrcodelinksBox .qr_link{
+  text-align: center;
+  padding: 1rem 1rem;
+  font-size: 2rem;
+  background-color: #FFF6F4;
+  border-radius: 16px;
+  width: 200px;
+}
+.qrcodelinksBox .qr_link svg{
+  height: 40px;
+  width: 40px;
+}
+.qrcodelinksBox .qr_link:first-child svg{
+  stroke: #3b559f;
+}
+.qrcodelinksBox .qr_link:nth-child(2) svg{
+  stroke: #d8362a;
+}
+.qrcodelinksBox .qr_link:last-child svg{
+  stroke: #c01a77;
+}
+/* end of qr code page */
+
 /* kidsPaiting */
 .kidsPaiting .kidsPaitingItem{
   padding: 1rem 1rem;
@@ -3363,6 +3398,16 @@ body{
   .qrcodebox .qrcodeItem img {
       width: 116px;
   }
+  .qrcodelinksBox{
+    flex-direction: column;
+    gap: .5rem;
+  }
+  .qrcodelinksBox .qr_link{
+      width: 100%;
+      display: block;
+      background-color: #FFF6F4;
+      border-radius: 16px;
+    }
 }
 /* mobile view end */
 
