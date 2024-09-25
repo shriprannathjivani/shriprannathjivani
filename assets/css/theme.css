@@ -310,7 +310,7 @@ hr {
   font-size: 2.4rem;
   margin-bottom: 1rem;
   font-weight: 900;
-  line-height: 4rem;
+  line-height: 3rem;
   margin-top: 0rem;
   color: #ffffff;
 }
@@ -3158,6 +3158,22 @@ body{
 
 /* end 404 page */
 
+
+/* all events banner and page css */
+
+.all_events_gallery_banner{
+  background-image: url('../img/events/banner_allevents.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 650px;
+  margin-top: -70px;
+}
+
+.reveal.reveal--overlay {
+  background-color: #f7951d;
+}
+
+
 /* ALL media query  */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
@@ -3500,6 +3516,9 @@ body{
 
 /* Media Query for Laptops and Desktops */
 @media (min-width: 2400px) and (max-width: 3840px) {
+  .all_events_gallery_banner{
+    background-size:cover;
+  }
   .eventContent{
     height: 1070px;
   }
@@ -3572,5 +3591,4 @@ body{
 .home_page {
   overflow-x: hidden;
 }
-
 
