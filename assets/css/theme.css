@@ -3172,7 +3172,9 @@ body{
 .reveal.reveal--overlay {
   background-color: #f7951d;
 }
-
+.all_events_gallery_page .common-hero ::after{
+  content: none;
+}
 
 /* ALL media query  */
 /* Media Query for Mobile Devices */

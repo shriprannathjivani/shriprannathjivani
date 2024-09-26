@@ -428,14 +428,14 @@ function displayTeam(divid, teamName) {
 
 
     for (let i = 0; i < teamName.length; i++) {
-        if ((teamName[i].imageName.endsWith(".mp4"))) {
+        if (teamName[i].imageName.endsWith(".mp4")) {
             studentsList.innerHTML =
                 studentsList.innerHTML +
                 `
                 <div class="col-12 col-sm-4 col-md-4 mb-4">
                     <div class="image--wrapper">
                         <div class="reveal reveal--overlay reveal--top">
-                            <video autoplay muted class="w-100" alt="" poster="assets/img/events/6.png" preload="metadata">
+                            <video autoplay muted class="w-100" alt="" preload="metadata">
                                 <source src="${teamName[i].imageName}"  type="video/mp4">
                             </video>
                         </div>
