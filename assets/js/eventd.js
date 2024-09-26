@@ -121,11 +121,6 @@ var c_eman = [{
 {
     id: '1',
     name: 'name',
-    imageName: 'assets/img/events/18thevents/26.jpeg',
-},
-{
-    id: '1',
-    name: 'name',
     imageName: 'assets/img/events/18thevents/29.jpeg',
 },
 {
@@ -187,11 +182,6 @@ var c_eman = [{
     id: '1',
     name: 'name',
     imageName: 'assets/img/events/18thevents/44.jpeg',
-},
-{
-    id: '1',
-    name: 'name',
-    imageName: 'assets/img/events/18thevents/46.mp4',
 },
 {
     id: '1',
@@ -419,6 +409,16 @@ var c_eman = [{
     id: '1',
     name: 'name',
     imageName: 'assets/img/events/18thevents/86.mp4',
+},
+{
+    id: '1',
+    name: 'name',
+    imageName: 'assets/img/events/18thevents/26.jpeg',
+},
+{
+    id: '1',
+    name: 'name',
+    imageName: 'assets/img/events/18thevents/46.mp4',
 }
 ];
 
