@@ -3278,7 +3278,43 @@ div#babyNameslistingGirl ,div#babyNameslistingBoy{
 }
 /* end of babynames start */
 
+/* Sewa karkhana  */
+.sewaBox{
 
+}
+.karkhanaListCard{
+  border-radius: 16px;
+}
+.karkhanaListCard img {
+  border-radius: 16px 16px 0px 0px;
+  aspect-ratio: 1 / .6;
+    object-fit: cover;
+}
+.karkhanaListCard .card-title{
+  font-size: 1.4rem;
+  color: #FF5701;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+  min-height: 55px;
+}
+.karkhanaListCard .card-text,.karkhanaListCard .card-text-desc{
+  font-size: 16px;
+    color: #525252;
+}
+.karkhanaListCard .contact-detail .card-text{
+  margin-bottom: 4px;
+}
+.karkhanaListCard .btnapply{
+  font-size: 14px;
+    width: 100%;
+    margin-top: 16px;
+}
+.karkhanaListCard .card-read-more-link{
+  font-size: 14px;
+  color: #c60000;
+  font-weight: 500;
+}
+/* Sewa karkhana  infinity */
 
 /* ALL media query  */
 /* Media Query for Mobile Devices */
