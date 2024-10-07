@@ -202,9 +202,11 @@ function displaykarkhanaNames(divid, teamName) {
             `
                 <div class="col-lg-3 col-md-3 col-sm-12 mb-5">
                     <div class="card karkhanaListCard">
-                        <img src="${teamName[i].imgLink}" class="card-img-top" >
-                        <div class="card-body">
+                        <div class="card-img-body">
+                            <img src="${teamName[i].imgLink}" class="card-img-top" >
                             <h5 class="card-title">${teamName[i].service}</h5>
+                        </div>
+                        <div class="card-body">
                             <p class="card-text-desc">${teamName[i].description}</p>
                             <div class="contact-detail">
                                 <span class="mb-2 d-flex">Contact us: </span>

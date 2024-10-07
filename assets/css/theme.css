@@ -3290,13 +3290,6 @@ div#babyNameslistingGirl ,div#babyNameslistingBoy{
   aspect-ratio: 1 / .6;
     object-fit: cover;
 }
-.karkhanaListCard .card-title{
-  font-size: 1.4rem;
-  color: #FF5701;
-  margin-bottom: 1.5rem;
-  font-weight: 300;
-  min-height: 55px;
-}
 .karkhanaListCard .card-text,.karkhanaListCard .card-text-desc{
   font-size: 16px;
     color: #525252;
@@ -3314,6 +3307,26 @@ div#babyNameslistingGirl ,div#babyNameslistingBoy{
   color: #c60000;
   font-weight: 500;
 }
+.karkhanaListCard .card-img-body{
+  position: relative;
+}
+.karkhanaListCard .card-img-body .card-title{
+  line-height: normal;
+  background-color: #fff;
+  color: #f77300;
+  border-radius: 24px;
+  padding: 4px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  bottom: 10px;
+  z-index: 1;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  width: 90%;
+  text-align: center;
+}
+
 /* Sewa karkhana  infinity */
 
 /* ALL media query  */
