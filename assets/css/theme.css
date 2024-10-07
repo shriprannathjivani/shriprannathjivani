@@ -3206,9 +3206,87 @@ body{
 
 /* all events banner and page css */
 
+
+/* babynames start */
+
+.babyName-entry {
+  border-radius: 4px;
+  overflow: hidden;
+  align-items: center;
+  border: 1px solid #f4f4f4;
+  padding: 8px 16px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+.babyName-entry .babytitle {
+  font-size: 1.5rem;
+  font-weight: 200;
+  line-height: 1.2;
+}
+.babyName-entry span {
+  color: #2f2f2f;
+  font-size: 18px;
+}
+
+.babyName-entry .image {
+  background-size: 41px;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 60px;
+  margin-right: 18px;
+  padding: 9px;
+  background-color: #e2f0fc;
+  border-radius: 100%;
+}
+.babyName_girl .babytitle {
+  color: #fc88af;
+}
+.babyName_boy .babytitle {
+  color: #45b6ea;
+}
+.babyName-entry .image.boy {
+  background-color: #f0f9fd;
+}
+.babyName-entry .image.girl {
+  background-color: #fcf0f5;
+}
+
+.babyNameFilter .nav-link{
+  font-size: 1.2rem;
+  border: 1px solid #f1ebeb;
+  width: 200px;
+}
+.babyNameFilter .nav-link img{
+  width: 40px;
+  display: block;
+  margin: 8px auto;
+}
+.babyNameFilter .nav-link.active{
+  background-color: #fff6f4;
+    color: #FF5701;
+    border: 1px solid #FF5701;
+    border-radius: 0px;
+}
+.babyNameFilter .nav-link span{
+  display: block;
+  font-size: 1.8rem;
+}
+div#babyNameslistingGirl ,div#babyNameslistingBoy{
+  width: 60%;
+  margin: 0px auto;
+}
+/* end of babynames start */
+
+
+
 /* ALL media query  */
 /* Media Query for Mobile Devices */
 @media (max-width: 480px) {
+  div#babyNameslistingGirl ,div#babyNameslistingBoy{
+    width: 100%;
+    margin: 0px auto;
+  }
   .all_events_gallery_banner{
     min-height: 180px;
   }
