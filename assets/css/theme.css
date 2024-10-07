@@ -2982,6 +2982,7 @@ body{
 
 .bg-footer-black a {
   text-decoration: none;
+  font-size: calc(.2em + 1vw);
 }
 
 .bg-footer-black ul,
