@@ -7,7 +7,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -17,7 +17,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -27,7 +27,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -37,7 +37,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -47,7 +47,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -57,7 +57,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -67,7 +67,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -77,7 +77,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -87,7 +87,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -97,7 +97,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -107,7 +107,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -117,7 +117,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -127,7 +127,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -137,7 +137,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -147,7 +147,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -157,7 +157,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -167,7 +167,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -177,7 +177,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
@@ -187,7 +187,7 @@ var karkhanaList = [
         description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 0000 0000',
-        contactEmail: 'shriprannathjivani@gmail.com',
+        contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     }
 ]
