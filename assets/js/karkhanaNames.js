@@ -3,190 +3,130 @@ var karkhanaList = [
     {
         id: "1",
         imgLink: "assets/img/events/18thevents/4.JPG",
-        service: 'Paintings Seva Karkhana',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
+        service: 'पेंटिंग सेवा कारखाना',
+        description: 'इस सेवा कारखाने में किसी भी आयु के कलाकार सुंदरसाथ अपने हाथों से श्री बीतक साहेब के प्रसंगों के चित्र बनाते हैं। इस सेवा से सुंदरसाथ को चित्रों के माध्यम से पारब्रह्म की पहचान कराने का प्रयास करना है। यदि आप चित्रकारी में रुचि रखते हैं तो हमसे संपर्क करें।',
         contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "2",
         imgLink: "assets/img/events/18thevents/2.JPG",
-        service: 'Typing, Translation and Proofreading Seva Karkhana ',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        service: 'टाइपिंग, अनुवाद और प्रूफरीडिंग सेवा कारखाना',
+        description: 'इस सेवा कारखाने में श्रीमुख वाणी पर आधारित साहित्य, परमहंसो की जीवनी एवं जागनी अभियान में सहायक लेखों की विभिन्न भाषाओं में टाइपिंग, अनुवाद और प्रूफरीडिंग की सेवा की जाती है। श्रीमुख वाणी के मंथन में भाषा रुकावट ना बने यही इस सेवा का उद्देश्य है। यदि आप हिंदी, अंग्रेजी, नेपाली और गुजराती में भाषा और व्याकरण में निपुण हैं तो इस सेवा के लिए संपर्क करें।',
+        contactPerson: 'Praveen Patel',
+        contactNo: '+91 8980203794',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "3",
         imgLink: "assets/img/events/18thevents/3.JPG",
-        service: 'Quizzes Seva Karkhana',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
+        service: 'शेयरिंग सेवा कारखाना',
+        description: 'श्री प्राणनाथ जी वाणी, जन जन तक पहुँचानी - हमारा एक मात्र उद्देश्य है। इस प्रयास को क्रियांवित करते हुए, इस सेवा कारखाने में सुंदरसाथ प्रतिदिन जूम एवं यूट्यूब पर लाइव होने वाली चर्चा की वीडियो को फेसबुक, व्हाट्सएप और इंस्टाग्राम के माध्यम से शेयर करने की सेवा करते हैं। यदि आप भी जागनी अभियान में अपना योगदान देना चाहते हैं तो अवश्य संपर्क करें।',
         contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "4",
         imgLink: "assets/img/events/18thevents/5.JPG",
-        service: 'Chaupai Decor Seva Karkhana ',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        service: 'प्रश्नोत्तरी सेवा कारखाना',
+        description: 'इस सेवा कारखाने में सुंदरसाथ जी द्वारा चैनल पर चल रही चर्चा पर आधारित प्रश्नोतरी बनाई जाती हैं, जो गूगल क्विज और यूट्यूब क्विज के रूप में रिलीज की जाती हैं। सरल प्रश्नों को हल करते हुए धनी जी की वाणी सबके हृदय में अखंड करने का प्रयास इस सेवा कारखाने का उद्देश्य है। इस सेवा में रुचि रखने वाले सुंदरसाथ संपर्क करें।',
+        contactPerson: 'Kamlesh Patel - +91 9638635307',
+        contactNo: 'Shanta Jain - +91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "5",
         imgLink: "assets/img/events/18thevents/11.JPG",
-        service: 'Paintings Seva Karkhana ',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
+        service: 'बाल केंद्र',
+        description: 'liइस सेवा कारखाने में 5 से 20 वर्ष की आयु वाले बाल एवं युवा सुंदरसाथ बानी गायन, श्री बीतक साहेब के प्रसंग का वर्णन करते हुए वीडियो बनाने, श्रीमुख वाणी से मधुर भाव रखते हुए वीडियो बनाने की सेवा करते हैं। नन्हें सुन्दरसाथ के कोमल दिलों में धनी के प्रेम को प्रस्फुटित करना और सेवा के मार्ग में अग्रसर होने की प्रेरणा देना इस सेवा कारखाने का उद्देश्य है। सभी बच्चों के अभिभावक संपर्क करें।',
         contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "6",
         imgLink: "assets/img/events/18thevents/8.JPG",
-        service: 'Vani Gayan Seva Karkhana ',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        service: 'चौपाई सजावट सेवा कारखाना',
+        description: 'इस सेवा कारखाने में सतगुरु जी द्वारा दिए गए श्रीमुख वाणी टीका के आधार पर चल रही चर्चा के बीच आने वाली संदर्भ (reference) की चौपाइयों को सुंदर स्लाइड और टेम्पलेट्स में सजाने की सेवा की जाती है। यदि आप इस सेवा में सहयोग करना चाहते हैं तो संपर्क करें। ',
+        contactPerson: 'Kamlesh Patel - +91 9638 6353 07',
+        contactNo: 'Shanta Jain - +91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "7",
         imgLink: "assets/img/events/18thevents/9.JPG",
-        service: 'Reels/Shorts Seva Karkhana  ',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        service: 'आत्मिक अनुस्मारक सेवा कारखाना',
+        description: 'इस सेवा कारखाने में श्रीमुख वाणी से सबकी रहनी को बेहतर बनाने में सहायक छोटे - छोटे रिमाइंडर लिखने की सेवा की जाती है। इन रिमाइंडर्स के माध्यम से धनी की याद को हृदय में पल्लवित करके प्रेम भरी रहनी को अपनाने का प्रयास ही इस सेवा कारखाने का उद्देश्य है। इस सेवा का हिस्सा बनने के लिए संपर्क करें।',
+        contactPerson: 'Shilpa Juneja - +91 9829032236',
+        contactNo: 'Shanta Jain - +91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "8",
         imgLink: "assets/img/events/18thevents/10.JPG",
-        service: 'Coordinators Seva Karkhana ',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        service: 'आत्मिक नोटिस बोर्ड सेवा कारखाना',
+        description: 'इस सेवा कारखाने में सुंदरसाथ जी प्रतिदिन श्रीमुख वाणी की मीठी चौपाइयों को नोटिस बोर्ड पर लिखने की सेवा करते हैं। यदि आप सुंदर लिखावट में लिख सकते हैं तो इस सेवा के लिए आगे आएँ और संपर्क करें।',
+        contactPerson: 'Shanta Jain',
+        contactNo: '+91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "9",
         imgLink: "assets/img/events/18thevents/11.JPG",
-        service: 'Reminder Seva Karkhana ',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        service: 'देश विदेश के साथ जी के भव',
+        description: 'इस सेवा कारखाने में विश्व के किसी भी एक शहर के 5 - 6 सुंदरसाथ एक टीम बना कर श्रीमुख वाणी या श्री बीतक साहेब में किसी भी विषय (विषय आपको दे दिया जाएगा) पर 5 से 10 मिनट (प्रति सुंदरसाथ जी) के लिए सुंदरसाथ को आपस में जोड़ने वाले मधुर भाव प्रस्तुत करते हैं। यदि आप इस सेवा में शामिल होना चाहते हैं तो संपर्क करें।',
+        contactPerson: 'Praveen Patel',
+        contactNo: '+91 8980203794',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "10",
         imgLink: "assets/img/events/18thevents/25.jpeg",
-        service: ' Sehyogita Seva Karkhana',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
+        service: 'रील्स/शॉर्ट्स सेवा कारखाना',
+        description: 'इस सेवा कारख़ाने में सुंदरसाथ जी "श्री प्राणनाथ जी वाणी" चैनल की चर्चा में से विशेष पलों की रील्स/शॉर्ट्स बनाने की सेवा करते हैं। यदि आप इस सेवा में रुचि रखते हैं तो अवश्य संपर्क करें। ',
         contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "11",
         imgLink: "assets/img/events/18thevents/24.jpeg",
-        service: 'Video production Seva Karkhana',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        service: 'वाणी गायन सेवा कारखाना:',
+        description: 'इस सेवा कारखाने में सुंदरसाथ जी प्रतिदिन प्रातः ज़ूम में चर्चा से पहले श्रीमुख वाणी से मधुर गायन करते हैं। यदि आप गायन में रुचि रखे हैं तो इस सेवा से जुड़ने के लिए संपर्क करें। ',
+        contactPerson: 'Suprabha Arora ',
+        contactNo: '+91 9872502595',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "12",
         imgLink: "assets/img/events/18thevents/14.jpeg",
-        service: 'Thumbnails Seva Karkhana',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
+        service: 'थंबनेल सेवा कारखाना',
+        description: 'सेवा कारखाने में तकनीकी रूप से कुशल सुंदरसाथ जी "श्री प्राणनाथ जी वाणी" चैनल पर होने वाली चर्चा एवं विशेष कार्यक्रम के थंबनेल डिजाइन करने की सेवा करते हैं। तकनीकी ज्ञान रखने वाले सुंदरसाथ इस सेवा के लिए संपर्क करें। ',
         contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     },
     {
         id: "13",
         imgLink: "assets/img/events/18thevents/15.jpeg",
-        service: 'Meethi Batiyaan Seva Karkhana',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
-        contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
-    },
-    {
-        id: "14",
-        imgLink: "assets/img/events/18thevents/16.jpeg",
-        service: 'Aatmik Reminders Seva Karkhana ',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
-        contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
-    },
-    {
-        id: "15",
-        imgLink: "assets/img/events/18thevents/17.jpeg",
-        service: 'Notice Board Seva Karkhana ',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
-        contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
-    },
-    {
-        id: "16",
-        imgLink: "assets/img/events/18thevents/18.jpeg",
-        service: 'Designing and Execution Seva Karkhana',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
-        contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
-    },
-    {
-        id: "17",
-        imgLink: "assets/img/events/18thevents/19.jpeg",
-        service: 'Desh Videsh se sath ji ke bhav  ',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
-        contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
-    },
-    {
-        id: "18",
-        imgLink: "assets/img/events/18thevents/20.jpeg",
-        service: 'Baal kendra Seva Karkhana',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
-        contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
-    },
-    {
-        id: "19",
-        imgLink: "assets/img/events/18thevents/21.jpeg",
-        service: 'Writers Seva Karkhana',
-        description: 'As a Custom Paintings and Artwork Specialist, you will be responsible for creating stunning and personalized paintings and artwork for our clients. You will collaborate closely with clients to understand their vision and preferences, and then use your artistic skills to bring their ideas to life.',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 0000 0000',
+        service: ' लेखक सेवा कारखाना',
+        description: 'इस सेवा कारखाने में लेखन में प्रतिभाशाली सुंदरसाथ जी विभिन्न विषयों पर लेख लिखने की सेवा प्रदान करते हैं। सुंदर लेखन शैली में निपुण सुंदरसाथ जी सेवा के लिए संपर्क कर सकते हैं। ',
+        contactPerson: 'Praveen Patel',
+        contactNo: '+91 8980203794',
         contactEmail: 'www.shriprannathjivani@gmail.com',
         link: ""
     }
@@ -214,7 +154,7 @@ function displaykarkhanaNames(divid, teamName) {
                                 <p class="card-text">${teamName[i].contactNo}</p>
                                  <p class="card-text">${teamName[i].contactEmail}</p>
                             </div>
-                            <a href="${teamName[i].link}" class="btn btn-primary btnapply">Apply</a>
+                            <a href="tel:${teamName[i].contactNo}" class="btn btn-primary btnapply">Apply</a>
                         </div>
                     </div>
                  </div>
