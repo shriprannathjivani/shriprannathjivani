@@ -5,10 +5,10 @@ var karkhanaList = [
         imgLink: "assets/img/events/18thevents/4.JPG",
         service: 'पेंटिंग सेवा कारखाना',
         description: 'इस सेवा कारखाने में किसी भी आयु के कलाकार सुंदरसाथ अपने हाथों से श्री बीतक साहेब के प्रसंगों के चित्र बनाते हैं। इस सेवा से सुंदरसाथ को चित्रों के माध्यम से पारब्रह्म की पहचान कराने का प्रयास करना है। यदि आप चित्रकारी में रुचि रखते हैं तो हमसे संपर्क करें।',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 9638635307',
+        contactPerson: 'Kamlesh Patel - +91 9638635307',
+        contactNo: 'Shital Bhanderi - +91 6355676288',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 9638635307"
     },
     {
         id: "2",
@@ -18,17 +18,17 @@ var karkhanaList = [
         contactPerson: 'Praveen Patel',
         contactNo: '+91 8980203794',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 8980203794"
     },
     {
         id: "3",
         imgLink: "assets/img/events/18thevents/3.JPG",
         service: 'शेयरिंग सेवा कारखाना',
         description: 'श्री प्राणनाथ जी वाणी, जन जन तक पहुँचानी - हमारा एक मात्र उद्देश्य है। इस प्रयास को क्रियांवित करते हुए, इस सेवा कारखाने में सुंदरसाथ प्रतिदिन जूम एवं यूट्यूब पर लाइव होने वाली चर्चा की वीडियो को फेसबुक, व्हाट्सएप और इंस्टाग्राम के माध्यम से शेयर करने की सेवा करते हैं। यदि आप भी जागनी अभियान में अपना योगदान देना चाहते हैं तो अवश्य संपर्क करें।',
-        contactPerson: 'Kamlesh Patel',
-        contactNo: '+91 9638635307',
+        contactPerson: 'Kamlesh Patel - +91 9638635307',
+        contactNo: 'Shital Bhanderi - +91 6355676288',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 6355676288"
     },
     {
         id: "4",
@@ -38,7 +38,7 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel - +91 9638635307',
         contactNo: 'Shanta Jain - +91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 9871390028"
     },
     {
         id: "5",
@@ -48,7 +48,7 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 9638635307"
     },
     {
         id: "6",
@@ -58,7 +58,7 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel - +91 9638 6353 07',
         contactNo: 'Shanta Jain - +91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 9871390028"
     },
     {
         id: "7",
@@ -68,7 +68,7 @@ var karkhanaList = [
         contactPerson: 'Shilpa Juneja - +91 9829032236',
         contactNo: 'Shanta Jain - +91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 9871390028"
     },
     {
         id: "8",
@@ -78,7 +78,7 @@ var karkhanaList = [
         contactPerson: 'Shanta Jain',
         contactNo: '+91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 9871390028"
     },
     {
         id: "9",
@@ -88,7 +88,7 @@ var karkhanaList = [
         contactPerson: 'Praveen Patel',
         contactNo: '+91 8980203794',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 8980203794"
     },
     {
         id: "10",
@@ -98,7 +98,7 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 9638635307"
     },
     {
         id: "11",
@@ -108,7 +108,7 @@ var karkhanaList = [
         contactPerson: 'Suprabha Arora ',
         contactNo: '+91 9872502595',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 9872502595"
     },
     {
         id: "12",
@@ -118,7 +118,7 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 9638635307"
     },
     {
         id: "13",
@@ -128,7 +128,7 @@ var karkhanaList = [
         contactPerson: 'Praveen Patel',
         contactNo: '+91 8980203794',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: ""
+        link: "+91 8980203794"
     }
 ]
 
@@ -154,7 +154,7 @@ function displaykarkhanaNames(divid, teamName) {
                                 <p class="card-text">${teamName[i].contactNo}</p>
                                  <p class="card-text">${teamName[i].contactEmail}</p>
                             </div>
-                            <a href="tel:${teamName[i].contactNo}" class="btn btn-primary btnapply">Apply</a>
+                            <a href="tel:${teamName[i].link}" class="btn btn-primary btnapply">Apply</a>
                         </div>
                     </div>
                  </div>
