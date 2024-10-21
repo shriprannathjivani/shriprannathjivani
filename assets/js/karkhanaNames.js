@@ -12,7 +12,7 @@ var karkhanaList = [
     },
     {
         id: "2",
-        imgLink: "assets/img/events/18thevents/2.JPG",
+        imgLink: "assets/img/events/18thevents/58.jpeg",
         service: 'टाइपिंग, अनुवाद और प्रूफरीडिंग सेवा कारखाना',
         description: 'इस सेवा कारखाने में श्रीमुख वाणी पर आधारित साहित्य, परमहंसो की जीवनी एवं जागनी अभियान में सहायक लेखों की विभिन्न भाषाओं में टाइपिंग, अनुवाद और प्रूफरीडिंग की सेवा की जाती है। श्रीमुख वाणी के मंथन में भाषा रुकावट ना बने यही इस सेवा का उद्देश्य है। यदि आप हिंदी, अंग्रेजी, नेपाली और गुजराती में भाषा और व्याकरण में निपुण हैं तो इस सेवा के लिए संपर्क करें।',
         contactPerson: 'Praveen Patel',
@@ -42,7 +42,7 @@ var karkhanaList = [
     },
     {
         id: "5",
-        imgLink: "assets/img/events/18thevents/11.JPG",
+        imgLink: "assets/img/events/18thevents/16.jpeg",
         service: 'बाल केंद्र',
         description: 'liइस सेवा कारखाने में 5 से 20 वर्ष की आयु वाले बाल एवं युवा सुंदरसाथ बानी गायन, श्री बीतक साहेब के प्रसंग का वर्णन करते हुए वीडियो बनाने, श्रीमुख वाणी से मधुर भाव रखते हुए वीडियो बनाने की सेवा करते हैं। नन्हें सुन्दरसाथ के कोमल दिलों में धनी के प्रेम को प्रस्फुटित करना और सेवा के मार्ग में अग्रसर होने की प्रेरणा देना इस सेवा कारखाने का उद्देश्य है। सभी बच्चों के अभिभावक संपर्क करें।',
         contactPerson: 'Kamlesh Patel',
@@ -82,7 +82,7 @@ var karkhanaList = [
     },
     {
         id: "9",
-        imgLink: "assets/img/events/18thevents/11.JPG",
+        imgLink: "assets/img/events/18thevents/19.jpeg",
         service: 'देश विदेश के साथ जी के भव',
         description: 'इस सेवा कारखाने में विश्व के किसी भी एक शहर के 5 - 6 सुंदरसाथ एक टीम बना कर श्रीमुख वाणी या श्री बीतक साहेब में किसी भी विषय (विषय आपको दे दिया जाएगा) पर 5 से 10 मिनट (प्रति सुंदरसाथ जी) के लिए सुंदरसाथ को आपस में जोड़ने वाले मधुर भाव प्रस्तुत करते हैं। यदि आप इस सेवा में शामिल होना चाहते हैं तो संपर्क करें।',
         contactPerson: 'Praveen Patel',
@@ -92,7 +92,7 @@ var karkhanaList = [
     },
     {
         id: "10",
-        imgLink: "assets/img/events/18thevents/25.jpeg",
+        imgLink: "assets/img/events/18thevents/20.jpeg",
         service: 'रील्स/शॉर्ट्स सेवा कारखाना',
         description: 'इस सेवा कारख़ाने में सुंदरसाथ जी "श्री प्राणनाथ जी वाणी" चैनल की चर्चा में से विशेष पलों की रील्स/शॉर्ट्स बनाने की सेवा करते हैं। यदि आप इस सेवा में रुचि रखते हैं तो अवश्य संपर्क करें। ',
         contactPerson: 'Kamlesh Patel',
@@ -102,7 +102,7 @@ var karkhanaList = [
     },
     {
         id: "11",
-        imgLink: "assets/img/events/18thevents/24.jpeg",
+        imgLink: "assets/img/events/18thevents/21.jpeg",
         service: 'वाणी गायन सेवा कारखाना:',
         description: 'इस सेवा कारखाने में सुंदरसाथ जी प्रतिदिन प्रातः ज़ूम में चर्चा से पहले श्रीमुख वाणी से मधुर गायन करते हैं। यदि आप गायन में रुचि रखे हैं तो इस सेवा से जुड़ने के लिए संपर्क करें। ',
         contactPerson: 'Suprabha Arora ',
@@ -122,7 +122,7 @@ var karkhanaList = [
     },
     {
         id: "13",
-        imgLink: "assets/img/events/18thevents/15.jpeg",
+        imgLink: "assets/img/events/18thevents/30.jpeg",
         service: ' लेखक सेवा कारखाना',
         description: 'इस सेवा कारखाने में लेखन में प्रतिभाशाली सुंदरसाथ जी विभिन्न विषयों पर लेख लिखने की सेवा प्रदान करते हैं। सुंदर लेखन शैली में निपुण सुंदरसाथ जी सेवा के लिए संपर्क कर सकते हैं। ',
         contactPerson: 'Praveen Patel',
