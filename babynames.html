@@ -107,7 +107,7 @@
                     </div>
                 </div>
             </section>
-            <div class="container p-0">
+            <div class="container">
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="spjv-box text-center ">
@@ -115,36 +115,41 @@
                             <h3 class="spjv-title">शिशु नाम और उनके अर्थ सूची</h3>
                         </div>
                     </div>
-                    <ul class="nav nav-pills babyNameFilter mb-3 text-center justify-content-center" id="pills-tab"
-                        role="tablist">
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-girl" type="button" role="tab" aria-controls="pills-home"
-                                aria-selected="true">
-                                <img src="assets/img/icon_baby-girl.png">
-                                लड़कियों के नाम - Girl
-                            </button>
-                        </li>
-                        <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                                data-bs-target="#pills-boy" type="button" role="tab" aria-controls="pills-profile"
-                                aria-selected="false">
-                                <img src="assets/img/icon_baby-boy.png">
-                                लड़कों के नाम - Boy
-                            </button>
-                        </li>
-                    </ul>
-                    <br>
-                    <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-girl" role="tabpanel"
-                            aria-labelledby="pills-home-tab">
-                            <div class="row" id="babyNameslistingGirl"></div>
+                        <div class="col-sm-3">
+                            <div id="filter-container">
+                                <div class="clear-filters">
+                                    <h3>शिशु नाम फिल्टर</h3>
+                                    <button class="btn clear-btn" onclick="clearFilters()">Clear Filters</button>
+                                </div>
+                                <!-- Gender Filter -->
+                                <div class="gender-filter-container">
+                                    <div class="gender-filter babyNameFilter">
+                                        <button class="nav-link active gender-btn col"  data-gender="all" onclick="filterByGender('all')">
+                                            All
+                                        </button>
+                                        <button class="nav-link gender-btn col" data-gender="g" onclick="filterByGender('g')" >
+                                            <img src="assets/img/icon_baby-girl.png">
+                                            लड़कियों के नाम - Girl
+                                        </button>
+                                        <button class="nav-link gender-btn col"  data-gender="b" onclick="filterByGender('b')">
+                                            <img src="assets/img/icon_baby-boy.png">
+                                            लड़कों के नाम - Boy
+                                        </button>
+                                    </div>
+                                </div>
+                                <!-- Alphabet Filter -->
+                                <div class="alphabet-filter-container">
+                                    <div class="alphabet-filter">
+                                        <!-- Alphabet buttons dynamically inserted here -->
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div class="tab-pane fade" id="pills-boy" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            <div class="row" id="babyNameslistingBoy"></div>
+                        <div class="col-sm-9">
+                            <div id="babyNameslisting">
+                                <!-- Baby names will be dynamically inserted here -->
+                            </div>
                         </div>
-                    </div>
-
                 </div>
             </div>
         </section>
@@ -237,9 +242,7 @@
 <script src="assets/js/icon.js"></script>
 <script src="assets/js/babynames.js"></script>
 <script>
-    $('.video-popup').magnificPopup({
-        type: 'iframe'
-    });
+ 
 </script>
 
 <!-- <script type="text/javascript"
