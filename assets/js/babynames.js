@@ -5,21 +5,21 @@ var babynames = {
             "id": "1",
             "babyName": "अरवाह",
             "babyG": "g",
-            "meaningH": "रूहे",
+            "meaningH": "आत्मा",
             "meaningE": "Soul, Spirit"
         },
         {
             "id": "2",
             "babyName": "अक्षरा",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "शब्द, स्वर, परमात्मा",
             "meaningE": "Imperishable, Eternal"
         },
         {
             "id": "3",
             "babyName": "अरुणा",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "आवेशपूर्ण, लाल",
             "meaningE": "Red, Dawn, Sunlight"
         },
         {
@@ -45,7 +45,7 @@ var babynames = {
         },
         {
             "id": "3",
-            "babyName": "अन्नत",
+            "babyName": "अनंत",
             "babyG": "b",
             "meaningH": "जिसका अंत न हो",
             "meaningE": "Endless"
@@ -66,23 +66,23 @@ var babynames = {
         },
         {
             "id": "6",
-            "babyName": "अध्यान",
+            "babyName": "अध्ययन",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "अभ्यास",
             "meaningE": "Study"
         },
         {
             "id": "7",
             "babyName": "अरुण",
             "babyG": "b",
-            "meaningH": "लाल (सूर्य के उड़ने पर होने वाली लालिमा)",
+            "meaningH": "लाल (सूर्य के उगने पर होने वाली लालिमा)",
             "meaningE": "Red (The Redness during Sunrise)"
         },
         {
             "id": "8",
             "babyName": "अद्वैत",
             "babyG": "b",
-            "meaningH": "दो नही (सब एक रूप हो)",
+            "meaningH": "दो नहीं (सब एक रूप हो)",
             "meaningE": "Non-dual (All is One)"
         },
         {
@@ -96,7 +96,7 @@ var babynames = {
             "id": "10",
             "babyName": "अखिल",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "सम्पूर्ण, सम",
             "meaningE": "Complete, Entire"
         },
         {
@@ -105,13 +105,6 @@ var babynames = {
             "babyG": "b",
             "meaningH": "आकाश",
             "meaningE": "Sky"
-        },
-        {
-            "id": "12",
-            "babyName": "अखिल",
-            "babyG": "b",
-            "meaningH": "सम्पूर्ण",
-            "meaningE": "Complete, Whole"
         }
     ],
     "आ": [
@@ -126,14 +119,14 @@ var babynames = {
             "id": "1",
             "babyName": "आवेश",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "वेग, आतुरता, जोश",
             "meaningE": "Passion, Emotion"
         },
         {
             "id": "2",
             "babyName": "आन",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "गौरव की भावना",
             "meaningE": "Without Beginning or End"
         },
         {
@@ -154,7 +147,7 @@ var babynames = {
             "id": "5",
             "babyName": "आत्मन",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "निजत्व, अपनापन, अपना स्वरूप",
             "meaningE": "Self, Soul"
         },
         {
@@ -168,7 +161,7 @@ var babynames = {
             "id": "7",
             "babyName": "आयन",
             "babyG": "b",
-            "meaningH": "रास्ता",
+            "meaningH": "जो धार्मिक इच्छुक है, परमात्मा का उपहार",
             "meaningE": "Pathway, Journey"
         },
         {
@@ -191,7 +184,7 @@ var babynames = {
             "id": "9",
             "babyName": "इलम",
             "babyG": "b",
-            "meaningH": "ज्ञान,समजण",
+            "meaningH": "ज्ञान",
             "meaningE": "NA"
         }
     ],
@@ -223,14 +216,14 @@ var babynames = {
             "id": "9",
             "babyName": "उमंग",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "उल्लास, मौज",
             "meaningE": "NA"
         },
         {
             "id": "9",
             "babyName": "उत्सव",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "त्योहार, मंगल कार्य",
             "meaningE": "NA"
         }
     ],
@@ -247,29 +240,6 @@ var babynames = {
             "babyName": "There are no names available.",
             "babyG": "b",
             "meaningH": "We'll be adding shortly.",
-            "meaningE": "NA"
-        }
-    ],
-    "ऋ": [
-        {
-            "id": "1",
-            "babyName": "श्री",
-            "babyG": "g",
-            "meaningH": "शोभा से युक्त, ऐश्वर्य, पद्म",
-            "meaningE": "Endowed with beauty, Wealth, Lotus"
-        },
-        {
-            "id": "2",
-            "babyName": "श्रीजा",
-            "babyG": "g",
-            "meaningH": "श्री की पुत्री",
-            "meaningE": "Daughter of Goddess Lakshmi"
-        },
-        {
-            "id": "9",
-            "babyName": "श्रृंगार",
-            "babyG": "b",
-            "meaningH": "सिनगार, सजना ",
             "meaningE": "NA"
         }
     ],
@@ -342,21 +312,21 @@ var babynames = {
             "id": "9",
             "babyName": "अंगना ",
             "babyG": "g",
-            "meaningH": "अंग ",
+            "meaningH": "अंग, स्त्री ",
             "meaningE": "NA"
         },
         {
             "id": "9",
             "babyName": "अंश",
             "babyG": "b",
-            "meaningH": "परमधाम",
+            "meaningH": "भाग, हिस्सा",
             "meaningE": "NA"
         },
         {
             "id": "9",
             "babyName": "अंकुर",
             "babyG": "b",
-            "meaningH": "मूल भाव",
+            "meaningH": "कोंपल, नवजात, कली, मूल",
             "meaningE": "NA"
         },
         {
@@ -395,14 +365,14 @@ var babynames = {
             "id": "2",
             "babyName": "कुंज",
             "babyG": "g",
-            "meaningH": "वन",
+            "meaningH": "लताओं से घिरा हुआ मंडप",
             "meaningE": "Forest, Grove"
         },
         {
             "id": "3",
             "babyName": "काजल",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "सुरमा, अंजन",
             "meaningE": "Kohl, Eye liner"
         },
         {
@@ -421,7 +391,7 @@ var babynames = {
         },
         {
             "id": "2",
-            "babyName": "कृष्णा",
+            "babyName": "कृष्ण",
             "babyG": "b",
             "meaningH": "श्याम",
             "meaningE": "Shyam (Dark, Lord Krishna)"
@@ -430,28 +400,28 @@ var babynames = {
             "id": "3",
             "babyName": "कुलजम",
             "babyG": "b",
-            "meaningH": "सबका सार सात्विक",
+            "meaningH": "सबका सार, ज़रूरी, आवश्यक",
             "meaningE": "Essence of all, Sattvic (pure and virtuous)"
         },
         {
             "id": "4",
             "babyName": "किरन्तन",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "श्री मुख वाणी का एक ग्रंथ",
             "meaningE": "NA"
         },
         {
             "id": "5",
-            "babyName": "किर्तन",
+            "babyName": "कीर्तन",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "कीर्ति वर्णन, यशोगान",
             "meaningE": "Kirtan (Devotional singing)"
         },
         {
             "id": "6",
             "babyName": "कर्म",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "काम, क्रिया, आचरण",
             "meaningE": "Action, Deed"
         },
         {
@@ -504,7 +474,7 @@ var babynames = {
             "id": "9",
             "babyName": "गोपी ",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "ग्वालिनी, गोप पत्नी, पारब्रह्म की सखी",
             "meaningE": "NA"
         },
         {
@@ -512,13 +482,6 @@ var babynames = {
             "babyName": "ग्रंथ ",
             "babyG": "b",
             "meaningH": "पवित्र पुस्तक ",
-            "meaningE": "NA"
-        },
-        {
-            "id": "9",
-            "babyName": "ग्रंथगुणा ",
-            "babyG": "b",
-            "meaningH": "वह क्रिया जिससे किसी अंक को एक से अधिक बार जोड़ा जाए",
             "meaningE": "NA"
         },
         {
@@ -566,43 +529,36 @@ var babynames = {
             "id": "1",
             "babyName": "चाँद",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "चन्द्रमा",
             "meaningE": "Moon"
         },
         {
             "id": "2",
             "babyName": "चंचल",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "जो बराबर गतिशील हो, हिलने डुलने वाला",
             "meaningE": "Fickle, Restless, Playful"
-        },
-        {
-            "id": "3",
-            "babyName": "चरना",
-            "babyG": "g",
-            "meaningH": "चरणों से संबंधित",
-            "meaningE": "Related to feet, Path or Steps"
         },
         {
             "id": "1",
             "babyName": "चाँद",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "चन्द्रमा",
             "meaningE": "Moon"
         },
         {
             "id": "2",
             "babyName": "चितवन",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "प्रेमपूर्वक देखना, चित्त लगाकर देखना, साधना",
             "meaningE": "Gaze, Look"
         },
         {
             "id": "3",
-            "babyName": "चरण",
+           "babyName": "चरण",
             "babyG": "b",
-            "meaningH": "NA",
-            "meaningE": "Foot, Step"
+            "meaningH": "पाँव, कदम",
+            "meaningE": "Related to feet, Path or Steps"
         },
         {
             "id": "4",
@@ -615,7 +571,7 @@ var babynames = {
             "id": "5",
             "babyName": "चंचल",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "गतिशील",
             "meaningE": "Restless, Playful"
         }
     ],
@@ -640,7 +596,7 @@ var babynames = {
             "id": "1",
             "babyName": "जमुना",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "पवित्र नदी",
             "meaningE": "Yamuna (a sacred river in India)"
         },
         {
@@ -661,7 +617,7 @@ var babynames = {
             "id": "9",
             "babyName": "जमुना  ",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "पवित्र नदी",
             "meaningE": "NA"
         },
         {
@@ -796,22 +752,15 @@ var babynames = {
             "id": "1",
             "babyName": "तारा",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "आकाश में चमकने वाला नक्षत्र, राजजी के नेत्रों में तारा",
             "meaningE": "NA"
         },
         {
             "id": "1",
             "babyName": "तारतम",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "पानी में न डूबकर सतह पर रहना, अंधकार से प्रकाश की ओर",
             "meaningE": "NA"
-        },
-        {
-            "id": "2",
-            "babyName": "तारा",
-            "babyG": "b",
-            "meaningH": "NA",
-            "meaningE": "Star"
         },
         {
             "id": "3",
@@ -847,7 +796,7 @@ var babynames = {
     "द": [
         {
             "id": "1",
-            "babyName": "द्रष्टी",
+            "babyName": "दृष्टि",
             "babyG": "g",
             "meaningH": "नज़र",
             "meaningE": "NA"
@@ -893,28 +842,28 @@ var babynames = {
             "id": "1",
             "babyName": "धारा",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "निरंतर बहाव",
             "meaningE": "NA"
         },
         {
             "id": "1",
             "babyName": "धनी",
             "babyG": "b",
-            "meaningH": "हमारा जीवन धन",
+            "meaningH": "प्रियतम, कुशल",
             "meaningE": "Our Life's Wealth"
         },
         {
             "id": "2",
             "babyName": "धर्म",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "धारण करना, परम सत्य",
             "meaningE": "Righteousness, Duty"
         },
         {
             "id": "3",
             "babyName": "ध्यान",
             "babyG": "b",
-            "meaningH": "ध्यान, चितवन",
+            "meaningH": "स्वरूप चिंतन, चितवन",
             "meaningE": "Meditation, Gaze"
         },
         {
@@ -944,12 +893,12 @@ var babynames = {
             "id": "3",
             "babyName": "निकुंज",
             "babyG": "g",
-            "meaningH": "वन",
+            "meaningH": "घने पेड़ों व लताओं से घिरा हुआ स्थान",
             "meaningE": "Forest, Grove"
         },
         {
             "id": "4",
-            "babyName": "निलवी",
+            "babyName": "नीलवी",
             "babyG": "g",
             "meaningH": "परमधाम में एक रंग",
             "meaningE": "A color in the supreme abode"
@@ -1030,28 +979,28 @@ var babynames = {
             "id": "3",
             "babyName": "पूनम",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "पूर्ण चन्द्रमा",
             "meaningE": "Full moon"
         },
         {
             "id": "4",
             "babyName": "पहल",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "शुरुआत",
             "meaningE": "Initiative, Beginning"
         },
         {
             "id": "5",
-            "babyName": "पीउ",
+            "babyName": "पिउ",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "पति, प्रियतम",
             "meaningE": "A type of fragrance (often used poetically)"
         },
         {
             "id": "6",
             "babyName": "पलक",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "आँख के ऊपर त्वचा का पतला आवरण",
             "meaningE": "Eyelash, Eyelid"
         },
         {
@@ -1065,7 +1014,7 @@ var babynames = {
             "id": "8",
             "babyName": "पावनी",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "पवित्र करने वाली",
             "meaningE": "Sacred, Pure"
         },
         {
@@ -1086,7 +1035,7 @@ var babynames = {
             "id": "2",
             "babyName": "पुखराज",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "पीले रंग का बहुमूल्य रत्न",
             "meaningE": "Topaz (A precious gemstone)"
         },
         {
@@ -1114,7 +1063,7 @@ var babynames = {
             "id": "6",
             "babyName": "पर्व",
             "babyG": "b",
-            "meaningH": "त्यौहार",
+            "meaningH": "त्योहार",
             "meaningE": "Festival, Occasion"
         },
         {
@@ -1141,8 +1090,8 @@ var babynames = {
         {
             "id": "10",
             "babyName": "पंक्ति",
-            "babyG": "b",
-            "meaningH": "लाइन",
+            "babyG": "g",
+            "meaningH": "कतार",
             "meaningE": "Line, Row"
         }
     ],
@@ -1174,7 +1123,7 @@ var babynames = {
             "id": "9",
             "babyName": "बृज ",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "वह स्थान जहाँ कृष्ण जी ने लीला की थी |",
             "meaningE": "NA"
         }
     ],
@@ -1220,14 +1169,14 @@ var babynames = {
             "id": "1",
             "babyName": "मंथन",
             "babyG": "b",
-            "meaningH": "गुढ़ तत्व की धाम",
+            "meaningH": "गूढ़ता से विचार करना",
             "meaningE": "Churning, The abode of hidden elements"
         },
         {
             "id": "2",
-            "babyName": "बीन",
+            "babyName": "मीन",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "मछली",
             "meaningE": "A musical instrument (Veena or a flute)"
         },
         {
@@ -1241,14 +1190,14 @@ var babynames = {
             "id": "4",
             "babyName": "मोहन",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "मोह लेने वाला",
             "meaningE": "Enchanting, Charming"
         },
         {
             "id": "5",
             "babyName": "मोमिन",
             "babyG": "b",
-            "meaningH": "ब्रह्म सृष्टि",
+            "meaningH": "आस्तिक, ब्रह्मसृष्टि, सुंदरसाथ",
             "meaningE": "Faithful, Believer in the Creator"
         },
         {
@@ -1271,13 +1220,6 @@ var babynames = {
             "babyG": "b",
             "meaningH": "मीठा",
             "meaningE": "Sweet, Melodious"
-        },
-        {
-            "id": "9",
-            "babyName": "मिश्र",
-            "babyG": "b",
-            "meaningH": "मिला-जुला",
-            "meaningE": "Mixed, Combined (Duplicate)"
         }
     ],
     "य": [
@@ -1301,28 +1243,28 @@ var babynames = {
             "id": "1",
             "babyName": "रसीला",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "रसदार",
             "meaningE": "Juicy, Lively, Full of taste"
         },
         {
             "id": "2",
             "babyName": "रूह",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "आत्मा",
             "meaningE": "Soul, Spirit"
         },
         {
             "id": "3",
             "babyName": "राधा",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "श्री कृष्ण जी की सबसे प्रिय सखी",
             "meaningE": "Goddess Radha, The beloved of Lord Krishna"
         },
         {
             "id": "4",
             "babyName": "रूहानी",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "आत्मिक",
             "meaningE": "Spiritual, Divine, Soulful"
         },
         {
@@ -1350,14 +1292,14 @@ var babynames = {
             "id": "2",
             "babyName": "रसिक",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "रसपान करने वाला",
             "meaningE": "Lover, Connoisseur (One who enjoys art, music, or beauty)"
         },
         {
             "id": "3",
             "babyName": "रतन",
             "babyG": "b",
-            "meaningH": "रतन",
+            "meaningH": "बहुमूल्य पदार्थ",
             "meaningE": "Gem, Jewel"
         },
         {
@@ -1373,7 +1315,7 @@ var babynames = {
             "id": "1",
             "babyName": "लक्ष्मी",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "देवी, शोभा",
             "meaningE": "Goddess Lakshmi, Wealth, Prosperity"
         },
         {
@@ -1473,7 +1415,7 @@ var babynames = {
             "id": "10",
             "babyName": "व्रज",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "मथुरा, वृंदावन के आस पास का क्षेत्र",
             "meaningE": "The land of Lord Krishna, a region"
         }
     ],
@@ -1482,7 +1424,7 @@ var babynames = {
             "id": "1",
             "babyName": "शोभा",
             "babyG": "g",
-            "meaningH": "NA",
+            "meaningH": "सुंदरता",
             "meaningE": "Beauty, Splendor, Glory"
         },
         {
@@ -1503,7 +1445,7 @@ var babynames = {
             "id": "1",
             "babyName": "शर",
             "babyG": "b",
-            "meaningH": "प्रकाश",
+            "meaningH": "बाण, तीर",
             "meaningE": "Light, Brightness"
         },
         {
@@ -1577,7 +1519,7 @@ var babynames = {
             "id": "4",
             "babyName": "सलोनी",
             "babyG": "g",
-            "meaningH": "सखिया, श्यामा जी",
+            "meaningH": "सुंदर, श्यामा जी, सखियाँ",
             "meaningE": "Beautiful, A name of Radha, the beloved of Lord Krishna"
         },
         {
@@ -1598,14 +1540,14 @@ var babynames = {
             "id": "3",
             "babyName": "सात्विक",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "जिसमें सत्व गुण की प्रधानता हो, वास्तविक, यथार्थ",
             "meaningE": "Pure, Righteous, Sattvic (referring to purity and goodness)"
         },
         {
             "id": "4",
             "babyName": "संयम",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "नियंत्रण, इन्द्रिय निग्रह",
             "meaningE": "Self-control, Discipline"
         },
         {
@@ -1633,7 +1575,7 @@ var babynames = {
             "id": "8",
             "babyName": "सृजा",
             "babyG": "b",
-            "meaningH": "NA",
+            "meaningH": "उत्पन्न करना, बनाना",
             "meaningE": "Creator, One who creates"
         },
         {
@@ -1661,7 +1603,7 @@ var babynames = {
         },
         {
             "id": "1",
-            "babyName": "हिर्दय",
+            "babyName": "हृदय",
             "babyG": "b",
             "meaningH": "दिल",
             "meaningE": "Heart"
@@ -1670,7 +1612,7 @@ var babynames = {
             "id": "2",
             "babyName": "हार्दिक",
             "babyG": "b",
-            "meaningH": "हृदय में होने वाला",
+            "meaningH": "हृदय में होने वाला, दिली",
             "meaningE": "From the heart, Sincere"
         }
     ],
@@ -1765,6 +1707,29 @@ var babynames = {
             "meaningH": "हेत, प्रीत",
             "meaningE": "Love, Affection"
         }
+    ],
+    "ऋ": [
+        {
+            "id": "1",
+            "babyName": "श्री",
+            "babyG": "g",
+            "meaningH": "शोभा से युक्त, ऐश्वर्य, पद्म",
+            "meaningE": "Endowed with beauty, Wealth, Lotus"
+        },
+        {
+            "id": "2",
+            "babyName": "श्रीजा",
+            "babyG": "g",
+            "meaningH": "देवी लक्ष्मी, रचनात्मक",
+            "meaningE": "Daughter of Goddess Lakshmi"
+        },
+        {
+            "id": "9",
+            "babyName": "श्रृंगार",
+            "babyG": "b",
+            "meaningH": "सिनगार, सजना ",
+            "meaningE": "NA"
+        }
     ]
 }
 
@@ -1774,10 +1739,10 @@ function displayBabyNames(divid, teamName) {
 
     // Define Hindi alphabets (A, B, C... in Hindi)
     const hindiAlphabets = [
-        'अ', 'आ', 'इ', 'ई', 'उ', 'ऊ', 'ऋ', 'ए', 'ऐ', 'ओ', 'औ', 'अं', 'अः',
+        'अ', 'आ', 'इ', 'ई', 'उ', 'ऊ', 'ए', 'ऐ', 'ओ', 'औ', 'अं', 'अः',
         'क', 'ख', 'ग', 'घ', 'च', 'छ', 'ज', 'झ', 'ञ', 'ट', 'ठ', 'ड', 'ढ', 'ण',
         'त', 'थ', 'द', 'ध', 'न', 'प', 'फ', 'ब', 'भ', 'म', 'य', 'र', 'ल', 'व',
-        'श', 'ष', 'स', 'ह', 'क्ष', 'त्र', 'ज्ञ'
+        'श', 'ष', 'स', 'ह', 'क्ष', 'त्र', 'ज्ञ', 'ऋ',
     ];
 
     // Create alphabet filter buttons
