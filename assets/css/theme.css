@@ -77,7 +77,7 @@ body {
 .form-fotogency-header-control:focus {
   background-color: transparent;
   color: #aeadad;
-  border-bottom: 1px solid #F7941D;
+  border-bottom: 1px solid #E91E63;
 }
 
 .form-fotogency-header-control+.text-300.mb-1 {
@@ -86,19 +86,19 @@ body {
 
 .btn-primary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #F7941D;
-  --bs-btn-border-color: #F7941D;
+  --bs-btn-bg: #E91E63;
+  --bs-btn-border-color: #E91E63;
   --bs-btn-hover-color: #fff;
-  --bs-btn-hover-bg: #F77301;
-  --bs-btn-hover-border-color: #F7941D;
+  --bs-btn-hover-bg: #E91E63;
+  --bs-btn-hover-border-color: #E91E63;
   --bs-btn-focus-shadow-rgb: 49, 132, 253;
   --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #F7941D;
-  --bs-btn-active-border-color: #F7941D;
+  --bs-btn-active-bg: #E91E63;
+  --bs-btn-active-border-color: #E91E63;
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   --bs-btn-disabled-color: #fff;
-  --bs-btn-disabled-bg: #F7941D;
-  --bs-btn-disabled-border-color: #F7941D;
+  --bs-btn-disabled-bg: #E91E63;
+  --bs-btn-disabled-border-color: #E91E63;
   border-radius: 50px;
   padding: 8px 24px;
   font-size: 1.3rem;
@@ -209,7 +209,7 @@ body {
   -ms-flex-pack: center;
   justify-content: center;
   text-decoration: none;
-  color: #F7941D !important;
+  color: #E91E63 !important;
 }
 
 section.home-section2 {
@@ -238,7 +238,7 @@ section.home-section2 {
 }
 
 .timline-text .rounded-circle.bg-white {
-  background-color: #F7941D !important;
+  background-color: #E91E63 !important;
 }
 
 .border-dashed-bottom {
@@ -247,7 +247,7 @@ section.home-section2 {
 }
 
 .navbar-nav .nav-link.active {
-  color: #F7941D;
+  color: #E91E63;
 }
 
 a {
@@ -255,7 +255,7 @@ a {
 }
 
 a:hover {
-  color: #F7941D !important;
+  color: #ff0056 !important;
 }
 
 hr {
@@ -275,7 +275,7 @@ hr {
 
 
 .slider-caption {
-  background-color: #F77301;
+  background-color: #E91E63;
   color: white;
   height: 100%;
   padding: 6rem 4rem 6rem 12rem;
@@ -323,7 +323,7 @@ hr {
   font-size: 1.3rem;
   background-color: #fff;
   padding: 4px 16px;
-  color: #dc3545;
+  color: #E91E63;
   margin-bottom: 8px;
 }
 
@@ -359,7 +359,7 @@ hr {
 
 .slider-caption .slider-btn:hover {
   background-color: #ffffff;
-  color: #f77300 !important;
+  color: #E91E63 !important;
   transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
@@ -411,7 +411,7 @@ hr {
 
 #sliderspjv .carousel-control-prev-icon svg,
 #sliderspjv .carousel-control-next-icon svg {
-  color: #F77301;
+  color: #E91E63;
 }
 
 #sliderspjv .slider-video {
@@ -497,12 +497,12 @@ hr {
   align-items: center;
   overflow: hidden;
   background-color: #F4F4F4;
-  border-top: 1px solid #FF5701;
-  border-bottom: 1px solid #FF5701;
+  border-top: 1px solid #E91E63;
+  border-bottom: 1px solid #E91E63;
   padding: 1rem;
   margin-bottom: 4rem;
   font-size: 2rem;
-  color: #FF5701;
+  color: #E91E63;
 }
 
 .news p {
@@ -784,7 +784,7 @@ hr {
   position: absolute;
   top: 0;
   left: 0;
-  background-color: #FF5701;
+  background-color: #E91E63;
   transform-origin: 100% 100%;
   -webkit-animation: circleMove 20s infinite linear;
   animation: circleMove 20s infinite linear;
@@ -909,7 +909,7 @@ hr {
 
 .main-circle {
   border-radius: 100%;
-  border: 2px solid #FF5701;
+  border: 2px solid #E91E63;
   -webkit-animation: pulse 1.6s infinite alternate;
   animation: pulse 1.6s infinite alternate;
 }
@@ -927,7 +927,7 @@ hr {
 }
 
 .center-circle {
-  background-color: #f7951d;
+  background-color: #E91E63;
   width: 50%;
   height: 50%;
   border-radius: 50%;
@@ -1169,8 +1169,8 @@ hr {
 
 .satguruMahimaLang .nav-link.active {
   background-color: #fff6f4;
-  color: #FF5701;
-  border: 1px solid #FF5701;
+  color: #E91E63;
+  border: 1px solid #E91E63;
   border-radius: 2px;
 }
 
@@ -1253,7 +1253,7 @@ hr {
 }
 
 button.slick-arrow {
-  background-color: #f77300;
+  background-color: #E91E63;
   opacity: 1 !important;
   display: flex;
   justify-content: center;
@@ -1261,7 +1261,7 @@ button.slick-arrow {
   border-radius: 30px;
   width: 3rem;
   height: 3rem;
-  border: 1px solid #f77300;
+  border: 1px solid #E91E63;
   position: absolute;
   top: -2%;
   transform: translate(0, -50%);
@@ -1372,7 +1372,7 @@ button.slick-next.slick-arrow svg {
   display: block;
   background-size: contain;
   position: absolute;
-  left: 64%;
+  left: 65%;
   top: 12px;
   transform: rotate(15deg);
 }
@@ -1380,7 +1380,7 @@ button.slick-next.slick-arrow svg {
 .eventContent .event-title {
   line-height: normal;
   background-color: #fff;
-  color: #f77300;
+  color: #E91E63;
   border-radius: 24px;
   padding: 8px 16px;
   font-size: 16px;
@@ -1598,7 +1598,7 @@ button.slick-next.slick-arrow svg {
 .ShortNotes-carousel__item-inner .year {
   font-size: 1.5rem;
   line-height: normal;
-  color: #f7951d;
+  color: #E91E63;
   display: table;
   letter-spacing: 0px;
   padding: 1.6rem 0rem 0.6rem 0rem;
@@ -1739,7 +1739,7 @@ button.slick-next.slick-arrow svg {
   top: -45px;
   height: 30px;
   width: 30px;
-  background-color: #f7951d;
+  background-color: #E91E63;
   z-index: 3;
   border-radius: 60px;
   transform: translate(-50%, -44px);
@@ -1798,7 +1798,7 @@ button.slick-next.slick-arrow svg {
 
 .ShortNotes-carousel__item-inner .read-more {
   font-size: 1.2rem;
-  color: #f77300;
+  color: #E91E63;
   display: table;
   margin-top: 2rem;
   text-decoration: none;
@@ -2091,7 +2091,7 @@ button.slick-next.slick-arrow svg {
   top: 50%;
   left: 50%;
   position: absolute;
-  background-color: #f7951d;
+  background-color: #E91E63;
   height: 50px;
   width: 50px;
   display: flex;
@@ -2177,7 +2177,7 @@ button.slick-next.slick-arrow svg {
 }
 
 .contact-listing {
-  background-color: #f7951d;
+  background-color: #E91E63;
   padding: 2rem;
   border-radius: .5rem;
   min-height: 450px;
@@ -2314,7 +2314,7 @@ button.slick-next.slick-arrow svg {
 }
 
 #schedule .nav-tabs a.active {
-  background-color: #f7951d;
+  background-color: #E91E63;
   color: #fff;
 }
 
@@ -2475,7 +2475,7 @@ button.slick-next.slick-arrow svg {
 
 .TestimonialSliderItem .TestimonialTag {
   border: 1px solid #efdbc0;
-  color: #f7951d;
+  color: #E91E63;
   padding: 5px 10px;
   font-size: 14px;
   border-radius: 60px;
@@ -2565,7 +2565,7 @@ button.slick-next.slick-arrow svg {
 
 .temple-content-box .temp-cont-listing h4 {
   font-size: 1.5rem;
-  color: #FF5701;
+  color: #E91E63;
   margin-bottom: 1.5rem;
   display: block;
 }
@@ -2592,7 +2592,7 @@ button.slick-next.slick-arrow svg {
 }
 
 .satguru-card.slick-slide.slick-active.slick-center img {
-  border: 5px solid #F77301;
+  border: 5px solid #E91E63;
 }
 
 .satguruMahima p {
@@ -3032,7 +3032,7 @@ body {
 }
 
 .common-hero .spjv-title {
-  color: #f7951d;
+  color: #E91E63;
 }
 
 .common-section {
@@ -3050,7 +3050,7 @@ body {
 }
 
 .spjv-title {
-  color: #FF5701;
+  color: #E91E63;
   font-size: 2.25rem;
 }
 
@@ -3071,7 +3071,7 @@ body {
 }
 
 .common-read-more {
-  color: #FF5701;
+  color: #E91E63;
   font-size: 1.25rem;
 }
 
@@ -3184,7 +3184,7 @@ body {
 }
 
 .amazonbox .aksdja {
-  color: #FF5701;
+  color: #E91E63;
   font-size: 2.25rem;
 }
 
@@ -3279,7 +3279,7 @@ body {
 }
 
 .kidsPaiting .kidsPaitingItem span {
-  color: #f7951d;
+  color: #E91E63;
   padding: 8px 0px;
   display: block;
   text-align: center;
@@ -3332,7 +3332,7 @@ body {
 .image--wrapper .image_tag {
   line-height: normal;
   background-color: #fff;
-  color: #f77300;
+  color: #E91E63;
   border-radius: 24px;
   padding: 4px 10px;
   font-size: 14px;
@@ -3346,7 +3346,7 @@ body {
 }
 
 .reveal.reveal--overlay {
-  background-color: #f7951d;
+  background-color: #E91E63;
   border-radius: 16px;
 }
 
@@ -3388,7 +3388,8 @@ body {
   font-weight: 600;
   line-height: 1;
 }
-.babyname-content{
+
+.babyname-content {
   display: flex;
   align-items: center;
 }
@@ -3446,8 +3447,8 @@ body {
 
 .babyNameFilter .nav-link.active {
   background-color: #fff6f4;
-  color: #FF5701;
-  border: 1px solid #FF5701;
+  color: #E91E63;
+  border: 1px solid #E91E63;
   border-radius: 0px;
   border-radius: 8px;
 }
@@ -3476,21 +3477,22 @@ div#babyNameslistingBoy {
   padding-top: 6px;
   padding-bottom: 9px;
 }
-.letter-title .letter-letter{
-      background-color: #fff6f4;
-    padding: 8px;
-    border-radius: 99px;
-    height: 38px;
-    width: 38px;
-    display: block;
-    text-align: center;
-    color: #ff5702;
+
+.letter-title .letter-letter {
+  background-color: #fff6f4;
+  padding: 8px;
+  border-radius: 99px;
+  height: 38px;
+  width: 38px;
+  display: block;
+  text-align: center;
+  color: #ff5702;
 }
 
 #filter-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content:center;
+  justify-content: center;
   margin-bottom: 20px;
   text-align: center;
   position: sticky;
@@ -3509,14 +3511,15 @@ div#babyNameslistingBoy {
   margin-bottom: 24px;
 }
 
-.alphabet-filter, .gender-filter {
+.alphabet-filter,
+.gender-filter {
   display: flex;
   flex-wrap: wrap;
   gap: 11px;
   justify-content: start;
 }
 
-.alphabet-btn{
+.alphabet-btn {
   padding: 6px 15px;
   background-color: #ffffff;
   border: 1px solid #f1ebeb;
@@ -3528,14 +3531,16 @@ div#babyNameslistingBoy {
   border-radius: 8px;
 }
 
-.alphabet-btn:hover, .gender-btn:hover {
+.alphabet-btn:hover,
+.gender-btn:hover {
   background-color: #ddd;
 }
 
-.alphabet-btn.active, .gender-btn.active {
+.alphabet-btn.active,
+.gender-btn.active {
   background-color: #fff6f4;
-    color: #ff5702;
-    border: 1px solid #ff5702;
+  color: #ff5702;
+  border: 1px solid #ff5702;
 }
 
 .clear-filters {
@@ -3549,11 +3554,13 @@ div#babyNameslistingBoy {
   border-bottom: 1px solid #f1ebeb;
   margin-bottom: 30px;
 }
-.clear-filters h3{
+
+.clear-filters h3 {
   margin: 0;
   font-size: 16px;
   color: #393a3a;
 }
+
 .clear-btn {
   padding: 10px 0px;
   color: #009688;
@@ -3566,6 +3573,7 @@ div#babyNameslistingBoy {
 .clear-btn:hover {
   color: #ff5702 !important;
 }
+
 /* Baby name end styles */
 
 
@@ -3611,7 +3619,7 @@ div#babyNameslistingBoy {
 .karkhanaListCard .card-img-body .card-title {
   line-height: normal;
   background-color: #fff;
-  color: #f77300;
+  color: #E91E63;
   border-radius: 24px;
   padding: 4px 10px;
   font-size: 16px;
@@ -3633,6 +3641,102 @@ div#babyNameslistingBoy {
   color: #1e2352;
   box-shadow: 2px 6px 21px -2px rgb(0 0 0 / 15%);
 }
+
+/* custom font for the title and other */
+.slider-caption h4,
+.spjv-title,
+.reviewMainTitle,
+.reviews .hasTagGreen,
+.reviews .hasTagRed,
+.reviews .hasTagBlue,
+.navbar-expand-lg .navbar-nav .nav-link,
+.dropdown-item,
+.slider-caption .h-sl-text,
+.contact-listing,
+.kidsNumbers {
+  font-family: 'Arya';
+}
+
+/* end of custom font for the title and other */
+
+
+/* aatmadarshan css */
+
+.aatmadarshan {
+  margin-top: 2rem;
+  background-image: url('../img/bg-gradient.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: grid;
+  min-block-size: max(400px, 100svb);
+  padding-block: 3rem;
+  padding-inline: 2rem;
+  place-items: start center;
+  position: relative;
+}
+
+.aatma-logo {
+  width: 30%;
+}
+
+.aatmadarshanEventimg {
+  width: 100%;
+  border: 10px solid #f3e6f400;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: linear-gradient(170.96deg,
+      oklch(100% 0 0 / 60%) 18.95%,
+      oklch(100% 0 0 / 20%) 99.73%);
+  box-shadow: 0px 0px 3px 2px #ffffff;
+}
+
+.aatmadarshanEventItem {
+  padding: 1rem;
+  padding-bottom: 1rem;
+  height: auto;
+}
+
+.aatmadarshan .slick-initialized .slick-slide {
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  transition: .69s linear;
+  transform: scale(1);
+}
+
+.aatmadarshanEventItem.slick-slide.slick-current.slick-active.slick-center {
+  transform: scale(1.1);
+  filter: blur(0px);
+  transition: .69s linear;
+  -webkit-filter: blur(0px);
+}
+
+.aatmadarshan p {
+  font-family: 'Arya', Courier, monospace;
+}
+
+.aatmadarshan .aatmadarshan-title {
+  font-size: 29px;
+  line-height: 51px;
+  color: #E91E63;
+}
+
+.aatmadarshan .aatmadarshan_icon {
+  width: 220px;
+  filter: hue-rotate(180deg);
+  margin-bottom: 1rem;
+}
+.aatmadarshan .kidsNumbers .kidNum {
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+.aatmadarshan .kidsNumbers .KidDec {
+  font-size: 18px;
+  color: #3c3c3c;
+  text-align: left;
+}
+/* aatmadarshan css end */
 
 /* ALL media query  */
 /* Media Query for Mobile Devices */
@@ -4128,13 +4232,13 @@ div#babyNameslistingBoy {
   font-size: 18px;
   padding: 4px 6px;
   border-radius: 22px;
-  color: #f7951d;
+  color: #E91E63;
   font-weight: 600;
 }
 
 .read-more-link:hover,
 .read-less-link:hover {
-  color: #f7951d;
+  color: #E91E63;
 }
 
 .review_video {
