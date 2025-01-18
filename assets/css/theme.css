@@ -3669,11 +3669,6 @@ div#babyNameslistingBoy {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  display: grid;
-  min-block-size: max(400px, 100svb);
-  padding-block: 3rem;
-  padding-inline: 2rem;
-  place-items: start center;
   position: relative;
 }
 
