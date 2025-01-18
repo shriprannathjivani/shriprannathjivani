@@ -2582,8 +2582,9 @@ button.slick-next.slick-arrow svg {
 }
 
 .satguru-card img {
-  border-radius: 100px;
+  border-radius: 320px;
   margin: 1rem auto;
+  width: 180px;
 }
 
 .satguru-card p {
