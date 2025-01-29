@@ -3650,6 +3650,15 @@ div#babyNameslistingBoy {
   background-color: #ffffff;
   color: #1e2352;
   box-shadow: 2px 6px 21px -2px rgb(0 0 0 / 15%);
+  border-radius: 14px;
+  font-size: 1.2rem;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item{
+  border-bottom:1px solid #efefef;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu li:last-child .dropdown-item{
+  border-bottom: 0;
 }
 
 /* custom font for the title and other */
@@ -3663,7 +3672,7 @@ div#babyNameslistingBoy {
 .dropdown-item,
 .slider-caption .h-sl-text,
 .contact-listing,
-.kidsNumbers {
+.kidsNumbers, .gamebox {
   font-family: 'Arya', 'nato' , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
@@ -3768,7 +3777,39 @@ div#babyNameslistingBoy {
   color: #3c3c3c;
 }
 
+.gamebox{
+  text-align: center;
+  width: 100%;
+  border: 10px solid #fcc7cd78;
+  border-radius: 20px;
+  background-size: cover;
+  background-image: linear-gradient(170.96deg,
+      oklch(100% 0 0 / 60%) 18.95%,
+      oklch(100% 0 0 / 20%) 99.73%);
+  box-shadow: 0px 0px 3px 2px #ffffff;
+}
+.gamebox .game-img{
+  width: 100%;
+  margin-bottom: 1rem;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.gamebox .game-title{
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 2rem;
+  padding: 0rem 16px;
+}
+.gamebox .gameDec{
+  font-size: 18px;
+  color: #3c3c3c;
+  text-align: left;
+  padding: 0rem 16px;
+}
+
 /* aatmadarshan css end */
+
+
 
 /* ALL media query  */
 /* Media Query for Mobile Devices */
