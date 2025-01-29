@@ -3042,7 +3042,7 @@ body {
 }
 
 .common-hero .spjv-title {
-  color: #E91E63;
+  color: #ffcc01;
 }
 
 .common-section {
@@ -3659,6 +3659,9 @@ div#babyNameslistingBoy {
 }
 .navbar-expand-lg .navbar-nav .dropdown-menu li:last-child .dropdown-item{
   border-bottom: 0;
+}
+.navbar-expand-lg .dropdown-item.active, .dropdown-item:active{
+  background-color: #ffffff;
 }
 
 /* custom font for the title and other */
