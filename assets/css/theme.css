@@ -7,14 +7,28 @@
     url("../fonts/NotoSansDevanagari-Medium.ttf") format("ttf");
 }
 
-@font-face {
+/* @font-face {
   font-family: "Arya";
   font-style: normal;
   font-weight: 500;
   font-display: block;
   src: url("../fonts/Arya-Regular.ttf") format("ttf"),
     url("../fonts/Arya-Bold.ttf") format("ttf");
+} */
+
+@font-face {
+  font-family: 'Arya';
+  src: url('../fonts/testfont/Arya-Regular.eot');
+  src: url('../fonts/testfont/Arya-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/testfont/Arya-Regular.woff2') format('woff2'),
+      url('../fonts/testfont/Arya-Regular.woff') format('woff'),
+      url('../fonts/testfont/Arya-Regular.ttf') format('truetype'),
+      url('../fonts/testfont/Arya-Regular.svg#Arya-Regular') format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
+
 
 body {
   font-family: 'nato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
