@@ -154,7 +154,7 @@ function displaykarkhanaNames(divid, teamName) {
                                 <p class="card-text">${teamName[i].contactNo}</p>
                                  <p class="card-text">${teamName[i].contactEmail}</p>
                             </div>
-                            <a href="tel:${teamName[i].link}" class="btn btn-primary btnapply">Apply</a>
+                            <a href="tel:${teamName[i].link}" class="btn btn-primary btnapply">Call Now</a>
                         </div>
                     </div>
                  </div>
