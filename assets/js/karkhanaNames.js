@@ -8,7 +8,8 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel - +91 9638635307',
         contactNo: 'Shital Bhanderi - +91 6355676288',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 9638635307"
+        link: "+91 9638635307",
+        date: "22 Jan 2024"
     },
     {
         id: "2",
@@ -18,7 +19,8 @@ var karkhanaList = [
         contactPerson: 'Praveen Patel',
         contactNo: '+91 8980203794',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 8980203794"
+        link: "+91 8980203794",
+        date: "01 June 2024"
     },
     {
         id: "3",
@@ -28,7 +30,8 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel - +91 9638635307',
         contactNo: 'Shital Bhanderi - +91 6355676288',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 6355676288"
+        link: "+91 6355676288",
+        date: "22 April 2024"
     },
     {
         id: "4",
@@ -38,7 +41,8 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel - +91 9638635307',
         contactNo: 'Shanta Jain - +91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 9871390028"
+        link: "+91 9871390028",
+        date: "22 July 2024"
     },
     {
         id: "5",
@@ -48,7 +52,8 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 9638635307"
+        link: "+91 9638635307",
+        date: "02 Nov 2024"
     },
     {
         id: "6",
@@ -58,7 +63,8 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel - +91 9638 6353 07',
         contactNo: 'Shanta Jain - +91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 9871390028"
+        link: "+91 9871390028",
+        date: "22 Oct 2024"
     },
     {
         id: "7",
@@ -68,7 +74,8 @@ var karkhanaList = [
         contactPerson: 'Shilpa Juneja - +91 9829032236',
         contactNo: 'Shanta Jain - +91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 9871390028"
+        link: "+91 9871390028",
+        date: "14 April 2024"
     },
     {
         id: "8",
@@ -78,7 +85,8 @@ var karkhanaList = [
         contactPerson: 'Shanta Jain',
         contactNo: '+91 9871390028',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 9871390028"
+        link: "+91 9871390028",
+        date: "18 Nov 2024"
     },
     {
         id: "9",
@@ -88,7 +96,8 @@ var karkhanaList = [
         contactPerson: 'Praveen Patel',
         contactNo: '+91 8980203794',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 8980203794"
+        link: "+91 8980203794",
+        date: "09 April 2025"
     },
     {
         id: "10",
@@ -98,7 +107,8 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 9638635307"
+        link: "+91 9638635307",
+        date: "04 April 2024"
     },
     {
         id: "11",
@@ -108,7 +118,8 @@ var karkhanaList = [
         contactPerson: 'Suprabha Arora ',
         contactNo: '+91 9872502595',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 9872502595"
+        link: "+91 9872502595",
+        date: "14 Dec 2024"
     },
     {
         id: "12",
@@ -118,7 +129,8 @@ var karkhanaList = [
         contactPerson: 'Kamlesh Patel',
         contactNo: '+91 9638635307',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 9638635307"
+        link: "+91 9638635307",
+        date: "12 April 2024"
     },
     {
         id: "13",
@@ -128,13 +140,15 @@ var karkhanaList = [
         contactPerson: 'Praveen Patel',
         contactNo: '+91 8980203794',
         contactEmail: 'www.shriprannathjivani@gmail.com',
-        link: "+91 8980203794"
+        link: "+91 8980203794",
+        date: "22 April 2024"
     }
 ]
 
 
 function displaykarkhanaNames(divid, teamName) {
     const studentsList = document.getElementById(divid);
+    
     for (let i = 0; i < teamName.length; i++) {
 
         studentsList.innerHTML =
@@ -153,6 +167,7 @@ function displaykarkhanaNames(divid, teamName) {
                                 <p class="card-text">${teamName[i].contactPerson}</p>
                                 <p class="card-text">${teamName[i].contactNo}</p>
                                  <p class="card-text">${teamName[i].contactEmail}</p>
+                                <p class="c-date mt-2">Posted On: ${teamName[i].date}</p>
                             </div>
                             <a href="tel:${teamName[i].link}" class="btn btn-primary btnapply">Call Now</a>
                         </div>

@@ -4346,3 +4346,8 @@ div#babyNameslistingBoy {
 .home_page {
   overflow-x: hidden;
 }
+
+.c-date{
+  font-size: 14px;
+  color: #6b6e6e;
+}
