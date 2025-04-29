@@ -4351,3 +4351,171 @@ div#babyNameslistingBoy {
   font-size: 14px;
   color: #6b6e6e;
 }
+
+/* calendar start */
+.main-calendar{
+  border: 1px solid #f2f0f0;
+  border-radius: 24px;
+  padding-bottom: 12px;
+  background-image: url(../img/bg-gradient.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.calendar {
+  margin-top: 1rem;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.header button {
+  color: #ea1e63;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+.header button:hover {
+  background: transparent;
+}
+
+select {
+  padding: 0px 10px;
+  font-size: 1.2rem;
+  border-radius: 0;
+  border: 1px solid #cccccc00;
+  text-align: center;
+  width: auto;
+  color: #ea1e63;
+}
+
+.calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.day-name {
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #f3f3f3;
+}
+
+.day {
+  position: relative;
+  border-radius: 12px;
+  background: #f0f0f0;
+  height: 148px;
+  padding: 8px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.day:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.day span {
+  font-size: 0.9rem;
+  font-weight: bold;
+  position: absolute;
+  top: 8px;
+  left: 10px;
+}
+
+.eventday {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.1rem;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  font-family: 'Arya';
+  line-height: 25px;
+}
+
+.day.with-bg {
+  background-size: cover !important;
+  background-position: center;
+  background-repeat: no-repeat !important;
+  color: white;
+  text-shadow: 0 0 4px #000;
+}
+
+div#eventListContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+div#eventListContainer .spjv-title{
+  color: #5e17eb !important;
+  font-size: 1.2rem;
+}
+div#eventListContainer ul#eventList {
+  padding: 0;
+}
+div#eventListContainer ul#eventList li {
+  font-family: 'Arya';
+  color: #99083b;
+  font-size: 20px;
+  line-height: 24px;
+  border-bottom: 1px solid #f1f1f1;
+  padding: 1rem 0px;
+}
+div#eventListContainer ul#eventList li strong{
+  display: block;
+  color: #FF5722;
+  font-size: 20px;
+  padding: 8px;
+  margin-bottom: 8px;
+}
+div#eventListContainer ul#eventList li:last-child {
+  border-bottom: none;
+}
+.day.today {
+  border: 2px solid #ea1e63;
+  background-color: #ffe0e0;
+  position: relative;
+}
+
+.day.today::after {
+  content: "Today";
+  position: absolute;
+  top: 4px;
+  right: 6px;
+  font-size: 0.8rem;
+  color: #ea1e63;
+  background: #fff;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+@media (max-width: 768px) {
+  .day{
+    height: 49px;
+  }
+  .eventday {
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: none;
+  }
+}
+/* end calendar */
