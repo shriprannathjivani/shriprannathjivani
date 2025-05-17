@@ -89,6 +89,18 @@ const events = {
         bgColor: "#99093a",
         textColor: "#fff",
         image: ""
+    },
+    "2025-10-18": {
+        text: "गुरु जी श्री मंगल दास जी की जन्म तिथि",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-05-01": {
+        text: "धामगमन, 1 मई ईस्वी 1985 बैसाख मास शुक्ल पक्ष द्वादशी ",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
     }
 };
 
