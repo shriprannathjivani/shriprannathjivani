@@ -4194,6 +4194,14 @@ div#babyNameslistingBoy {
   text-decoration: none;
 }
 
+.custom-text-quote{
+  display: block;
+  text-align: center;
+  font-family: 'Arya';
+  font-size: 22px;
+  color: #9C27B0;
+}
+
 /* timeline for kids */
 
 /* end of timeline for kids */
