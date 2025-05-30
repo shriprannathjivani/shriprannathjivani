@@ -4575,6 +4575,7 @@ div#eventListContainer ul#eventList li:last-child {
   border-radius: 2rem;
   cursor: pointer;
   text-align: center;
+  background-color: #fff6f4;
 }
 .reelsSection .reel-btn{
   width: auto;
@@ -4585,7 +4586,11 @@ div#eventListContainer ul#eventList li:last-child {
 .reelsbox .button.slick-arrow {
   bottom: -13%;
 }
-
+@media (max-width: 768px) {
+  .reelItem iframe {
+    width: 90%;
+  }
+}
 
 /* end of reels */
 

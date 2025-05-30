@@ -654,7 +654,7 @@ $('.reelsbox').slick({
   prevArrow: '<button type="button" class="slick-prev"> <i data-feather="arrow-left"></i> </button>',
   nextArrow: '<button type="button" class="slick-next"><i data-feather="arrow-right"></i></button>',
   speed: 300,
-  arrows: false,
+  arrows: true,
   slidesToShow: 4,
   slidesToScroll: 1,
   responsive: [
