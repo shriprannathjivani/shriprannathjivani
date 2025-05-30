@@ -20,10 +20,10 @@
   font-family: 'Arya';
   src: url('../fonts/testfont/Arya-Regular.eot');
   src: url('../fonts/testfont/Arya-Regular.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/testfont/Arya-Regular.woff2') format('woff2'),
-      url('../fonts/testfont/Arya-Regular.woff') format('woff'),
-      url('../fonts/testfont/Arya-Regular.ttf') format('truetype'),
-      url('../fonts/testfont/Arya-Regular.svg#Arya-Regular') format('svg');
+    url('../fonts/testfont/Arya-Regular.woff2') format('woff2'),
+    url('../fonts/testfont/Arya-Regular.woff') format('woff'),
+    url('../fonts/testfont/Arya-Regular.ttf') format('truetype'),
+    url('../fonts/testfont/Arya-Regular.svg#Arya-Regular') format('svg');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -3668,13 +3668,16 @@ div#babyNameslistingBoy {
   font-size: 1.2rem;
 }
 
-.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item{
-  border-bottom:1px solid #efefef;
+.navbar-expand-lg .navbar-nav .dropdown-menu .dropdown-item {
+  border-bottom: 1px solid #efefef;
 }
-.navbar-expand-lg .navbar-nav .dropdown-menu li:last-child .dropdown-item{
+
+.navbar-expand-lg .navbar-nav .dropdown-menu li:last-child .dropdown-item {
   border-bottom: 0;
 }
-.navbar-expand-lg .dropdown-item.active, .dropdown-item:active{
+
+.navbar-expand-lg .dropdown-item.active,
+.dropdown-item:active {
   background-color: #ffffff;
 }
 
@@ -3689,8 +3692,9 @@ div#babyNameslistingBoy {
 .dropdown-item,
 .slider-caption .h-sl-text,
 .contact-listing,
-.kidsNumbers, .gamebox {
-  font-family: 'Arya', 'nato' , -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+.kidsNumbers,
+.gamebox {
+  font-family: 'Arya', 'nato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* end of custom font for the title and other */
@@ -3794,7 +3798,7 @@ div#babyNameslistingBoy {
   color: #3c3c3c;
 }
 
-.gamebox{
+.gamebox {
   text-align: center;
   width: 100%;
   border: 10px solid #fcc7cd78;
@@ -3805,32 +3809,38 @@ div#babyNameslistingBoy {
       oklch(100% 0 0 / 20%) 99.73%);
   box-shadow: 0px 0px 3px 2px #ffffff;
 }
-.gamebox .game-img{
+
+.gamebox .game-img {
   width: 100%;
   margin-bottom: 1rem;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
 }
-.gamebox .game-title{
+
+.gamebox .game-title {
   font-size: 24px;
   text-align: left;
   margin-bottom: 1rem;
   padding: 0rem 16px;
 }
-.gamebox .gameDec{
+
+.gamebox .gameDec {
   font-size: 18px;
   color: #3c3c3c;
   text-align: left;
   padding: 0rem 16px;
 }
-.gamebox .ifram-game{
+
+.gamebox .ifram-game {
   width: 100%;
   height: 338px;
   border-radius: 20px;
 }
-.small-student-logo{
+
+.small-student-logo {
   display: none;
 }
+
 /* aatmadarshan css end */
 
 
@@ -4194,7 +4204,7 @@ div#babyNameslistingBoy {
   text-decoration: none;
 }
 
-.custom-text-quote{
+.custom-text-quote {
   display: block;
   text-align: center;
   font-family: 'Arya';
@@ -4355,13 +4365,13 @@ div#babyNameslistingBoy {
   overflow-x: hidden;
 }
 
-.c-date{
+.c-date {
   font-size: 14px;
   color: #6b6e6e;
 }
 
 /* calendar start */
-.main-calendar{
+.main-calendar {
   border: 1px solid #f2f0f0;
   border-radius: 24px;
   padding-bottom: 12px;
@@ -4371,6 +4381,7 @@ div#babyNameslistingBoy {
   background-size: cover;
   position: relative;
 }
+
 .calendar {
   margin-top: 1rem;
 }
@@ -4472,13 +4483,16 @@ div#eventListContainer {
   text-align: center;
   margin-top: 20px;
 }
-div#eventListContainer .spjv-title{
+
+div#eventListContainer .spjv-title {
   color: #5e17eb !important;
   font-size: 1.2rem;
 }
+
 div#eventListContainer ul#eventList {
   padding: 0;
 }
+
 div#eventListContainer ul#eventList li {
   font-family: 'Arya';
   color: #99083b;
@@ -4487,16 +4501,19 @@ div#eventListContainer ul#eventList li {
   border-bottom: 1px solid #f1f1f1;
   padding: 1rem 0px;
 }
-div#eventListContainer ul#eventList li strong{
+
+div#eventListContainer ul#eventList li strong {
   display: block;
   color: #FF5722;
   font-size: 20px;
   padding: 8px;
   margin-bottom: 8px;
 }
+
 div#eventListContainer ul#eventList li:last-child {
   border-bottom: none;
 }
+
 .day.today {
   border: 2px solid #ea1e63;
   background-color: #ffe0e0;
@@ -4514,10 +4531,12 @@ div#eventListContainer ul#eventList li:last-child {
   padding: 2px 4px;
   border-radius: 4px;
 }
+
 @media (max-width: 768px) {
-  .day{
+  .day {
     height: 49px;
   }
+
   .eventday {
     text-align: center;
     overflow: hidden;
@@ -4526,4 +4545,98 @@ div#eventListContainer ul#eventList li:last-child {
     display: none;
   }
 }
+
 /* end calendar */
+
+/* reelsbox */
+.reelsSection {
+  padding-bottom: 4rem;}
+
+.reelsbox {
+}
+
+.reelItem {
+  border-radius: 1.5rem;
+  position: relative;
+  text-align: center;
+}
+
+.reelItem h4 {
+  margin: 16px 0 16px;
+  font-size: 18px;
+  color: #1d1d1f;
+}
+
+.reelItem iframe {
+  width: 310px;
+  height: 640px;
+  /* Ideal for portrait/shorts */
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-align: center;
+}
+.reelsSection .reel-btn{
+  width: auto;
+  text-align: center;
+  display: block;
+  margin: 0px auto;
+}
+.reelsbox .button.slick-arrow {
+  bottom: -13%;
+}
+
+
+/* end of reels */
+
+/* satguru Article */
+
+.apple-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  width: 200px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  margin: 10px;
+}
+
+.apple-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.12);
+}
+
+.apple-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.apple-card-content {
+  padding: 20px;
+}
+
+.apple-card h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #1d1d1f;
+  font-family: 'Arya';
+}
+
+.apple-card p {
+  margin: 0;
+  font-size: 14px;
+  color: #6e6e73;
+}
+
+.satguruArticle-title{
+  font-size: 18px;
+  margin-left: 11px;
+  color: black;
+  font-family: 'Arya';
+}
+
+/* satguru Article */
