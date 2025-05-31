@@ -4644,36 +4644,36 @@ div#eventListContainer ul#eventList li:last-child {
   font-family: 'Arya';
 }
 
-.article-card {
+.satguru_article .article-card {
   border: none;
   transition: transform 0.2s, box-shadow 0.2s;
   overflow: hidden;
   background: white;
 }
 
-.article-card .card-img-box {
+.satguru_article .article-card .card-img-box {
   overflow: hidden;
   border-radius: 24px;
 }
 
-.article-card:hover img {
+.satguru_article .article-card:hover img {
   transform: scale(1.02);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   cursor: pointer;
 }
 
-.article-card img {
+.satguru_article .article-card img {
   width: 100%;
   height: auto;
   object-fit: cover;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.card-body {
+.satguru_article .card-body {
   padding: 1.2rem;
 }
 
-.card-title {
+.satguru_article .card-title {
   font-size: 24px;
   line-height: 1.5;
   font-weight: 700;
@@ -4681,20 +4681,20 @@ div#eventListContainer ul#eventList li:last-child {
   font-family: "Arya";
 }
 
-.card-date {
+.satguru_article .card-date {
   color: #6e6e73;
   font-size: 17px;
   line-height: 1.2353641176;
   font-weight: 600;
   letter-spacing: -0.022em;
 }
-.card-text {
+.satguru_article .card-text {
   color: #6e6e73;
   font-size: 18px;
   line-height: 1.2353641176;
 }
 
-#searchInput {
+.satguru_article #searchInput {
   max-width: 400px;
   margin: 0px auto;
   border-radius: 80px;
@@ -4702,12 +4702,12 @@ div#eventListContainer ul#eventList li:last-child {
   padding: 18px 29px;
 }
 
-#searchInput::placeholder {
+.satguru_article #searchInput::placeholder {
   color: rgb(130, 128, 126);
   font-size: 18px;
 }
 
-.card-tag {
+.satguru_article .card-tag {
   background-color: #d28314;
   font-size: 14px;
   line-height: 1.2857742857;
@@ -4719,7 +4719,7 @@ div#eventListContainer ul#eventList li:last-child {
   color: #fff;
   margin-bottom: 1rem;
 }
-.article-card a:hover{
+.satguru_article .article-card a:hover{
   color: #000000 !important;
 }
 
@@ -4728,20 +4728,20 @@ div#eventListContainer ul#eventList li:last-child {
 
 /* article details */
 
-.article-hero {
+.satguru_article .article-hero {
   max-width: 100%;
   height: 100vh;
   background-size: contain;
   background-position: center;
 }
 
-.article-container {
+.satguru_article .article-container {
   max-width: 800px;
   margin: auto;
   padding: 2rem 1rem;
 }
 
-.article-title {
+.satguru_article .article-title {
   font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 1rem;
@@ -4749,36 +4749,36 @@ div#eventListContainer ul#eventList li:last-child {
   text-align: center;
 }
 
-.article-summary {
+.satguru_article .article-summary {
   font-size: 22px !important;
   margin-bottom: 2rem;
   color: #6e6e6e;
   font-weight: 400;
 }
 
-.article-content p {
+.satguru_article .article-content p {
   font-size: 22px !important;
   margin-bottom: 2rem;
   color: #6e6e6e;
   font-weight: 400;
 }
 
-.article-meta {
+.satguru_article .article-meta {
   font-size: 18px;
   color: #6e6e6e;
   margin-top: 2rem;
   text-align: center;
 }
-.article-meta svg {
+.satguru_article .article-meta svg {
   height: 18px;
 }
-.article-image {
+.satguru_article .article-image {
   width: 100%;
   margin: 2rem 0;
   border-radius: 12px;
 }
 
-.like-btn {
+.satguru_article .like-btn {
   border: 1px solid #E91E63;
   color: #E91E63;
   background: transparent;
@@ -4790,11 +4790,11 @@ div#eventListContainer ul#eventList li:last-child {
   max-width: 111px;
 }
 
-.like-btn.liked {
+.satguru_article .like-btn.liked {
   background: #E91E63;
   color: #fff;
 }
-.btn-back-article{
+.satguru_article .btn-back-article{
   color: #29262b;
   background: transparent;
   padding: 0.5rem 0rem;
@@ -4807,10 +4807,10 @@ div#eventListContainer ul#eventList li:last-child {
   align-items: center;
   justify-content: center;
 }
-.btn-back-article:hover{
+.satguru_article .btn-back-article:hover{
   color: #29262b !important;
 }
-.btn-back-article svg{
+.satguru_article .btn-back-article svg{
   width: 40px;
   height: 40px;
   background-color: #ebebeb;
@@ -4818,7 +4818,7 @@ div#eventListContainer ul#eventList li:last-child {
   border-radius: 36px;
   margin-right: 1rem;
 }
-.articleSummaryTag{
+.satguru_article .articleSummaryTag{
   color: #d28314;
     background-color: #ffffff;
     border: 1px solid #d28314;
@@ -4827,7 +4827,7 @@ div#eventListContainer ul#eventList li:last-child {
     padding: 8px 16px;
     border-radius: 40px;
 }
-.article-summary:first-of-type::first-letter {
+.satguru_article .article-summary:first-of-type::first-letter {
   font-size: 3.8rem;
   font-weight: 600;
   float: left;
@@ -4835,19 +4835,19 @@ div#eventListContainer ul#eventList li:last-child {
   padding-right: 8px;
   color: #000;
 }
-.article-sharebox h4{
+.satguru_article .article-sharebox h4{
   font-family: 'Arya';
     font-size: 24px;
     margin-bottom: 1rem;
 }
-.article-sharebox .like-btn{
+.satguru_article .article-sharebox .like-btn{
   margin-top: 1rem;
 }
-.article-sharebox .btn-back-article{
+.satguru_article .article-sharebox .btn-back-article{
   margin-top: 3rem;
 }
 
-.share-icons .share-icon {
+.satguru_article .share-icons .share-icon {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -4858,31 +4858,31 @@ div#eventListContainer ul#eventList li:last-child {
   text-decoration: none;
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
-.share-icons .share-icon:hover {
+.satguru_article .share-icons .share-icon:hover {
   transform: scale(1.1);
   color: #fff!important;
 }
 
-.bg-whatsapp {
+.satguru_article .bg-whatsapp {
   background-color: #25D366;
 }
 
-.bg-facebook {
+.satguru_article .bg-facebook {
   background-color: #3b5998;
 }
 
-.bg-twitter {
+.satguru_article .bg-twitter {
   background-color: #1DA1F2;
 }
 
-.bg-gshare {
+.satguru_article .bg-gshare {
   background-color: #ebebeb;
     color: #33302f !important;
 }
-.share-icon.bg-gshare:hover{
+.satguru_article .share-icon.bg-gshare:hover{
   color: #33302f!important;
 }
-button#read-btn {
+.satguru_article button#read-btn {
   color: #29262b;
   background-color: #ebebeb;
   padding: 0.5rem 2rem;
@@ -4895,10 +4895,10 @@ button#read-btn {
   align-items: center;
   justify-content: center;
 }
-button#read-btn:hover{
+.satguru_article button#read-btn:hover{
   color: #E91E63 !important;
 }
-button#read-btn  svg{
+.satguru_article button#read-btn  svg{
   width: 40px;
   height: 40px;
   background-color: #ebebeb;
