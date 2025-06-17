@@ -485,17 +485,19 @@ hr {
   position: relative;
   gap: 4px;
   border: 1px solid transparent;
-  padding:8px 16px;
+  padding: 8px 16px;
   background-color: #f4f4f4;
   border-radius: 16px;
   transition: 0.05s cubic-bezier(0.32, 0, 0.59, 0.03);
 }
-.quicklinkItem svg{
-   height: 18px;
+
+.quicklinkItem svg {
+  height: 18px;
 }
+
 .quicklinkItem:hover {
-   transition: transform 0.3s;
-    transform: scale(1.1);
+  transition: transform 0.3s;
+  transform: scale(1.1);
 }
 
 .quicklinkItem img {
@@ -3985,14 +3987,22 @@ div#babyNameslistingBoy {
   }
 
   .quicklinks {
-    padding-bottom: 4rem;
+    padding-bottom: 3rem;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 4px;
   }
-
+.quicklinkItem svg{
+  height: 14px;
+  width: 14px;
+}
   .quicklinkItem {
     min-width: auto;
     margin-bottom: 0;
+    font-size: 14px;
+    flex-direction: row;
+    padding: 4px 8px;
+    gap: 8px;
   }
 
   .spjv-box {
