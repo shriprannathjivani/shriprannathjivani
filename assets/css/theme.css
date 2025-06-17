@@ -462,53 +462,42 @@ hr {
 .quicklinks {
   background-color: #fff;
   height: auto;
-  padding: 6rem 2rem 4rem 2rem;
+  padding: 1rem;
   margin-bottom: 0rem;
-  position: relative;
   z-index: 1;
-}
-
-.quicklinks::before {
-  position: absolute;
-  content: '';
-  background-image: url('../img/quicklinks.svg');
-  top: -41px;
-  height: 138px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: contain;
-  z-index: -1;
-  width: 100%;
-  left: 0;
+  padding-bottom: 4rem;
+  padding-top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
 }
 
 .quicklinkItem {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.1rem;
+  text-align: center;
+  font-weight: 600;
   color: #4e4e4e;
   position: relative;
+  gap: 8px;
+  border-bottom: 1px solid transparent;
+  padding: 16px;
+  background-color: #f4f4f4;
+  border-radius: 16px;
+  transition: 0.05s cubic-bezier(0.32, 0, 0.59, 0.03);
 }
 
-.quicklinkItem:hover::before {
-  content: '';
-  position: absolute;
-  width: 92px;
-  height: 45px;
-  background-color: transparent;
-  border-bottom-left-radius: 41px;
-  border-bottom-right-radius: 43px;
-  border: 5px solid #FFCC00;
-  border-top: 0;
-  top: 26%;
+.quicklinkItem:hover {
+  border-bottom: 1px solid #ff0056;
+   transition: 0.05s cubic-bezier(0.32, 0, 0.59, 0.03);
 }
 
 .quicklinkItem img {
-  height: 60px;
-  margin-bottom: 1rem;
+  height: 16px;
 }
 
 /* quicklinks End */
@@ -523,7 +512,7 @@ hr {
   border-top: 1px solid #E91E63;
   border-bottom: 1px solid #E91E63;
   padding: 1rem;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
   font-size: 2rem;
   color: #E91E63;
 }
@@ -3994,12 +3983,14 @@ div#babyNameslistingBoy {
   }
 
   .quicklinks {
-    padding: 2rem 1rem;
+    padding-bottom: 4rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .quicklinkItem {
-    min-width: 140px;
-    margin-bottom: 1rem;
+    min-width: auto;
+    margin-bottom: 0;
   }
 
   .spjv-box {
@@ -4550,10 +4541,10 @@ div#eventListContainer ul#eventList li:last-child {
 
 /* reelsbox */
 .reelsSection {
-  padding-bottom: 4rem;}
-
-.reelsbox {
+  padding-bottom: 4rem;
 }
+
+.reelsbox {}
 
 .reelItem {
   border-radius: 1.5rem;
@@ -4577,15 +4568,18 @@ div#eventListContainer ul#eventList li:last-child {
   text-align: center;
   background-color: #fff6f4;
 }
-.reelsSection .reel-btn{
+
+.reelsSection .reel-btn {
   width: auto;
   text-align: center;
   display: block;
   margin: 0px auto;
 }
+
 .reelsbox .button.slick-arrow {
   bottom: -13%;
 }
+
 @media (max-width: 768px) {
   .reelItem iframe {
     width: 90%;
@@ -4637,7 +4631,7 @@ div#eventListContainer ul#eventList li:last-child {
   color: #6e6e73;
 }
 
-.satguruArticle-title{
+.satguruArticle-title {
   font-size: 18px;
   margin-left: 11px;
   color: black;
@@ -4688,6 +4682,7 @@ div#eventListContainer ul#eventList li:last-child {
   font-weight: 600;
   letter-spacing: -0.022em;
 }
+
 .satguru_article .card-text {
   color: #6e6e73;
   font-size: 18px;
@@ -4719,7 +4714,8 @@ div#eventListContainer ul#eventList li:last-child {
   color: #fff;
   margin-bottom: 1rem;
 }
-.satguru_article .article-card a:hover{
+
+.satguru_article .article-card a:hover {
   color: #000000 !important;
 }
 
@@ -4769,9 +4765,11 @@ div#eventListContainer ul#eventList li:last-child {
   margin-top: 2rem;
   text-align: center;
 }
+
 .satguru_article .article-meta svg {
   height: 18px;
 }
+
 .satguru_article .article-image {
   width: 100%;
   margin: 2rem 0;
@@ -4785,7 +4783,7 @@ div#eventListContainer ul#eventList li:last-child {
   padding: 0.5rem 1rem;
   border-radius: 50px;
   transition: all 0.3s ease;
-  display:inline-block;
+  display: inline-block;
   margin: 0px auto;
   max-width: 111px;
 }
@@ -4794,7 +4792,8 @@ div#eventListContainer ul#eventList li:last-child {
   background: #E91E63;
   color: #fff;
 }
-.satguru_article .btn-back-article{
+
+.satguru_article .btn-back-article {
   color: #29262b;
   background: transparent;
   padding: 0.5rem 0rem;
@@ -4807,10 +4806,12 @@ div#eventListContainer ul#eventList li:last-child {
   align-items: center;
   justify-content: center;
 }
-.satguru_article .btn-back-article:hover{
+
+.satguru_article .btn-back-article:hover {
   color: #29262b !important;
 }
-.satguru_article .btn-back-article svg{
+
+.satguru_article .btn-back-article svg {
   width: 40px;
   height: 40px;
   background-color: #ebebeb;
@@ -4818,15 +4819,17 @@ div#eventListContainer ul#eventList li:last-child {
   border-radius: 36px;
   margin-right: 1rem;
 }
-.satguru_article .articleSummaryTag{
+
+.satguru_article .articleSummaryTag {
   color: #d28314;
-    background-color: #ffffff;
-    border: 1px solid #d28314;
-    font-size: 18px;
-    font-weight: 600;
-    padding: 8px 16px;
-    border-radius: 40px;
+  background-color: #ffffff;
+  border: 1px solid #d28314;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 40px;
 }
+
 .satguru_article .article-summary:first-of-type::first-letter {
   font-size: 3.8rem;
   font-weight: 600;
@@ -4835,15 +4838,18 @@ div#eventListContainer ul#eventList li:last-child {
   padding-right: 8px;
   color: #000;
 }
-.satguru_article .article-sharebox h4{
+
+.satguru_article .article-sharebox h4 {
   font-family: 'Arya';
-    font-size: 24px;
-    margin-bottom: 1rem;
+  font-size: 24px;
+  margin-bottom: 1rem;
 }
-.satguru_article .article-sharebox .like-btn{
+
+.satguru_article .article-sharebox .like-btn {
   margin-top: 1rem;
 }
-.satguru_article .article-sharebox .btn-back-article{
+
+.satguru_article .article-sharebox .btn-back-article {
   margin-top: 3rem;
 }
 
@@ -4858,9 +4864,10 @@ div#eventListContainer ul#eventList li:last-child {
   text-decoration: none;
   transition: transform 0.2s ease, background-color 0.2s ease;
 }
+
 .satguru_article .share-icons .share-icon:hover {
   transform: scale(1.1);
-  color: #fff!important;
+  color: #fff !important;
 }
 
 .satguru_article .bg-whatsapp {
@@ -4877,11 +4884,13 @@ div#eventListContainer ul#eventList li:last-child {
 
 .satguru_article .bg-gshare {
   background-color: #ebebeb;
-    color: #33302f !important;
+  color: #33302f !important;
 }
-.satguru_article .share-icon.bg-gshare:hover{
-  color: #33302f!important;
+
+.satguru_article .share-icon.bg-gshare:hover {
+  color: #33302f !important;
 }
+
 .satguru_article button#read-btn {
   color: #29262b;
   background-color: #ebebeb;
@@ -4895,10 +4904,12 @@ div#eventListContainer ul#eventList li:last-child {
   align-items: center;
   justify-content: center;
 }
-.satguru_article button#read-btn:hover{
+
+.satguru_article button#read-btn:hover {
   color: #E91E63 !important;
 }
-.satguru_article button#read-btn  svg{
+
+.satguru_article button#read-btn svg {
   width: 40px;
   height: 40px;
   background-color: #ebebeb;
@@ -4906,4 +4917,5 @@ div#eventListContainer ul#eventList li:last-child {
   border-radius: 36px;
   margin-right: .2rem;
 }
+
 /* article details */
