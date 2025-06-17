@@ -483,17 +483,19 @@ hr {
   font-weight: 600;
   color: #4e4e4e;
   position: relative;
-  gap: 8px;
-  border-bottom: 1px solid transparent;
-  padding: 16px;
+  gap: 4px;
+  border: 1px solid transparent;
+  padding:8px 16px;
   background-color: #f4f4f4;
   border-radius: 16px;
   transition: 0.05s cubic-bezier(0.32, 0, 0.59, 0.03);
 }
-
+.quicklinkItem svg{
+   height: 18px;
+}
 .quicklinkItem:hover {
-  border-bottom: 1px solid #ff0056;
-   transition: 0.05s cubic-bezier(0.32, 0, 0.59, 0.03);
+   transition: transform 0.3s;
+    transform: scale(1.1);
 }
 
 .quicklinkItem img {

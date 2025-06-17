@@ -9,7 +9,7 @@ var quickLink = [
         id: "2",
         name: 'खेल-खेल में ज्ञान',
         link: "atmadarshanam_games.html",
-        img: "user"
+        img: "dribbble"
     }, {
         id: "3",
         name: 'ज्ञानपीठ वाणी साहित्य',
@@ -39,17 +39,17 @@ var quickLink = [
         id: "8",
         name: 'शिशु नामकरण',
         link: "babynames.html",
-        img: "users"
+        img: "smile"
     },{
         id: "9",
-        name: 'सेवा कारखाना (सेवा केंद्र)',
+        name: 'सेवा कारखाना',
         link: "SevaKarkhana.html",
-        img: "user-plus"
+        img: "users"
     },{
         id: "10",
         name: 'गूगल क्विज़',
         link: "quizzes.html",
-        img: "help-circle"
+        img: "file-text"
     },{
         id: "11",
         name: 'मासिक कैलेंडर (डाउनलोड)',
