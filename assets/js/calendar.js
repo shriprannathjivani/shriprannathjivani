@@ -14,6 +14,11 @@ var calendarList = [
         id: "3",
         name: 'जून 2025 / June 2025',
         link: "assets/img/calendar/Spjv calendar June.png"
+    },
+    {
+        id: "4",
+        name: 'जुलाई 2025 / July 2025',
+        link: "assets/img/calendar/Spjv calendar Final july.png"
     }
 ]
 
@@ -104,6 +109,24 @@ const events = {
     },
     "2025-05-01": {
         text: "धामगमन, 1 मई ईस्वी 1985 बैसाख मास शुक्ल पक्ष द्वादशी ",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-07-13": {
+        text: "महामति श्री प्राणनाथ जी व्रत तिथि  श्रावण कृष्ण 03 रविवार",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-07-14": {
+        text: "महामति श्री प्राणनाथ जी अन्तर्धान चतुर्थीं व्रत श्रावण कृष्ण 04 सोमवार",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-07-15": {
+        text: "पंचमी भंडारा, श्री बीतक चर्चा प्रारंभ श्रावण कृष्ण 05 मंगलवार",
         bgColor: "#99093a",
         textColor: "#fff",
         image: ""
