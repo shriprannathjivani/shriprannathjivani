@@ -2500,6 +2500,7 @@ button.slick-next.slick-arrow svg {
 
 .TestimonialSliderItem p {
   color: #7b5422;
+  font-weight: 400;
 }
 
 .TestimonialSlider {
@@ -2511,7 +2512,8 @@ button.slick-next.slick-arrow svg {
 }
 
 .TestimonialSliderItem span {
-  color: #010100;
+      color: #7b7b7b;
+    font-weight: 400;
 }
 
 /* Testimonial end */
