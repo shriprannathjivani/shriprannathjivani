@@ -5109,7 +5109,7 @@ div#eventListContainer ul#eventList li:last-child {
 .game-link {
   display: inline-block;
   margin-top: 0.75rem;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color: #0d6efd;
   font-family: 'Arya';
 }
@@ -5117,7 +5117,13 @@ div#eventListContainer ul#eventList li:last-child {
 .game-link:hover {
   text-decoration: none;
 }
-
+.pulse-btn-sm{
+  padding: 6px 16px !important;
+    margin-top: 1rem;
+    background: #5261d3 !important;
+      animation: pulse2 1.8s infinite;
+  transition: all 0.3s ease;
+}
 .timeline {
   line-height: 1.4em;
   list-style: none;
@@ -5159,9 +5165,40 @@ div#eventListContainer ul#eventList li:last-child {
   background-color: #ff4081;
 }
 
+.bitakSandesh-card {}
+
+.bitakSandesh-card .bitakSandesh-image {
+  width: 100%;
+  border-radius: 24px;
+  border: 1px solid #ddd;
+}
+
+.bitakSandesh-card .bitakSandesh-title {
+  color: #9C27B0;
+  margin-top: 0px;
+  margin-bottom: 1rem;
+  font-family: 'Arya';
+  font-size: 24px;
+  text-align: center;
+  line-height: 30px;
+}
+
 @keyframes pulse {
   0% {
     box-shadow: 0 0 0 0 rgba(233, 30, 99, 0.7);
+  }
+
+  70% {
+    box-shadow: 0 0 0 18px rgba(233, 30, 99, 0);
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(233, 30, 99, 0);
+  }
+}
+@keyframes pulse2 {
+  0% {
+    box-shadow: 0 0 0 0 rgba(55, 31, 239, 0.7);
   }
 
   70% {

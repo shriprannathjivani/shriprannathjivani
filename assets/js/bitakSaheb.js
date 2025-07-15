@@ -9,6 +9,10 @@ var bitakSahebList = [
         description: "अथ तीन सरूपों की बीतक — जीव, माया और ब्रह्म का गूढ़ ज्ञान, श्रद्धा और भक्ति से ओतप्रोत पहली दिन की अद्भुत शुरुआत।",
         image: "/assets/img/bitaksaheb/bitaksaheb_day1.png",
         link: "https://youtu.be/P2S20KesJhI?si=3p9J2L4A5WCRe0HB",
+        bitakSandesh : {
+            text: "️सुनो नहीं, जी लो श्री बीतक साहेब का हर पल",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day1.jpeg",
+        },
         quote: {
             text: "ध्यान से भीतर उतरने वाला ही आत्मा की शांति और ब्रह्म का साक्षात्कार कर सकता है।",
             author: "श्री प्राणनाथ जी"
@@ -94,16 +98,23 @@ function displaykarkhanaNames(divid, bitakSaheb) {
                                             <i data-feather="help-circle" class="mb-2 "></i><br>
                                             <div class="question">${bitakSaheb[i].qa.question}</div>
                                             <div class="answer">${bitakSaheb[i].qa.answer}</div>
-                                            <a target="_blank" class="game-link" href="${bitakSaheb[i].qa.link}">अभी क्लिक करें</a> 
+                                            <a target="_blank" class="btn btn-primary pulse-btn-sm " href="${bitakSaheb[i].qa.link}">अभी क्लिक करें</a> 
                                         </div>
                                     </div>
-                                    <div class="col-sm-12">
+                                    <div class="col-sm-6">
                                         <div class="game-card">
                                             <i data-feather="github" class="mb-2 "></i><br>
                                             <div class="game-title">${bitakSaheb[i].game.title}</div>
                                             <div class="game-desc">${bitakSaheb[i].game.description}</div>
                                             <a href="${bitakSaheb[i].game.link}" target="_blank"
-                                                class="game-link"> अभी खेलें</a>
+                                                class="btn btn-primary pulse-btn-sm  "> अभी खेलें</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="bitakSandesh-card">
+                                            <img src="${bitakSaheb[i].bitakSandesh.image}"
+                                            alt="Event Image" class="bitakSandesh-image mb-4">
+                                            <h2 class="bitakSandesh-title">${bitakSaheb[i].bitakSandesh.text}</h2>
                                         </div>
                                     </div>
                                 </div>
