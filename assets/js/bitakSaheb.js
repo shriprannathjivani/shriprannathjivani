@@ -19,7 +19,7 @@ var bitakSahebList = [
         },
         qa: {
             question: "श्री बीतक क्विज़",
-            answer: "SPJV श्री बीतक साहेब Quiz Day 1",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 1",
             link: "https://forms.gle/QGYee9gWsSMJTdHb7"
         },
         game: {
@@ -83,16 +83,7 @@ function displaykarkhanaNames(divid, bitakSaheb) {
                                     ${bitakSaheb[i].description}
                                 </p>
                                 <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="quote-glass">
-                                            <div class="quote-text">
-                                                <i data-feather="message-circle"
-                                                    class="mb-2 "></i><br>
-                                                ${bitakSaheb[i].quote.text}
-                                            </div>
-                                            <div class="quote-author">– ${bitakSaheb[i].quote.author}</div>
-                                        </div>
-                                    </div>
+                                    
                                     <div class="col-sm-6">
                                         <div class="qa-box">
                                             <i data-feather="help-circle" class="mb-2 "></i><br>
@@ -108,6 +99,16 @@ function displaykarkhanaNames(divid, bitakSaheb) {
                                             <div class="game-desc">${bitakSaheb[i].game.description}</div>
                                             <a href="${bitakSaheb[i].game.link}" target="_blank"
                                                 class="btn btn-primary pulse-btn-sm  "> अभी खेलें</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="quote-glass">
+                                            <div class="quote-text">
+                                                <i data-feather="message-circle"
+                                                    class="mb-2 "></i><br>
+                                                ${bitakSaheb[i].quote.text}
+                                            </div>
+                                            <div class="quote-author">– ${bitakSaheb[i].quote.author}</div>
                                         </div>
                                     </div>
                                     <div class="col-sm-6">

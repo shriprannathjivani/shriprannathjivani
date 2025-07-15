@@ -5104,6 +5104,7 @@ div#eventListContainer ul#eventList li:last-child {
   color: #555;
   font-size: 1.2rem;
   line-height: normal;
+    font-family: 'Arya';
 }
 
 .game-link {
