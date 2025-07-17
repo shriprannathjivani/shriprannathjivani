@@ -53,12 +53,12 @@ var bitakSahebList = [
         qa: {
             question: "श्री बीतक क्विज़",
             answer: "SPJV श्री बीतक साहेब <br> Quiz Day 2",
-            link: "https://forms.gle/1MkmAZTecGGZbSES7"
+            link: "https://wordwall.net/play/94897/664/664"
         },
         game: {
             title: "ज्ञानवर्धक खेल",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
-            link: "#"
+            link: "https://forms.gle/1MkmAZTecGGZbSES7"
         },
         reel: {
             youtube_embed: "Zv3tysn1Y4U",
