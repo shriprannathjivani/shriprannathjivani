@@ -64,7 +64,7 @@ var bitakSahebList = [
         reel: {
             youtube_embed: "Zv3tysn1Y4U",
             facebook_embed: "",
-            title: "#2 बीतक - महारास की रामतों में जागनी रास के संकेत",
+            title: "#1 बीतक - माया के तूफानों के बीच श्रीजी के लाड ",
             subtext: ""
         }
     },
@@ -132,7 +132,7 @@ var bitakSahebList = [
         reel: {
             youtube_embed: "",
             facebook_embed: "",
-            title: "#2 बीतक - महारास की रामतों में जागनी रास के संकेत",
+            title: "#3 बीतक -",
             subtext: ""
         }
     }
