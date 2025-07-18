@@ -144,7 +144,7 @@ var bitakSahebList = [
         time: "6:00-7:30 am",
         description: "'सखी भाव से भजियो भरतार' - हरिदास जी की प्रेममयी सिखापन।",
         image: "/assets/img/bitaksaheb/bitaksaheb_day4.png",
-        link: "https://youtu.be/34fkae_prYU?si=_28hDaNEGnRidxUJ",
+        link: "https://youtu.be/6FEAlVEKlTo?si=EOQDKjoG8a8kUhxM",
         bitakSandesh: {
             text: "️💎 श्री बीतक संदेश - 3, बीतक में उतरें तो समझेंगे — धनी कितने पास हैं।",
             image: "",
