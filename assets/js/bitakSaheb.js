@@ -161,7 +161,7 @@ var bitakSahebList = [
         game: {
             title: "ज्ञानवर्धक खेल",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
-            link: "https://forms.gle/uJueEQaEau8Be1T58"
+            link: ""
         },
         reel: {
             youtube_embed: "",
