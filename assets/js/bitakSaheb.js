@@ -127,12 +127,46 @@ var bitakSahebList = [
         game: {
             title: "ज्ञानवर्धक खेल",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: "https://wordwall.net/play/94917/667/619"
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "2F1233624818089135",
+            title: "#3 बीतक - माया रूपी गठरी सौंप कर तो देखिए साथ जी",
+            subtext: ""
+        }
+    },
+    {
+        id: 5,
+        date: { day: "18", month: "July", year: "2025" },
+        title: "'सखी भाव से भजियो भरतार' - हरिदास जी की प्रेममयी सिखापन।",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "'सखी भाव से भजियो भरतार' - हरिदास जी की प्रेममयी सिखापन।",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day4.png",
+        link: "https://youtu.be/34fkae_prYU?si=_28hDaNEGnRidxUJ",
+        bitakSandesh: {
+            text: "️💎 श्री बीतक संदेश - 3, बीतक में उतरें तो समझेंगे — धनी कितने पास हैं।",
+            image: "",
+        },
+        quote: {
+            text: "जब जनमे मारवाड़ में, घर अति आनन्द नरनार। <br> यह बधाई ब्रह्मांड में, त्रिगुण समेत विस्तार।।",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 3",
+            link: ""
+        },
+        game: {
+            title: "ज्ञानवर्धक खेल",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: ""
         },
         reel: {
             youtube_embed: "",
             facebook_embed: "",
-            title: "#3 बीतक -",
+            title: "#3 बीतक - माया रूपी गठरी सौंप कर तो देखिए साथ जी",
             subtext: ""
         }
     }
@@ -234,7 +268,7 @@ function displaykarkhanaNames(divid, bitakSaheb) {
                             </div>
                             <div class="col-md-4 ${bitakSaheb[i].qa && bitakSaheb[i].reel.facebook_embed.trim() !== '' ? '' : 'd-none'}">
                                 <div class="reel-video">
-                                <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1378896653223910%2F&show_text=false&width=476&t=0" width="476" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                                <iframe src="https://www.facebook.com/plugins/video.php?height=640&href=https%3A%2F%2Fwww.facebook.com%2Freel%${bitakSaheb[i].qa && bitakSaheb[i].reel.facebook_embed}%2F&show_text=false&width=300&t=0"  height="640" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                                    
                                     <h2 class="reel-video-title">${bitakSaheb[i].reel.title}</h2>
                                     <p class="bitak-text text-center">${bitakSaheb[i].reel.subtext}</p>
@@ -244,7 +278,6 @@ function displaykarkhanaNames(divid, bitakSaheb) {
                     </div>
                 </div>
             </li>
-
             
                 `;
     }
