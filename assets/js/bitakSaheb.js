@@ -267,8 +267,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "",
-            title: "#7 ",
+            facebook_embed: "2F2024550624954923",
+            title: "#7 बीतक - ‘दिल’ से माया को हटाओ, ‘पिया’ को बसाओ",
             subtext: ""
         }
     }
