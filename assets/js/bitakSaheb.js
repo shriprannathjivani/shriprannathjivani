@@ -240,7 +240,7 @@ var bitakSahebList = [
     },
     {
         id: 7,
-        date: { day: "20", month: "July", year: "2025" },
+        date: { day: "21", month: "July", year: "2025" },
         title: "श्री सतगुरु और मिहिरराज जी में 9 वर्ष का कठिन वियोग",
         speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
         time: "6:00-7:30 am",
