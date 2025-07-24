@@ -305,6 +305,74 @@ var bitakSahebList = [
             title: "#8 बीतक - नैनन की करि कोठरी में प्रेम ही प्रेम",
             subtext: ""
         }
+    },
+    {
+        id: 9,
+        date: { day: "23", month: "July", year: "2025" },
+        title: "श्री जी की हरजी व्यास से भेंट और वार्ता",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 9 - श्री बीतक साहेब - सोनिया जी (ऑस्ट्रेलिया) - श्री जी की हरजी व्यास से भेंट और वार्ता",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day9.png",
+        link: "https://youtu.be/0B9y3HTd8VY?si=6iR-hHS6a48Ml8cH",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 9 Read slowly… it's not text, it's truth.",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day9.jpeg",
+        },
+        quote: {
+            text: "तब श्री जी ए कह्या, ए तो कह्या मिने इण्ड। <br> ए महाप्रलय में ना रहे, उड़े त्रिगुन समेत ब्रह्माण्ड।।",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 9",
+            link: "https://forms.gle/JNDuXLfYC619EoZ7A"
+        },
+        game: {
+            title: "ज्ञानवर्धक खेल",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: "https://wordwall.net/resource/95151370"
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "",
+            title: "#9 बीतक - नैनन की करि कोठरी में प्रेम ही प्रेम",
+            subtext: ""
+        }
+    },
+    {
+        id: 10,
+        date: { day: "24", month: "July", year: "2025" },
+        title: "ईमान की कसौटी पर खरे उतरे जयराम भाई कंसारा",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 10 - श्री बीतक साहेब - सोनिया जी (ऑस्ट्रेलिया) - ईमान की कसौटी पर खरे उतरे जयराम भाई कंसारा",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day10.png",
+        link: "https://youtu.be/TTh8N-h6VZw?si=bAkf4w-HM3LqT6jp",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 10 This is not content. It’s contact with the divine.",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day10.jpeg",
+        },
+        quote: {
+            text: "एक जयराम खड़ा रह्या, और इनके घर के लोक। <br> इनों आपोपा दिया, रहे अपने जोक।।",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 10",
+            link: "https://forms.gle/jeGvmh8DPNmXpMDy5"
+        },
+        game: {
+            title: "ज्ञानवर्धक खेल",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: ""
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "",
+            title: "#10 बीतक - नैनन की करि कोठरी में प्रेम ही प्रेम",
+            subtext: ""
+        }
     }
 ]
 

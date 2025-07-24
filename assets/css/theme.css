@@ -5332,7 +5332,7 @@ div#eventListContainer ul#eventList li:last-child {
   margin: 0;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 990px) {
 
   .timeline-split .timeline,
   .timeline-centered .timeline {
