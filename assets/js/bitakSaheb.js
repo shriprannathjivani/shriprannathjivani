@@ -335,8 +335,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "",
-            title: "#9 बीतक - नैनन की करि कोठरी में प्रेम ही प्रेम",
+            facebook_embed: "2F2134820150372021",
+            title: "#9 बीतक - झुकने में जो ऊँचाई है, वो बीतक में दिखलाई है",
             subtext: ""
         }
     },
@@ -365,7 +365,7 @@ var bitakSahebList = [
         game: {
             title: "ज्ञानवर्धक खेल",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
-            link: ""
+            link: "https://wordwall.net/play/95171/689/838"
         },
         reel: {
             youtube_embed: "",
