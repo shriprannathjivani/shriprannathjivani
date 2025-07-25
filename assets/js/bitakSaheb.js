@@ -373,6 +373,40 @@ var bitakSahebList = [
             title: "#10 बीतक - नैनन की करि कोठरी में प्रेम ही प्रेम",
             subtext: ""
         }
+    },
+    {
+        id: 11,
+        date: { day: "25", month: "July", year: "2025" },
+        title: "श्रीजी द्वारा ठट्ठानगर में जागनी",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 11 - श्री बीतक साहेब - सोनिया जी (ऑस्ट्रेलिया) - श्रीजी द्वारा ठट्ठानगर में जागनी",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day11.png",
+        link: "https://youtu.be/pHGSqRJyfiU?si=T_Gm3GGajQeyg0P6",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 11 Not a story. A soul’s memory – echoed by Piya. ",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day11.jpeg",
+        },
+        quote: {
+            text: "तब श्रीजीयें सराहिया, स्याबास चिन्तामन। <br> पाई तें निसबत, ए सुकन मोमिन।।",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 11",
+            link: ""
+        },
+        game: {
+            title: "ज्ञानवर्धक खेल",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: ""
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "",
+            title: "#11 बीतक - नैनन की करि कोठरी में प्रेम ही प्रेम",
+            subtext: ""
+        }
     }
 ]
 
