@@ -369,8 +369,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "",
-            title: "#10 बीतक - नैनन की करि कोठरी में प्रेम ही प्रेम",
+            facebook_embed: "2F1400972371122437",
+            title: "#10 बीतक - द ब्रह्मांगना ब्रैंड - The Bramhangana Brand",
             subtext: ""
         }
     },
@@ -394,17 +394,51 @@ var bitakSahebList = [
         qa: {
             question: "श्री बीतक क्विज़",
             answer: "SPJV श्री बीतक साहेब <br> Quiz Day 11",
-            link: ""
+            link: "https://forms.gle/ZuMMAypEaqvCv8Ti8"
         },
         game: {
             title: "ज्ञानवर्धक खेल",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
-            link: ""
+            link: "https://wordwall.net/play/95209/975/819"
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "2F2265430630578769",
+            title: "#11 बीतक - Beetak is a MIRROR for HEART",
+            subtext: ""
+        }
+    },
+    {
+        id: 12,
+        date: { day: "26", month: "July", year: "2025" },
+        title: "श्रीजी की आज्ञा मान कर भैरव सेठ ने तीन दिन में वस्त को किया प्राप्त",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 12 - श्री बीतक साहेब - श्रीजी की आज्ञा मान कर भैरव सेठ ने तीन दिन में वस्त को किया प्राप्त",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day12.png",
+        link: "https://youtu.be/-dRh4o-2Ly0?si=muycVNp8KFvs7VuB",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 12 Every line = One step closer to Him.",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day12.jpeg",
+        },
+        quote: {
+            text: "पीउना तमाखूं छोड़ देओ, और मांस मछली सब। <br> सराब और सब कैफ, परदारा चोरी न कब।।<br> <br> मैं जनम भर को छोड़िया, ए चारों वस्त निखेद। <br> वस्त भई मोहे प्रापत, पाया माया माहें भेद।। <br> ",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 12",
+            link: "https://forms.gle/xLk1UjCRZbmAchbb6"
+        },
+        game: {
+            title: "ज्ञानवर्धक खेल",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: "https://wordwall.net/resource/95241481"
         },
         reel: {
             youtube_embed: "",
             facebook_embed: "",
-            title: "#11 बीतक - नैनन की करि कोठरी में प्रेम ही प्रेम",
+            title: "#12 बीतक - Beetak is a MIRROR for HEART",
             subtext: ""
         }
     }
