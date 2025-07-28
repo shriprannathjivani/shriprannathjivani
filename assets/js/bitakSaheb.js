@@ -57,7 +57,7 @@ var bitakSahebList = [
             link: "https://forms.gle/QGYee9gWsSMJTdHb7"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/95007/777/595"
         },
@@ -91,7 +91,7 @@ var bitakSahebList = [
             link: "https://forms.gle/1MkmAZTecGGZbSES7"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/94897/664/664"
         },
@@ -125,7 +125,7 @@ var bitakSahebList = [
             link: "https://forms.gle/WBJgdJFbhZPRn9Wu6"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/94917/667/619"
         },
@@ -159,7 +159,7 @@ var bitakSahebList = [
             link: "https://forms.gle/uJueEQaEau8Be1T58"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/94960/078/808"
         },
@@ -193,7 +193,7 @@ var bitakSahebList = [
             link: "https://forms.gle/tqePda9EfoeY1kLm9"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/94982/979/711"
         },
@@ -227,7 +227,7 @@ var bitakSahebList = [
             link: "https://forms.gle/aEasDBdNq9wDaJPDA"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/95006/883/983"
         },
@@ -261,7 +261,7 @@ var bitakSahebList = [
             link: "https://forms.gle/ZqKquYthM6EkPzug9"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/resource/95048614"
         },
@@ -295,7 +295,7 @@ var bitakSahebList = [
             link: "https://forms.gle/7S2rPHXf7yPHjoPR9"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/95085/549/838"
         },
@@ -329,7 +329,7 @@ var bitakSahebList = [
             link: "https://forms.gle/JNDuXLfYC619EoZ7A"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/resource/95151370"
         },
@@ -363,7 +363,7 @@ var bitakSahebList = [
             link: "https://forms.gle/jeGvmh8DPNmXpMDy5"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/95171/689/838"
         },
@@ -397,7 +397,7 @@ var bitakSahebList = [
             link: "https://forms.gle/ZuMMAypEaqvCv8Ti8"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/95209/975/819"
         },
@@ -431,7 +431,7 @@ var bitakSahebList = [
             link: "https://forms.gle/xLk1UjCRZbmAchbb6"
         },
         game: {
-            title: "ज्ञानवर्धक खेल",
+            title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/resource/95241481"
         },
@@ -439,6 +439,40 @@ var bitakSahebList = [
             youtube_embed: "",
             facebook_embed: "",
             title: "#12 बीतक - Beetak is a MIRROR for HEART",
+            subtext: ""
+        }
+    },
+    {
+        id: 13,
+        date: { day: "27", month: "July", year: "2025" },
+        title: "श्रीजी की करुणा और बिहारीजी की मर्यादा में टकराव, धाराभाई का निष्कासन",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 13 - श्री बीतक साहेब - श्रीजी की करुणा और बिहारीजी की मर्यादा में टकराव, धाराभाई का निष्कासन",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day13.png",
+        link: "https://youtu.be/QlTpOxOd23E?si=3a-nQtWzR6zmKo6d",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 13 Dive deeper. Truth isn't on the surface.",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day13.jpeg",
+        },
+        quote: {
+            text: "बहुत खीझ के कह्या, इनें करों न दाखिल साथ। <br> इनका दुख मोहे बहुत है, याके कबहुं न पकड़ो हाथ।।<br> <br> तब श्री जी साहिब जी नें, दिन दोय चार बीच डार। <br> फेर अरज विनती करी, तुम इनका करो विचार।। <br> ",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 13",
+            link: "https://forms.gle/s6j5jTfWqh5bqPqi7"
+        },
+        game: {
+            title: "ज्ञानवर्धक गेम्स",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: "https://wordwall.net/play/95255/642/796"
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "",
+            title: "",
             subtext: ""
         }
     }
@@ -496,7 +530,7 @@ function displaykarkhanaNames(divid, bitakSaheb) {
                                             <i data-feather="help-circle" class="mb-2 "></i><br>
                                             <div class="question">${bitakSaheb[i].qa.question}  </div>
                                             <div class="answer">${bitakSaheb[i].qa.answer}</div>
-                                            <a target="_blank" class="btn btn-primary pulse-btn-sm " href="${bitakSaheb[i].qa.link}">अभी क्लिक करें</a> 
+                                            <a target="_blank" class="btn btn-primary pulse-btn-sm " href="${bitakSaheb[i].qa.link}">बीतक क्विज़</a> 
                                         </div>
                                     </div>
                                     <div class="col-sm-6 ${bitakSaheb[i].qa && bitakSaheb[i].game.link.trim() !== '' ? '' : 'd-none'}">
@@ -505,7 +539,7 @@ function displaykarkhanaNames(divid, bitakSaheb) {
                                             <div class="game-title">${bitakSaheb[i].game.title}</div>
                                             <div class="game-desc">${bitakSaheb[i].game.description}</div>
                                             <a href="${bitakSaheb[i].game.link}" target="_blank"
-                                                class="btn btn-primary pulse-btn-sm  "> अभी खेलें</a>
+                                                class="btn btn-primary pulse-btn-sm  "> बीतक गेम्स खेलें</a>
                                         </div>
                                     </div>
                                     <div class="col-sm-6 ${bitakSaheb[i].qa && bitakSaheb[i].quote.text.trim() !== '' ? '' : 'd-none'}">

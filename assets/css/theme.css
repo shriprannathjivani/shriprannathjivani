@@ -5456,3 +5456,72 @@ div#eventListContainer ul#eventList li:last-child {
 }
 
 /* timeline */
+
+
+/*  Bitak saheb call to action */
+.bitakSaheb_calltoaction {}
+
+.bitakSaheb_calltoaction .b_c_bg {
+  background-color: #1d2352;
+  padding: 3rem 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border-radius: 24px;
+}
+
+.bitakSaheb_calltoaction .image-float {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  transform: scale(2);
+}
+
+.bitakSaheb_calltoaction .b_calltoaction_title {
+  font-size: 3.4rem;
+  margin-bottom: 1rem;
+  line-height: 4rem;
+  margin-top: 0rem;
+  color: #ffffff;
+  font-family: 'Arya';
+}
+
+.bitakSaheb_calltoaction .b_calltoaction_subtext {
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .bitakSaheb_calltoaction .b_calltoaction_title {
+    font-size: 2.0rem;
+    margin-bottom: 1rem;
+    line-height: 40px;
+    margin-top: 0rem;
+    color: #ffffff;
+    font-family: 'Arya';
+    text-align: center;
+  }
+
+  .bitakSaheb_calltoaction {
+    padding: 30px;
+  }
+
+  .bitakSaheb_calltoaction .b_c_bg {
+    padding: 1rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .bitakSaheb_calltoaction .b_calltoaction_subtext {
+    font-size: 1.2rem;
+    color: #ffffff;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .bitakSaheb_calltoaction .image-float {
+    margin-top: 70px;
+    margin-bottom: 67px;
+    transform: scale(1.9);
+  }
+}
