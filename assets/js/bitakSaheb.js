@@ -437,8 +437,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "",
-            title: "#12 बीतक - Beetak is a MIRROR for HEART",
+            facebook_embed: "2F1806151253645136",
+            title: "#12 बीतक - मिश्री की ईंटों से बनता प्रेम का मकान",
             subtext: ""
         }
     },
@@ -468,6 +468,40 @@ var bitakSahebList = [
             title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/95255/642/796"
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "2F4610386935854218",
+            title: "#13 बीतक - पाँचवें दिन के सुंदरसाथ - 30 दिनों का लक्ष्य 3 दिन में प्राप्त, छठे दिन के सुंदरसाथ - आपस के विवादों में ऊर्जा समाप्त",
+            subtext: ""
+        }
+    },
+    {
+        id: 14,
+        date: { day: "28", month: "July", year: "2025" },
+        title: "श्री जी और बिहारी जी के सिद्धांतों में अंतर",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 14 - श्री बीतक साहेब - सोनिया जी (ऑस्ट्रेलिया) - श्री जी और बिहारी जी के सिद्धांतों में अंतर",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day14.png",
+        link: "https://youtu.be/ME4nqRzEvYA?si=AD9yZq7100cFlOeK",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 14 You don't just read Bitak. You return to yourself.",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day14.jpeg",
+        },
+        quote: {
+            text: "तब श्री जी साहिब जी नें, दिन दोय चार बीच डार। <br> फेर अरज विनती करी, तुम इनका करो विचार।। ",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 14",
+            link: "https://forms.gle/RCwwbeDR3TqN19sa6"
+        },
+        game: {
+            title: "ज्ञानवर्धक गेम्स",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: "https://wordwall.net/play/95292/216/337"
         },
         reel: {
             youtube_embed: "",
