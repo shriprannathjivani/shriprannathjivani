@@ -509,6 +509,40 @@ var bitakSahebList = [
             title: "",
             subtext: ""
         }
+    },
+    {
+        id: 15,
+        date: { day: "29", month: "July", year: "2025" },
+        title: "श्री जी और बिहारी जी के मार्ग हुए विमुख",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 15 - श्री बीतक साहेब - सोनिया जी (ऑस्ट्रेलिया) - श्री जी और बिहारी जी के मार्ग हुए विमुख",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day15.png",
+        link: "https://youtu.be/kyxhAIOSem8?si=agamf5FPgpXlQwUi",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 15 Truth isn’t taught. It’s felt through Bitak.",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day15.jpeg",
+        },
+        quote: {
+            text: "तब श्री जी साहिब जी नें, दिन दोय चार बीच डार। <br> फेर अरज विनती करी, तुम इनका करो विचार।। ",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 15",
+            link: "https://forms.gle/BPQ8yR4EVxpvBe9w6"
+        },
+        game: {
+            title: "ज्ञानवर्धक गेम्स",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: "https://wordwall.net/resource/95336574"
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "",
+            title: "",
+            subtext: ""
+        }
     }
 ]
 

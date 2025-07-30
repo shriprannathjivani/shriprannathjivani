@@ -19,6 +19,11 @@ var calendarList = [
         id: "4",
         name: 'जुलाई 2025 / July 2025',
         link: "assets/img/calendar/Spjv calendar Final july.png"
+    },
+    {
+        id: "5",
+        name: 'अगस्त 2025 / Agust 2025',
+        link: "assets/img/calendar/Spjv calendar august.png"
     }
 ]
 
@@ -127,6 +132,24 @@ const events = {
     },
     "2025-07-15": {
         text: "पंचमी भंडारा, श्री बीतक चर्चा प्रारंभ श्रावण कृष्ण 05 मंगलवार",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-08-09": {
+        text: "रक्षा बंधन (बीतक में श्रीजी और छत्रसाल भेंट प्रसंग) भाद्रपद कृष्ण 08 - शनिवार",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-08-16": {
+        text: "श्री कृष्ण जन्माष्टमी (श्री बीतक चर्चा की पूणाहुति) भाद्रपद कृष्ण 08 - शनिवार",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-08-17": {
+        text: "श्री राज प्रगटन महोत्सव - भाद्रपद कृष्ण नवमी - रविवार",
         bgColor: "#99093a",
         textColor: "#fff",
         image: ""
