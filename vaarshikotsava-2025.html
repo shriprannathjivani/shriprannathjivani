@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="hi">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>श्री प्राणनाथ ज्ञानपीठ वार्षिक उत्सव</title>
+  <title>श्री प्राणनाथ ज्ञानपीठ वार्षिक उत्सव - 2025</title>
   <style>
     html {
       scroll-behavior: smooth;
     }
+
     body {
-      font-family: 'Noto Sans Devanagari', sans-serif;
+      font-family: 'Arya', sans-serif;
       margin: 0;
       padding: 0;
       line-height: 1.6;
       color: #222;
       background: #fff;
+      background-repeat: repeat;
+      background-image: url('assets/img/spjin-2025/page_bg.jpg');
     }
+
     header {
       background: #f5f5f5;
       text-align: center;
@@ -23,152 +28,945 @@
       position: sticky;
       top: 0;
       z-index: 999;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     }
+
     nav {
-      background: #d9e2ec;
+      background: #edede8;
       text-align: center;
       padding: 10px;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      position: sticky;
+      top: 0;
+      z-index: 111;
     }
+
     nav a {
       margin: 5px 10px;
       text-decoration: none;
-      color: #333;
-      font-weight: bold;
-      padding: 8px 12px;
-      border-radius: 5px;
+      color: #9c2721;
+      font-size: 1.5rem;
+      padding: 8px 32px;
+      border-radius: 0px;
+      border-bottom: 4px solid transparent;
       transition: background 0.3s;
     }
+
     nav a:hover {
-      background: #c1d3e2;
+      border-bottom: 4px solid;
+      border-radius: 0;
     }
-    section {
+
+    .section {
       padding: 40px 20px;
       max-width: 1000px;
       margin: auto;
     }
+
     h2 {
       color: #963c30;
       margin-bottom: 10px;
     }
+
     .highlight {
       background: #fef6e4;
-      border-left: 4px solid #e07a5f;
       padding-left: 10px;
       margin-top: 20px;
     }
+
     ul {
       padding-left: 20px;
     }
+
     footer {
       background: #333;
       color: #fff;
       text-align: center;
       padding: 20px;
     }
+
     @media (max-width: 768px) {
       header h1 {
         font-size: 1.5rem;
       }
+
       nav a {
         font-size: 0.9rem;
         padding: 6px 8px;
       }
+
       section {
         padding: 20px 10px;
       }
     }
+
+    .hero-section img {
+      width: 100%;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid #ccc;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      text-align: left;
+    }
+
+    .vaarshikotsava-banner {
+      text-align: center;
+      padding: 23px 20px;
+    }
+
+    .vaarshikotsava-banner h1 {
+      font-size: 3.5rem;
+      color: #3F51B5;
+      margin-bottom: 10px;
+      font-family: Arya;
+      margin-bottom: 0;
+      line-height: 64px;
+      margin-top: 0;
+      padding-top: 3rem;
+    }
+
+    .vaarshikotsava-banner hr {
+      width: 260px;
+      border-style: dashed;
+      color: #b3b9be;
+    }
+
+    .vaarshikotsava-banner .subtitle {
+      font-size: 1.5rem;
+      color: #5c5c5c;
+      margin-top: 0;
+      font-family: Arya;
+      margin-bottom: 30px;
+      font-weight: 100;
+    }
+
+    .vaarshikotsava-banner .date-location p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #444;
+      line-height: 27px;
+    }
+
+    .vaarshikotsava-banner .date-location p strong {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #9f1111;
+      margin: 0;
+      display: block;
+    }
+
+    .vaarshikotsava-banner .date-location {
+      font-size: 1.4rem;
+      font-family: arya;
+    }
+
+    .vaarshikotsava-banner .view-direction {
+      display: inline-block;
+      margin-top: 24px;
+      color: #ffff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 70px;
+    }
+
+    .vaarshikotsava-banner .description {
+      color: #6f6f6f;
+      font-size: 1.5rem;
+      font-family: arya;
+      line-height: 30px;
+    }
+
+    .vaarshikotsava-banner .container {
+      border: 2px solid;
+      border-style: dashed;
+      border-color: #cb9784;
+      padding: 3rem 0px;
+    }
+
+    .vaarshikotsava-banner .highlight-name {
+      color: #c4410a;
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin: 10px 0 30px;
+    }
+
+    .vaarshikotsava-banner .highlight-name img {
+      width: 230px;
+      display: block;
+      margin: 22px auto;
+    }
+
+    .register-btn {
+      display: inline-block;
+      margin-top: 8px;
+      color: #ffff;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 70px;
+    }
+
+    .register-btn:hover {
+      background: #a83205;
+    }
+
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.5rem;
+      }
+
+      nav a {
+        font-size: 0.9rem;
+        padding: 6px 8px;
+      }
+
+      section {
+        padding: 20px 10px;
+      }
+
+      .vaarshikotsava-banner h1 {
+        font-size: 1.8rem;
+      }
+
+      .vaarshikotsava-banner .subtitle {
+        font-size: 1rem;
+      }
+
+      .vaarshikotsava-banner .description,
+      .vaarshikotsava-banner .date-location p {
+        font-size: 1rem;
+      }
+
+      .vaarshikotsava-banner .highlight-name {
+        font-size: 1.3rem;
+      }
+    }
+
+    .pulse-button {
+      padding: 14px 32px;
+      background-color: #e91e63;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      box-shadow: 0 0 0 0 rgba(233, 30, 99, 0.7);
+      animation: pulse 1.8s infinite;
+      transition: all 0.3s ease;
+    }
+
+    .pulse-button:hover {
+      background-color: #ff4081;
+    }
+
+    @keyframes pulse {
+      0% {
+        box-shadow: 0 0 0 0 rgba(233, 30, 99, 0.7);
+      }
+
+      70% {
+        box-shadow: 0 0 0 18px rgba(233, 30, 99, 0);
+      }
+
+      100% {
+        box-shadow: 0 0 0 0 rgba(233, 30, 99, 0);
+      }
+    }
+
+    .daywise-schedule {
+      background: linear-gradient(180deg, #edede800, #edede8);
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .daywise-schedule h2 {
+      font-size: 2.5rem;
+      color: #1f2e5a;
+      margin-bottom: 30px;
+    }
+
+    .schedule-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .schedule-card {
+      background: #fff;
+      border: none;
+      border-radius: 0;
+      padding: 25px 20px;
+      width: 100%;
+      max-width: 420px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+      text-align: left;
+    }
+
+    .schedule-card h3 {
+      font-size: 1.7rem;
+      color: #2d3e50;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+
+    .schedule-card h4 {
+      color: #9c2721;
+      font-size: 1.5rem;
+      margin-top: 15px;
+    }
+
+    .schedule-card p {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #444;
+      line-height: 27px;
+    }
+
+    .schedule-card strong {
+      color: #2d3e50;
+    }
+
+    @media (max-width: 768px) {
+      .schedule-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .schedule-body {
+      border-style: dashed;
+      border-color: #cb9784;
+      padding: 1px 30px;
+      height: 100%;
+      text-align: center;
+    }
+
+    .schedule-body hr {
+      width: 260px;
+      border-style: dashed;
+      color: #b3b9be;
+    }
+
+    hr {
+      width: 260px;
+      border-style: dashed;
+      color: #b3b9be;
+    }
+
+    .evening-events {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .evening-events h2 {
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+      color: #1a2340;
+      display: inline-block;
+      padding-bottom: 10px;
+    }
+
+    .events-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+      align-items: flex-start;
+    }
+
+    .event-timeline {
+      flex: 1 1 360px;
+    }
+
+    .event-timeline ul {
+      list-style: none;
+      padding-left: 0;
+      border-left: 3px solid #dcdcdc;
+      margin: 0;
+      position: relative;
+    }
+
+    .event-timeline li {
+      padding: 8px 16px;
+      margin-bottom: 8px;
+      position: relative;
+    }
+
+    .event-timeline li::before {
+      content: '';
+      width: 14px;
+      height: 14px;
+      background: #dcdcdc;
+      border-radius: 50%;
+      position: absolute;
+      left: -8px;
+      top: 5px;
+    }
+
+    .event-timeline li.highlight::before {
+      background: #e65100;
+    }
+
+    .event-timeline h4 {
+      margin: 0;
+      font-size: 1.1rem;
+      color: #1a1a1a;
+    }
+
+    .event-timeline p {
+      margin: 5px 0 0;
+      font-size: 0.95rem;
+      color: #666;
+    }
+
+    .event-timeline li.highlight h4 {
+      color: #d84315;
+    }
+
+    .event-timeline li.highlight p {
+      color: #d84315;
+    }
+
+    .event-image {
+      flex: 1 1 500px;
+      text-align: center;
+    }
+
+    .event-image img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    @media (max-width: 768px) {
+      .events-container {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .topics-section {
+      background: #fefefe;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .topics-section h2 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #1c2b4a;
+    }
+
+    .topic-tabs {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 40px;
+      flex-wrap: wrap;
+    }
+
+    .topic-tabs .tab {
+      background: #fff;
+      border: 2px solid #ccc;
+      border-radius: 25px;
+      padding: 10px 25px;
+      font-weight: bold;
+      color: #333;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    .topic-tabs .tab.active {
+      background: #1a275c;
+      color: #fff;
+    }
+
+    .topic-tabs .tab span {
+      display: block;
+      font-weight: normal;
+      font-size: 0.85rem;
+      margin-top: 5px;
+      color: inherit;
+    }
+
+    .topics-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .topic-card {
+      border: 1px solid #d3d3d3;
+      border-radius: 15px;
+      padding: 20px;
+      background: #fff;
+      text-align: center;
+      transition: 0.3s ease;
+    }
+
+    .topic-card:hover {
+      background: #f5f7fa;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    }
+
+    .topic-card .day {
+      background: #ccc;
+      padding: 5px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      display: inline-block;
+      margin-bottom: 10px;
+      font-weight: bold;
+      color: #1a275c;
+    }
+
+    .topic-card h3 {
+      font-size: 1.1rem;
+      color: #1f2b4a;
+      margin: 0;
+    }
+
+    .travel-guide {
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .travel-guide h2 {
+      font-size: 2.5rem;
+      text-align: center;
+      margin-bottom: 40px;
+      color: #2b2b2b;
+    }
+
+    .travel-card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .travel-card {
+      position: relative;
+      background-color: #fff;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 480px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .travel-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .travel-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      display: block;
+    }
+
+    .travel-card .card-content {
+      padding: 20px;
+    }
+
+    .travel-card h3 {
+      font-size: 1.4rem;
+      margin: 0 0 10px;
+      color: #333;
+    }
+
+    .travel-card p {
+      margin: 0;
+      font-size: 1rem;
+      line-height: 1.5;
+      color: #555;
+    }
+
+    @media (max-width: 768px) {
+      .travel-card-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .contact-grid-section {
+  padding: 60px 20px;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-grid-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #2c3e50;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.contact-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+  padding: 25px 20px;
+  transition: transform 0.2s ease;
+  text-align: left;
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+}
+
+.contact-card h3 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  color: #34495e;
+}
+
+.contact-card p {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.contact-card a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+}
+
+  </style>
+
   </style>
 </head>
+
 <body>
 
-<header id="home">
-  <h1>श्री प्राणनाथ ज्ञानपीठ वार्षिक उत्सव 2025</h1>
-  <p>14 से 20 सितंबर | श्री प्राणनाथ ज्ञानपीठ</p>
-</header>
+  <section id="home" class="hero-section">
+    <img src="assets/img/spjin-2025/hero-2025.png">
+  </section>
 
-<nav>
-  <a href="#welcome">स्वागत</a>
-  <a href="#programme">कार्यक्रम</a>
-  <a href="#evening">विशेष संध्या</a>
-  <a href="#daywise">दिवसवार चर्चा</a>
-  <a href="#travel">यात्रा व भोजन</a>
-  <a href="#contribution">योगदान</a>
-  <a href="#swamiji">स्वामीजी</a>
-</nav>
+  <nav>
+    <a href="#welcome">निमन्त्रण</a>
+    <a href="#daywise-schedule">कार्यक्रम</a>
+    <a href="#evening">विशेष संध्या</a>
+    <a href="#daywise">दिवसवार चर्चा</a>
+    <a href="#travel">यात्रा व भोजन</a>
+    <a href="#contribution">योगदान</a>
+    <a href="#swamiji">स्वामीजी</a>
+  </nav>
+  <section id="welcome" class="vaarshikotsava-banner">
+    <div class="container">
+      <h1>श्री प्राणनाथ ज्ञानपीठ के <br>19वें वार्षिकोत्सव 2025</h1>
+      <h3 class="subtitle">आत्मीय प्रेमभरा निमन्त्रण</h3>
+      <hr>
+      <div class="date-location">
+        <p><strong>तिथि:</strong> 14 से 20 सितम्बर 2025<br> <strong>स्थान:</strong> श्री प्राणनाथ ज्ञानपीठ परिसर,
+          <br> नकुड़ रोड, सरसावा <br>
+          सहारनपुर, उत्तर प्रदेश – २४७२३२
+          भारत
+        </p>
+        <a href="https://maps.app.goo.gl/cuWQhgQ42SrbqD3t9" target="_blank" class="view-direction pulse-button">View
+          Direction</a>
+      </div>
+      <p class="description">
+        ध्यान, वाणी मन्थन और सेवा ही <br> सुन्दरसाथ की आत्मिक सम्पति है।
+      </p>
+      <hr>
+      <p class="highlight-name"> <img src="assets/img/spjin-2025/swamiji_name.png" </p>
 
-<section id="welcome">
-  <h2>सादर स्वागत</h2>
-  <p>सभी सुंदर साथ को सादर प्रणाम जी। प्राणधार सुंदर साथ जी हर वर्ष की भांति इस वर्ष भी श्री प्राणनाथ ज्ञानपीठ का वार्षिक उत्सव हर्षोल्लास के साथ मनाया जा रहा है और इस वर्ष पिछले वर्ष की तरह ही 14 से 20 सितंबर की तिथि है।</p>
-  <p>यदि आप विश्वस्तरीय ब्रह्मवाणी की चर्चा, शास्त्रीय कलाकारों द्वारा ब्रह्मवाणी गायन, सामूहिक चितवनी एवं बच्चों की सुंदर प्रस्तुतियों का आनंद लेना चाहते हैं, तो कृपया समय रहते अपनी टिकट अवश्य बुक कराएं।</p>
-</section>
+    </div>
+  </section>
+  <section id="daywise-schedule" class="daywise-schedule">
+    <h2>कार्यक्रम अनुसूची</h2>
+    <div class="schedule-container">
+      <!-- Day 1 to 7 -->
+      <div class="schedule-card">
+        <div class="schedule-body">
+          <h3>दिन 1 से 6 (14 - 19 सितंबर)</h3>
+          <hr />
+          <h4>प्रातःकाल</h4>
+          <p><strong>4:00 AM - 6:00 AM</strong><br>
+            चितवनी (ध्यान व स्मरण)</p>
 
-<section id="programme">
-  <h2>कार्यक्रम की प्रमुख झलकियाँ</h2>
-  <div class="highlight">
-    <p><strong>दिनांक:</strong> बुधवार, 14 - मंगलवार, 20 सितंबर</p>
-    <p><strong>प्रात:</strong> 7:30 - 8:30 : पावन स्नात्र पूजा</p>
-    <p><strong>8:30 - 10:00:</strong> पूज्य स्वामीजी का प्रवचन - 'प्रेम रहस्य'</p>
-    <p><strong>संध्या:</strong> 7:30 - 8:30 : सांस्कृतिक प्रस्तुतियाँ</p>
-    <p><strong>8:30 - 10:00:</strong> पूज्य स्वामीजी का प्रवचन - आत्मा का पथ</p>
+          <p><strong>6:00 AM - 7:30 AM</strong><br>
+            भोजन समय (प्रातः नाश्ता)</p>
+
+          <p><strong>8:00 AM - 12:00 PM</strong><br>
+            ब्रह्मवाणी चर्चा - विभिन्न वक्ताओं एवं पूज्य स्वामीजी द्वारा</p>
+
+          <hr />
+
+          <h4>दोपहर</h4>
+          <p><strong>1:00 PM - 2:00 PM</strong><br>
+            मध्याह्न भोजन</p>
+
+          <p><strong>3:00 PM - 5:00 PM</strong><br>
+            पुनः ब्रह्मवाणी चर्चा</p>
+
+          <p><strong>5:00 PM - 6:00 PM</strong><br>
+            जलपान एवं विश्राम</p>
+
+          <hr />
+
+          <h4>संध्या</h4>
+          <p><strong>6:30 PM - 7:30 PM</strong><br>
+            चर्चा, संगीत, वाणी गायन</p>
+
+          <p><strong>9:00 PM - 11:00 PM</strong><br>
+            विशेष संध्या चर्चा एवं ब्रह्मवाणी गायन</p>
+        </div>
+      </div>
+
+      <!-- Day 8 -->
+      <div class="schedule-card">
+        <div class="schedule-body">
+          <h3>दिन 7 (20 सितंबर)</h3>
+          <hr />
+          <h4>प्रातःकाल</h4>
+          <p><strong>4:00 AM - 6:00 AM</strong><br>
+            चितवनी (ध्यान व स्मरण)</p>
+
+          <p><strong>6:00 AM - 7:30 AM</strong><br>
+            भोजन समय (प्रातः नाश्ता)</p>
+
+          <p><strong>10:30 AM - 12:00 PM</strong><br>
+            पूज्य स्वामीजी का प्रवचन</p>
+
+          <hr />
+
+          <h4>दोपहर</h4>
+          <p><strong>1:00 PM - 2:00 PM</strong><br>
+            मध्याह्न भोजन</p>
+          <p><strong>3:00 PM - 6:00 PM</strong><br>
+            भाव भरे पूज्य स्वामीजी के आशीर्वाद के साथ<br>
+            सुंदर साथ जी की माया में वापसी</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="evening" class="evening-events section">
+    <h2>विशेष संध्या आयोजन</h2>
+    <div class="events-container">
+      <div class="event-timeline">
+        <ul>
+          <li class="highlight">
+            <h4>ब्रह्मवाणी की दिव्य चर्चा</h4>
+            <p>विभिन्न वक्ताओं द्वारा आत्मा, ब्रह्म और धर्म पर गहन विचार-विमर्श।</p>
+          </li>
+          <li>
+            <h4>सुप्रसिद्ध शास्त्रीय कलाकारों द्वारा ब्रह्मवाणी गायन</h4>
+            <p>प्रसिद्ध कलाकारों द्वारा रागबद्ध शैली में दिव्य वाणी का गायन।</p>
+          </li>
+          <li>
+            <h4>प्रातः सामूहिक चितवनी</h4>
+            <p>सभी सुंदरसाथों द्वारा एक साथ ध्यान और स्मरण का शुभारंभ।</p>
+          </li>
+          <li>
+            <h4>बच्चों द्वारा सांस्कृतिक प्रस्तुतियाँ</h4>
+            <p>नन्हें-मुन्नों द्वारा भक्ति और प्रेरणादायक नाट्य रूपांतरण।</p>
+          </li>
+          <li>
+            <h4>आत्मिक मिलन और भक्ति का अनुपम संगम</h4>
+            <p>सभी आत्माओं का एक दिव्य मंच पर मिलन और प्रेमपूर्वक भक्ति का अनुभव।</p>
+          </li>
+        </ul>
+      </div>
+      <div class="event-image">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ee9DAn5tuB4?si=E4zEKaP0l0sKJUjg"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </section>
+
+  <section id="daywise" class="topics-section">
+    <h2>दिवस अनुसार विषय</h2>
+    <div class="topics-grid">
+      <div class="topic-card">
+        <span class="day">दिन 1</span>
+        <h3>रास</h3>
+        <p>यह ग्रंथ परब्रह्म परमात्मा द्वारा प्रेम की लीला का वर्णन करता है, जिसमें आनंद अंग श्यामा जी और ब्रह्मात्माओं
+          के साथ योगमाया में प्रेम विलास किया गया।</p>
+      </div>
+      <div class="topic-card">
+        <span class="day">दिन 2</span>
+        <h3>प्रकाश</h3>
+        <p>प्रकाश ग्रंथ में परमात्मा के गुण, सद्गुरु की पहचान और आत्मज्ञान की महिमा को विस्तृत रूप से दर्शाया गया है।
+        </p>
+      </div>
+      <div class="topic-card">
+        <span class="day">दिन 3</span>
+        <h3>खटरुती</h3>
+        <p>छः ऋतुओं के माध्यम से विरहिणी आत्मा की तड़प और अपने प्रियतम की प्रतीक्षा को मार्मिकता से प्रस्तुत किया गया
+          है।</p>
+      </div>
+      <div class="topic-card">
+        <span class="day">दिन 4</span>
+        <h3>खिलवत</h3>
+        <p>यह ग्रंथ आत्मा को संसार से हटाकर परमधाम की ओर ले जाने का मार्ग दिखाता है और मारिफ़त की ऊँचाई को छूता है।</p>
+      </div>
+      <div class="topic-card">
+        <span class="day">दिन 5</span>
+        <h3>परिकरमा</h3>
+        <p>परमधाम के 25 पक्षों का विस्तृत वर्णन है, जिसे पढ़कर ऐसा लगता है जैसे आत्मा स्वयं परमधाम में विचरण कर रही हो।
+        </p>
+      </div>
+      <div class="topic-card">
+        <span class="day">दिन 6</span>
+        <h3>सागर</h3>
+        <p>यह ग्रंथ अक्षरातीत परमात्मा के हृदय के आठ सागरों की गहराई और रहस्य को उजागर करता है।</p>
+      </div>
+      <div class="topic-card">
+        <span class="day">दिन 7</span>
+        <h3>सिनगार</h3>
+        <p>इसमें श्री राज जी के दिव्य श्रृंगार और उनके हृदय के गूढ़ भेदों का सुंदर वर्णन है, जो परमधाम में भी अनजाने थे।
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="travel-guide section" id="travel">
+    <h2>श्री प्राणनाथ ज्ञानपीठ कैसे पहुँचें?</h2>
+    <div class="travel-card-grid">
+
+      <div class="travel-card">
+        <img src="assets/img/spjin-2025/Saharanpur.png" alt="रेलवे स्टेशन">
+        <div class="card-content">
+          <h3>निकटतम रेलवे स्टेशन</h3>
+          <p>सहारनपुर (SRE) और तपरी (TPZ) से श्री प्राणनाथ ज्ञानपीठ तक आसानी से पहुँचा जा सकता है।</p>
+        </div>
+      </div>
+
+      <div class="travel-card">
+        <img src="assets/img/spjin-2025/train.png" alt="वैकल्पिक स्टेशन">
+        <div class="card-content">
+          <h3>वैकल्पिक स्टेशन</h3>
+          <p>अम्बाला, कुरुक्षेत्र, नई दिल्ली, पुरानी दिल्ली, निजामुद्दीन, गाज़ियाबाद, मेरठ, हरिद्वार और देहरादून से भी
+            ट्रेन से पहुँचा जा सकता है।</p>
+        </div>
+      </div>
+
+      <div class="travel-card">
+        <img src="assets/img/spjin-2025/bus.png" alt="बस सेवा">
+        <div class="card-content">
+          <h3>बस सेवा उपलब्ध</h3>
+          <p>उपरोक्त सभी स्थानों से सहारनपुर या सरसावा के लिए नियमित बस सेवाएं उपलब्ध हैं।</p>
+        </div>
+      </div>
+
+      <div class="travel-card">
+        <img src="assets/img/spjin-2025/plane.png" alt="निकटतम एयरपोर्ट">
+        <div class="card-content">
+          <h3>निकटतम एयरपोर्ट</h3>
+          <p>दिल्ली, चंडीगढ़ और देहरादून के हवाई अड्डे नजदीकी हैं, जहाँ से सड़क मार्ग से पहुँचा जा सकता है।</p>
+        </div>
+      </div>
+      <div class="travel-card">
+        <img src="assets/img/spjin-2025/Food.png" alt="निकटतम एयरपोर्ट">
+        <div class="card-content">
+          <h3>निशुल्क भोजन एवं आवास की सुविधा</h3>
+          <p></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<section class="contact-grid-section">
+  <h2>📞 संपर्क करें</h2>
+  <div class="contact-grid">
+
+    <div class="contact-card">
+      <h3>संरक्षक</h3>
+      <p>श्री बसंत सिंह जी</p>
+      <a href="tel:9212324175">📞 9212324175</a>
+    </div>
+
+    <div class="contact-card">
+      <h3>उपसंयोजक</h3>
+      <p>श्री अजय साहू</p>
+      <a href="tel:9824087549">📞 9824087549</a>
+    </div>
+
+    <div class="contact-card">
+      <h3>उपसंयोजक</h3>
+      <p>श्री अरविंद साहू</p>
+      <a href="tel:9825283750">📞 9825283750</a>
+    </div>
+
+    <div class="contact-card">
+      <h3>अध्यक्ष</h3>
+      <p>श्री राजकुमार सिंह जी</p>
+      <a href="tel:6386476985">📞 6386476985</a>
+    </div>
+
+    <div class="contact-card">
+      <h3>उपाध्यक्ष</h3>
+      <p>श्री कमलेश सिंह जी</p>
+      <a href="tel:9824391658">📞 9824391658</a>
+    </div>
+
+    <div class="contact-card">
+      <h3>महासचिव</h3>
+      <p>श्री सतीश सिंह जी</p>
+      <a href="tel:9410216322">📞 9410216322</a>
+    </div>
+
+    <div class="contact-card">
+      <h3>कार्यालय</h3>
+      <p>श्री प्राणनाथ ज्ञानपीठ</p>
+      <a href="tel:7088120381">📞 7088120381</a>
+    </div>
+
   </div>
 </section>
 
-<section id="evening">
-  <h2>विशेष संध्या आयोजन</h2>
-  <ul>
-    <li>भक्ति संगीत और नृत्य नाटिका</li>
-    <li>छात्रों द्वारा आध्यात्मिक प्रस्तुतियाँ</li>
-    <li>विशेष विमोचन एवं सम्मान समारोह</li>
-  </ul>
-</section>
 
-<section id="daywise">
-  <h2>दिवसवार चर्चाएँ</h2>
-  <p>प्रत्येक दिन विशिष्ट विषयों पर प्रवचन, जैसे:</p>
-  <ul>
-    <li>दिन 1: आत्मा की पहचान</li>
-    <li>दिन 2: समर्पण का महत्व</li>
-    <li>दिन 3: गुरु का स्वरूप</li>
-    <li>दिन 4: सच्चा वैराग्य</li>
-    <li>दिन 5: सेवा और प्रेम</li>
-    <li>दिन 6: अंतर्मुखता का पथ</li>
-    <li>दिन 7: ब्रह्म प्राप्ति की अवस्था</li>
-  </ul>
-</section>
 
-<section id="travel">
-  <h2>भोजन एवं यात्रा विवरण</h2>
-  <p><strong>स्थान:</strong> श्री प्राणनाथ ज्ञानपीठ, मध्यप्रदेश</p>
-  <p><strong>कैसे पहुँचे:</strong></p>
-  <ul>
-    <li>नजदीकी रेलवे स्टेशन: सतना</li>
-    <li>बस सुविधा: सभी प्रमुख शहरों से उपलब्ध</li>
-    <li>स्थान पर निशुल्क भोजन एवं आवास की सुविधा</li>
-  </ul>
-</section>
+  <section id="contribution" class="section">
+    <h2>योगदान करें</h2>
+    <p>आप अपने श्रद्धा अनुसार निम्न प्रकार से योगदान कर सकते हैं:</p>
+    <ul>
+      <li>डिजिटल भुगतान: UPI ID: prannathtrust@upi</li>
+      <li>बैंक खाता: श्री प्राणनाथ ज्ञानपीठ ट्रस्ट, खाता संख्या: XXXX, IFSC: ABCD0123456</li>
+    </ul>
+  </section>
 
-<section id="contribution">
-  <h2>योगदान करें</h2>
-  <p>आप अपने श्रद्धा अनुसार निम्न प्रकार से योगदान कर सकते हैं:</p>
-  <ul>
-    <li>डिजिटल भुगतान: UPI ID: prannathtrust@upi</li>
-    <li>बैंक खाता: श्री प्राणनाथ ज्ञानपीठ ट्रस्ट, खाता संख्या: XXXX, IFSC: ABCD0123456</li>
-  </ul>
-</section>
+  <section id="swamiji" class="section">
+    <h2>पूज्य स्वामी जी का संदेश</h2>
+    <p>पूज्य स्वामी जी का जीवन पूर्णतः ब्रह्मवाणी की सेवा को समर्पित रहा है। उनका उद्देश्य प्रत्येक आत्मा को
+      आत्मसाक्षात्कार की ओर अग्रसर करना है। इस आयोजन में उनके सान्निध्य का लाभ लेना आत्मिक उन्नति का श्रेष्ठ साधन है।
+    </p>
+  </section>
 
-<section id="swamiji">
-  <h2>पूज्य स्वामी जी का संदेश</h2>
-  <p>पूज्य स्वामी जी का जीवन पूर्णतः ब्रह्मवाणी की सेवा को समर्पित रहा है। उनका उद्देश्य प्रत्येक आत्मा को आत्मसाक्षात्कार की ओर अग्रसर करना है। इस आयोजन में उनके सान्निध्य का लाभ लेना आत्मिक उन्नति का श्रेष्ठ साधन है।</p>
-</section>
-
-<footer>
-  <p>“प्रभु बिनु कोई नहीं दूजा, नैनन करि दरस तिन्ह देखो।”</p>
-  <p>© 2025 श्री प्राणनाथ ज्ञानपीठ</p>
-</footer>
+  <footer>
+    <p>“प्रभु बिनु कोई नहीं दूजा, नैनन करि दरस तिन्ह देखो।”</p>
+    <p>© 2025 श्री प्राणनाथ ज्ञानपीठ</p>
+  </footer>
 
 </body>
+
 </html>

@@ -539,8 +539,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "",
-            title: "",
+            facebook_embed: "2F2516556442052342",
+            title: "#15 बीतक - बीतक - ये सेवा नहीं आसां...",
             subtext: ""
         }
     },
@@ -570,6 +570,40 @@ var bitakSahebList = [
             title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
             link: "https://wordwall.net/play/95381/732/799"
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "",
+            title: "",
+            subtext: ""
+        }
+    },
+    {
+        id: 17,
+        date: { day: "31", month: "July", year: "2025" },
+        title: "श्रीजी का दिल्ली आगमन, गरीबदास जी का धामधनी से मिलन, कूच किया हरिद्वार की ओर।",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 16 - श्री बीतक साहेब - श्रीजी का दिल्ली आगमन, गरीबदास जी का धामधनी से मिलन, कूच किया हरिद्वार की ओर।",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day17.png",
+        link: "",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 17 This is not content. It’s contact with the divine",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day17.jpeg",
+        },
+        quote: {
+            text: "इन पाती लिखने में रहें, श्री जी और लालदास। <br> रात दिन मेहनत करी, श्री राज सेवन की आस।।",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 17",
+            link: "https://forms.gle/A9unNG8BN6bFBDEx6"
+        },
+        game: {
+            title: "ज्ञानवर्धक गेम्स",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: "https://wordwall.net/play/95422/431/977"
         },
         reel: {
             youtube_embed: "",
