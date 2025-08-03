@@ -608,57 +608,220 @@
     }
 
     .contact-grid-section {
-  padding: 60px 20px;
-  max-width: 1100px;
-  margin: auto;
-  text-align: center;
-}
+      padding: 60px 20px;
+      max-width: 1100px;
+      margin: auto;
+      text-align: center;
+    }
 
-.contact-grid-section h2 {
-  font-size: 2.2rem;
-  margin-bottom: 40px;
-  color: #2c3e50;
-}
+    .contact-grid-section h2 {
+      font-size: 2.2rem;
+      margin-bottom: 40px;
+      color: #2c3e50;
+    }
 
-.contact-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
-}
+    .contact-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
 
-.contact-card {
-  background: #ffffff;
-  border-radius: 16px;
-  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
-  padding: 25px 20px;
-  transition: transform 0.2s ease;
-  text-align: left;
-}
+    .contact-card {
+      background: #ffffff;
+      border-radius: 16px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.07);
+      padding: 25px 20px;
+      transition: transform 0.2s ease;
+      text-align: left;
+    }
 
-.contact-card:hover {
-  transform: translateY(-6px);
-}
+    .contact-card:hover {
+      transform: translateY(-6px);
+    }
 
-.contact-card h3 {
-  margin: 0 0 8px;
-  font-size: 1.2rem;
-  color: #34495e;
-}
+    .contact-card h3 {
+      margin: 0 0 8px;
+      font-size: 1.2rem;
+      color: #34495e;
+    }
 
-.contact-card p {
-  margin: 0 0 10px;
-  font-size: 1rem;
-  color: #555;
-}
+    .contact-card p {
+      margin: 0 0 10px;
+      font-size: 1rem;
+      color: #555;
+    }
 
-.contact-card a {
-  text-decoration: none;
-  color: #007bff;
-  font-weight: bold;
-}
+    .contact-card a {
+      text-decoration: none;
+      color: #007bff;
+      font-weight: bold;
+    }
 
-  </style>
+    .contribution-section {
+      text-align: center;
+      padding: 60px 20px;
+      background: #f8f8f8;
+    }
 
+    .contribution-section h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #2c3e50;
+    }
+
+    .bankDetails {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #444;
+      line-height: 27px;
+    }
+
+    .bankDetails strong {
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: #9f1111;
+      margin: 0;
+      display: block;
+    }
+
+    .contribution-section .subtitle {
+      font-size: 1.5rem;
+      color: #5c5c5c;
+      margin-top: 0;
+      font-family: Arya;
+      margin-bottom: 30px;
+      font-weight: 100;
+    }
+
+    .contribution-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .contribution-card {
+      background: white;
+      border-radius: 16px;
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.08);
+      padding: 20px;
+      width: 280px;
+      text-align: center;
+    }
+
+    .progress-circle {
+      position: relative;
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      background:
+        conic-gradient(var(--color) calc(var(--progress) * 1%), #e0e0e0 0%);
+      margin: 0 auto 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .progress-circle img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      object-fit: cover;
+      position: absolute;
+    }
+
+    .progress-circle .percent {
+      position: absolute;
+      font-size: 1.2rem;
+      font-weight: bold;
+      color: var(--color);
+      top: -10px;
+      right: -10px;
+      background: white;
+      padding: 4px 8px;
+      border-radius: 12px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .contribution-card h3 {
+      font-size: 1.2rem;
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .contribution-card p {
+      font-size: 0.95rem;
+      color: #666;
+      margin-bottom: 15px;
+    }
+
+    .contribution-card button {
+      background: var(--color);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .contribution-card button:hover {
+      background: #111;
+    }
+
+    @media (max-width: 768px) {
+      .contribution-grid {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    .satguru-section {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+      flex-wrap: wrap;
+    }
+
+    .satguru-text {
+      flex: 1;
+      min-width: 300px;
+      padding-right: 40px;
+    }
+
+    .satguru-text h2 {
+      font-size: 2rem;
+      color: #1f2f56;
+      margin-bottom: 10px;
+    }
+
+    .satguru-text p {
+      color: #2c3e50;
+      font-size: 1.05rem;
+      line-height: 1.6;
+    }
+
+    .satguru-text strong {
+      color: #1f2f56;
+    }
+
+    .satguru-image {
+      flex: 1;
+      text-align: center;
+      min-width: 250px;
+    }
+
+    .satguru-image img {
+      width: 100%;
+      max-width: 350px;
+      height: auto;
+      border-radius: 20px;
+    }
   </style>
 </head>
 
@@ -895,71 +1058,114 @@
     </div>
   </section>
 
-<section class="contact-grid-section">
-  <h2>📞 संपर्क करें</h2>
-  <div class="contact-grid">
+  <section class="contact-grid-section">
+    <h2>📞 संपर्क करें</h2>
+    <div class="contact-grid">
 
-    <div class="contact-card">
-      <h3>संरक्षक</h3>
-      <p>श्री बसंत सिंह जी</p>
-      <a href="tel:9212324175">📞 9212324175</a>
+      <div class="contact-card">
+        <h3>संरक्षक</h3>
+        <p>श्री बसंत सिंह जी</p>
+        <a href="tel:9212324175">📞 9212324175</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>उपसंयोजक</h3>
+        <p>श्री अजय साहू</p>
+        <a href="tel:9824087549">📞 9824087549</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>उपसंयोजक</h3>
+        <p>श्री अरविंद साहू</p>
+        <a href="tel:9825283750">📞 9825283750</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>अध्यक्ष</h3>
+        <p>श्री राजकुमार सिंह जी</p>
+        <a href="tel:6386476985">📞 6386476985</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>उपाध्यक्ष</h3>
+        <p>श्री कमलेश सिंह जी</p>
+        <a href="tel:9824391658">📞 9824391658</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>महासचिव</h3>
+        <p>श्री सतीश सिंह जी</p>
+        <a href="tel:9410216322">📞 9410216322</a>
+      </div>
+
+      <div class="contact-card">
+        <h3>कार्यालय</h3>
+        <p>श्री प्राणनाथ ज्ञानपीठ</p>
+        <a href="tel:7088120381">📞 7088120381</a>
+      </div>
+
     </div>
-
-    <div class="contact-card">
-      <h3>उपसंयोजक</h3>
-      <p>श्री अजय साहू</p>
-      <a href="tel:9824087549">📞 9824087549</a>
-    </div>
-
-    <div class="contact-card">
-      <h3>उपसंयोजक</h3>
-      <p>श्री अरविंद साहू</p>
-      <a href="tel:9825283750">📞 9825283750</a>
-    </div>
-
-    <div class="contact-card">
-      <h3>अध्यक्ष</h3>
-      <p>श्री राजकुमार सिंह जी</p>
-      <a href="tel:6386476985">📞 6386476985</a>
-    </div>
-
-    <div class="contact-card">
-      <h3>उपाध्यक्ष</h3>
-      <p>श्री कमलेश सिंह जी</p>
-      <a href="tel:9824391658">📞 9824391658</a>
-    </div>
-
-    <div class="contact-card">
-      <h3>महासचिव</h3>
-      <p>श्री सतीश सिंह जी</p>
-      <a href="tel:9410216322">📞 9410216322</a>
-    </div>
-
-    <div class="contact-card">
-      <h3>कार्यालय</h3>
-      <p>श्री प्राणनाथ ज्ञानपीठ</p>
-      <a href="tel:7088120381">📞 7088120381</a>
-    </div>
-
-  </div>
-</section>
-
-
-
-  <section id="contribution" class="section">
-    <h2>योगदान करें</h2>
-    <p>आप अपने श्रद्धा अनुसार निम्न प्रकार से योगदान कर सकते हैं:</p>
-    <ul>
-      <li>डिजिटल भुगतान: UPI ID: prannathtrust@upi</li>
-      <li>बैंक खाता: श्री प्राणनाथ ज्ञानपीठ ट्रस्ट, खाता संख्या: XXXX, IFSC: ABCD0123456</li>
-    </ul>
   </section>
 
-  <section id="swamiji" class="section">
-    <h2>पूज्य स्वामी जी का संदेश</h2>
-    <p>पूज्य स्वामी जी का जीवन पूर्णतः ब्रह्मवाणी की सेवा को समर्पित रहा है। उनका उद्देश्य प्रत्येक आत्मा को
-      आत्मसाक्षात्कार की ओर अग्रसर करना है। इस आयोजन में उनके सान्निध्य का लाभ लेना आत्मिक उन्नति का श्रेष्ठ साधन है।
+  <section id="contribution" class="contribution-section">
+    <h2>हमारे योगदान अभियान की प्रगति</h2>
+    <p class="subtitle">आप अपने श्रद्धा अनुसार निम्न प्रकार से योगदान कर सकते हैं:</p>
+
+
+    <div class="contribution-grid">
+      <!-- Contribution Card 1 -->
+      <div class="contribution-card">
+        <div class="progress-circle" style="--progress: 82; --color: #2ecc71">
+          <img src="assets/img/icon_home_why.png" alt="Book image">
+          <span class="percent">82%</span>
+        </div>
+        <h3>ग्रंथ प्रकाशन सेवा</h3>
+        <p>हमारा लक्ष्य है ₹3,30,000 इकट्ठा कर ग्रंथों का प्रकाशन करना।</p>
+        <button>योगदान करें</button>
+      </div>
+
+      <!-- Contribution Card 2 -->
+      <div class="contribution-card">
+        <div class="progress-circle" style="--progress: 91; --color: #f39c12">
+          <img src="assets/img/icon_home_joinus.png" alt="Construction image">
+          <span class="percent">91%</span>
+        </div>
+        <h3>धार्मिक केंद्र निर्माण</h3>
+        <p>हम ₹4,00,000 इकट्ठा कर नया केंद्र बनाना चाहते हैं।</p>
+        <button>योगदान करें</button>
+      </div>
+
+      <!-- Contribution Card 3 -->
+      <div class="contribution-card">
+        <div class="progress-circle" style="--progress: 88; --color: #2980b9">
+          <img src="assets/img/icon_home_kids.png" alt="Kids image">
+          <span class="percent">88%</span>
+        </div>
+        <h3>बाल कल्याण कार्यक्रम</h3>
+        <p>₹2,50,000 की आवश्यकता बच्चों के लिए सुविधाएँ बनाए रखने हेतु।</p>
+        <button>योगदान करें</button>
+      </div>
+    </div>
+    <hr>
+    <p class="bankDetails">
+      डिजिटल भुगतान: <strong>UPI ID:</strong> prannathtrust@upi
+      <strong> बैंक खाता:</strong> श्री प्राणनाथ ज्ञानपीठ ट्रस्ट,<br><strong> खाता संख्या:</strong> XXXX,<br> <strong>
+        IFSC: </strong> ABCD0123456
     </p>
+    <hr>
+  </section>
+
+  <section id="swamiji" class="satguru-section">
+    <div class="satguru-text">
+      <h2>पूज्य स्वामी जी का संदेश</h2>
+      <p><strong> पूज्य स्वामी जी </strong> का जीवन पूर्णतः ब्रह्मवाणी की सेवा को समर्पित रहा है। उनका उद्देश्य प्रत्येक
+        आत्मा को
+        आत्मसाक्षात्कार की ओर अग्रसर करना है। इस आयोजन में उनके सान्निध्य का लाभ लेना आत्मिक उन्नति का श्रेष्ठ साधन है।
+      </p>
+    </div>
+    <div class="satguru-image">
+      <img src="assets/img/spjin-2025/swamiji_with_photo.png" alt="परम पूज्य सतगुरुदेव">
+    </div>
   </section>
 
   <footer>
