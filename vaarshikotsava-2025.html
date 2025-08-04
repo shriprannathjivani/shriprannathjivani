@@ -67,6 +67,11 @@
       transition: background 0.3s;
     }
 
+    nav a.active {
+      color: #9c2721;
+      border-bottom: 4px solid #9c2721;
+    }
+
     nav a:hover {
       border-bottom: 4px solid;
       border-radius: 0;
@@ -1475,7 +1480,8 @@
               वो भी वैज्ञानिक सिद्धांतों से युक्त आध्यात्मिक मूल्यों के आधार पर।
             </p>
             <p class="mission">
-              <strong>उनका उद्देश्य:</strong> " प्रत्येक आत्मा को प्रेममयी ब्रह्मवाणी से जाग्रत करना और परमात्मा के धाम तक
+              <strong>उनका उद्देश्य:</strong> " प्रत्येक आत्मा को प्रेममयी ब्रह्मवाणी से जाग्रत करना और परमात्मा के धाम
+              तक
               पहुँचाना "
             </p>
           </div>
@@ -1497,5 +1503,27 @@
     <p>© 2025 श्री प्राणनाथ ज्ञानपीठ.</p>
   </footer>
 </body>
+<script>
+  window.addEventListener("scroll", () => {
+    const sections = document.querySelectorAll("section[id]");
+    const navLinks = document.querySelectorAll("nav a");
+
+    let currentSection = "";
+
+    sections.forEach((section) => {
+      const sectionTop = section.offsetTop - 100; // offset for fixed header
+      if (pageYOffset >= sectionTop) {
+        currentSection = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach((link) => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === `#${currentSection}`) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
 
 </html>
