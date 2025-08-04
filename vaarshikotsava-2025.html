@@ -77,6 +77,18 @@
       border-radius: 0;
     }
 
+    #scroll-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 4px;
+      background: #9c2721;
+      /* or any brand color */
+      width: 0%;
+      z-index: 9999;
+      transition: width 0.25s ease;
+    }
+
     .section {
       padding: 40px 20px;
       max-width: 1000px;
@@ -811,8 +823,8 @@
     }
 
     .progress-circle img {
-      width: 90px;
-      height: 90px;
+      width: 100px;
+      height: 100px;
       border-radius: 50%;
       object-fit: cover;
       position: absolute;
@@ -1095,11 +1107,11 @@
 </head>
 
 <body>
-
   <section id="home" class="hero-section">
     <img src="assets/img/spjin-2025/hero-2025.png">
   </section>
 
+  <div id="scroll-progress"></div>
   <nav>
     <a href="#welcome">निमन्त्रण</a>
     <a href="#daywise-schedule">कार्यक्रम</a>
@@ -1523,6 +1535,12 @@
         link.classList.add("active");
       }
     });
+
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    const scrolled = (scrollTop / scrollHeight) * 100;
+
+    document.getElementById("scroll-progress").style.width = scrolled + "%";
   });
 </script>
 
