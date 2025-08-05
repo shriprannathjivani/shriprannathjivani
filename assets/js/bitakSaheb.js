@@ -131,7 +131,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F1233624818089135",
+            facebook_embed: "1233624818089135",
             title: "#3 बीतक - माया रूपी गठरी सौंप कर तो देखिए साथ जी",
             subtext: ""
         }
@@ -165,7 +165,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F1353370802428046",
+            facebook_embed: "1353370802428046",
             title: "#4 बीतक - हुकम के खेल में रहनी का श्रृंगार",
             subtext: ""
         }
@@ -267,7 +267,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F2024550624954923",
+            facebook_embed: "2024550624954923",
             title: "#7 बीतक - ‘दिल’ से माया को हटाओ, ‘पिया’ को बसाओ",
             subtext: ""
         }
@@ -301,7 +301,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F2201409173632457",
+            facebook_embed: "2201409173632457",
             title: "#8 बीतक - नैनन की करि कोठरी में प्रेम ही प्रेम",
             subtext: ""
         }
@@ -335,7 +335,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F2134820150372021",
+            facebook_embed: "2134820150372021",
             title: "#9 बीतक - झुकने में जो ऊँचाई है, वो बीतक में दिखलाई है",
             subtext: ""
         }
@@ -369,7 +369,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F1400972371122437",
+            facebook_embed: "1400972371122437",
             title: "#10 बीतक - द ब्रह्मांगना ब्रैंड - The Bramhangana Brand",
             subtext: ""
         }
@@ -403,7 +403,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F2265430630578769",
+            facebook_embed: "2265430630578769",
             title: "#11 बीतक - Beetak is a MIRROR for HEART",
             subtext: ""
         }
@@ -437,7 +437,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F1806151253645136",
+            facebook_embed: "1806151253645136",
             title: "#12 बीतक - मिश्री की ईंटों से बनता प्रेम का मकान",
             subtext: ""
         }
@@ -471,7 +471,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F4610386935854218",
+            facebook_embed: "4610386935854218",
             title: "#13 बीतक - पाँचवें दिन के सुंदरसाथ - 30 दिनों का लक्ष्य 3 दिन में प्राप्त, छठे दिन के सुंदरसाथ - आपस के विवादों में ऊर्जा समाप्त",
             subtext: ""
         }
@@ -505,7 +505,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F732199306268115",
+            facebook_embed: "732199306268115",
             title: "#14 बीतक - बीतक - आकर्षण पानी का बुलबुला न हो",
             subtext: ""
         }
@@ -539,7 +539,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F2516556442052342",
+            facebook_embed: "2516556442052342",
             title: "#15 बीतक - बीतक - ये सेवा नहीं आसां...",
             subtext: ""
         }
@@ -573,7 +573,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F1091818085683250",
+            facebook_embed: "1091818085683250",
             title: "#16 बीतक - पिया के हृदय 💖 का रास्ता नाप लें",
             subtext: ""
         }
@@ -607,7 +607,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2F1686576212002409",
+            facebook_embed: "1686576212002409",
             title: "#17 बीतक - आंतरिक सौंदर्य+सेवा=ललिता सखी",
             subtext: ""
         }
@@ -641,8 +641,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "",
-            title: "",
+            facebook_embed: "1503055707372439",
+            title: "#18 बीतक - ज्ञान+प्रेम का अमृत मंथन",
             subtext: ""
         }
     },
@@ -675,8 +675,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "",
-            title: "",
+            facebook_embed: "788560647163577",
+            title: "#19 बीतक - मोहे कहीं और नहीं देखना",
             subtext: ""
         }
     },
@@ -709,8 +709,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "",
-            title: "",
+            facebook_embed: "1262130558651688",
+            title: " #20 बीतक - पिया से पिया की मांग - यही अंतिम व्यापार ",
             subtext: ""
         }
     },
@@ -735,6 +735,40 @@ var bitakSahebList = [
             question: "श्री बीतक क्विज़",
             answer: "SPJV श्री बीतक साहेब <br> Quiz Day 21",
             link: "https://forms.gle/9Jq8zm2iNBwe3JSe7"
+        },
+        game: {
+            title: "ज्ञानवर्धक गेम्स",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: "https://wordwall.net/play/95547/584/112"
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "",
+            title: "",
+            subtext: ""
+        }
+    },
+    {
+        id: 22,
+        date: { day: "5", month: "August", year: "2025" },
+        title: " कयामत के निशानों का जाहिर होना",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 22 - श्री बीतक साहेब - सोनिया जी (ऑस्ट्रेलिया) - कयामत के निशानों का जाहिर होना",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day22.png",
+        link: "https://youtu.be/E-DV8HcyQHI?si=FbG0Gi5DG2z0spSc",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 22 Bitak isn't read with eyes... It's absorbed through PREM ",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day22.jpeg",
+        },
+        quote: {
+            text: "मोमिन तो हैं गरीब, बकरी जेता बल। <br> पढ़े बाघ ज्यों बोलहीं, ए सीधे निरमल।।",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 22",
+            link: "https://forms.gle/VtzS3jRCP4S9uETS7"
         },
         game: {
             title: "ज्ञानवर्धक गेम्स",
@@ -846,8 +880,11 @@ function displaykarkhanaNames(divid, bitakSaheb) {
                             </div>
                             <div class="col-md-4 ${bitakSaheb[i].qa && bitakSaheb[i].reel.facebook_embed.trim() !== '' ? '' : 'd-none'}">
                                 <div class="reel-video">
-                                <iframe src="https://www.facebook.com/plugins/video.php?height=580&href=https%3A%2F%2Fwww.facebook.com%2Freel%${bitakSaheb[i].qa && bitakSaheb[i].reel.facebook_embed}%2F&show_text=false&width=300&t=0"  height="640" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-                                   
+                                <div class="fb-video" 
+       data-href="https://www.facebook.com/reel/1536349797749225" 
+       data-width="500" 
+       data-show-text="false">
+                                    <div class="fb-video" data-href="https://www.facebook.com/reel/${bitakSaheb[i].qa && bitakSaheb[i].reel.facebook_embed}"  data-width="500"  data-show-text="false"></div>    
                                     <h2 class="reel-video-title">${bitakSaheb[i].reel.title}</h2>
                                     <p class="bitak-text text-center">${bitakSaheb[i].reel.subtext}</p>
                                 </div>
