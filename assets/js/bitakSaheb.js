@@ -807,7 +807,7 @@ var bitakSahebList = [
         game: {
             title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
-            link: ""
+            link: "https://wordwall.net/play/95644/966/570"
         },
         reel: {
             youtube_embed: "",
@@ -841,7 +841,7 @@ var bitakSahebList = [
         game: {
             title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
-            link: ""
+            link: "https://wordwall.net/play/95690/348/781"
         },
         reel: {
             youtube_embed: "",
@@ -875,7 +875,7 @@ var bitakSahebList = [
         game: {
             title: "ज्ञानवर्धक गेम्स",
             description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
-            link: ""
+            link: "https://wordwall.net/play/95729/396/514"
         },
         reel: {
             youtube_embed: "",
