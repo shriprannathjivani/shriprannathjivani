@@ -845,8 +845,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "24705850182354496",
-            title: "#24 बीतक - प्रेम पाती का रंग चढ़ाय दियो रे",
+            facebook_embed: "774562845072215",
+            title: "#24 बीतक - मैं घटे तो तू जुड़े",
             subtext: ""
         }
     },
@@ -879,8 +879,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "24705850182354496",
-            title: "#25 बीतक - प्रेम पाती का रंग चढ़ाय दियो रे",
+            facebook_embed: "",
+            title: "#25 बीतक - ",
             subtext: ""
         }
     },
@@ -914,7 +914,7 @@ var bitakSahebList = [
         reel: {
             youtube_embed: "",
             facebook_embed: "",
-            title: "#26 बीतक - प्रेम पाती का रंग चढ़ाय दियो रे",
+            title: "#26 बीतक - ",
             subtext: ""
         }
     }
