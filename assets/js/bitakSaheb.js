@@ -883,6 +883,40 @@ var bitakSahebList = [
             title: "#25 बीतक - प्रेम पाती का रंग चढ़ाय दियो रे",
             subtext: ""
         }
+    },
+    {
+        id: 26,
+        date: { day: "9", month: "August", year: "2025" },
+        title: "श्रीजी और महाराजा छत्रसाल जी का मधुर मिलाप",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 26 - श्री बीतक साहेब - सोनिया जी (ऑस्ट्रेलिया) - श्रीजी और महाराजा छत्रसाल जी का मधुर मिलाप",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day26.png",
+        link: "https://youtu.be/_YwBwaL4EAc?si=GYnoQmmFbhi58y6u",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 26 Bitak isn't read with eyes. It's absorbed through heart ",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day26.jpeg",
+        },
+        quote: {
+            text: "मेरे प्रेम भीने श्री साथ जी, मेरे सांचे सूर धीर। <br> पांव भर दिखावत रूहों को, तुम बैठे हो हक के तीर।।",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 26",
+            link: "https://forms.gle/LtCD4SchAzgC8wjJ7"
+        },
+        game: {
+            title: "ज्ञानवर्धक गेम्स",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: "https://wordwall.net/play/95763/072/560"
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "",
+            title: "#26 बीतक - प्रेम पाती का रंग चढ़ाय दियो रे",
+            subtext: ""
+        }
     }
 ]
 
