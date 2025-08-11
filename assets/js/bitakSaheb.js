@@ -913,8 +913,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "",
-            title: "#26 बीतक - ",
+            facebook_embed: "1968789793893447",
+            title: "#26 बीतक - मुझे है कदमों की आस ",
             subtext: ""
         }
     },
@@ -962,8 +962,8 @@ var bitakSahebList = [
         image: "/assets/img/bitaksaheb/bitaksaheb_day28.png",
         link: "https://youtu.be/FWAX0vL_oe8?si=fy2QuioORCcr0X7F",
         bitakSandesh: {
-            text: "️श्री बीतक संदेश - 28 Bitak isn't read with eyes. It's absorbed through heart ",
-            image: "",
+            text: "️श्री बीतक संदेश - 28 Bitak’s words are seeds. They bloom in the soul. 🌸🌱",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day28.jpeg",
         },
         quote: {
             text: "मेरे प्रेम भीने श्री साथ जी, मेरे सांचे सूर धीर। <br> पांव भर दिखावत रूहों को, तुम बैठे हो हक के तीर।।",
