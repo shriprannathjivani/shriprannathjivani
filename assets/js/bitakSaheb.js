@@ -879,8 +879,8 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "",
-            title: "#25 बीतक - ",
+            facebook_embed: "632545179440439",
+            title: "#25 बीतक - जागनी सेवा की पहेली",
             subtext: ""
         }
     },
@@ -915,6 +915,74 @@ var bitakSahebList = [
             youtube_embed: "",
             facebook_embed: "",
             title: "#26 बीतक - ",
+            subtext: ""
+        }
+    },
+    {
+        id: 27,
+        date: { day: "10", month: "August", year: "2025" },
+        title: "श्रीजी की मेहर से छत्रसाल जी बने महाराजा",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 27 - श्री बीतक साहेब - सोनिया जी (ऑस्ट्रेलिया) - श्रीजी की मेहर से छत्रसाल जी बने महाराजा",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day27.png",
+        link: "https://youtu.be/DsJoSuNGJVc?si=ZPon0oyhuXhm9SOu",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 27 Every Chaupai is a step closer to Him",
+            image: "/assets/img/bitaksaheb/quotes/quote_message_day27.jpeg",
+        },
+        quote: {
+            text: "मेरे प्रेम भीने श्री साथ जी, मेरे सांचे सूर धीर। <br> पांव भर दिखावत रूहों को, तुम बैठे हो हक के तीर।।",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 27",
+            link: "https://forms.gle/Mizt3zxo77GF37Et7"
+        },
+        game: {
+            title: "ज्ञानवर्धक गेम्स",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: "https://wordwall.net/play/95773/789/702"
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "",
+            title: "#27 बीतक - ",
+            subtext: ""
+        }
+    },
+    {
+        id: 28,
+        date: { day: "11", month: "August", year: "2025" },
+        title: "श्री पद्मावती पुरी धाम की महिमा एवं शुक्राना",
+        speaker: "सोनिया सखी (ऑस्ट्रेलिया)",
+        time: "6:00-7:30 am",
+        description: "Day 28 - श्री बीतक साहेब - सोनिया जी (ऑस्ट्रेलिया) - श्री पद्मावती पुरी धाम की महिमा एवं शुक्राना",
+        image: "/assets/img/bitaksaheb/bitaksaheb_day28.png",
+        link: "https://youtu.be/FWAX0vL_oe8?si=fy2QuioORCcr0X7F",
+        bitakSandesh: {
+            text: "️श्री बीतक संदेश - 28 Bitak isn't read with eyes. It's absorbed through heart ",
+            image: "",
+        },
+        quote: {
+            text: "मेरे प्रेम भीने श्री साथ जी, मेरे सांचे सूर धीर। <br> पांव भर दिखावत रूहों को, तुम बैठे हो हक के तीर।।",
+            author: "श्री प्राणनाथ जी"
+        },
+        qa: {
+            question: "श्री बीतक क्विज़",
+            answer: "SPJV श्री बीतक साहेब <br> Quiz Day 28",
+            link: "https://forms.gle/PFy355z8kMksJkAAA"
+        },
+        game: {
+            title: "ज्ञानवर्धक गेम्स",
+            description: "अपना ज्ञान परखें इस मजेदार खेल के साथ!",
+            link: ""
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "",
+            title: "#28 बीतक - ",
             subtext: ""
         }
     }
