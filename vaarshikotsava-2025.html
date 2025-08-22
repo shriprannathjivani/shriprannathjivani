@@ -1153,7 +1153,7 @@
           <hr />
           <h4>प्रातःकाल</h4>
           <p><strong>4:00 AM - 6:00 AM</strong><br>
-           चितवन व योग</p>
+            चितवन व योग</p>
 
           <p><strong>7:30 AM - 8:00 AM</strong><br>
             प्रातःकालीन नाश्ता</p>
@@ -1202,11 +1202,9 @@
           <h4>दोपहर</h4>
           <p><strong>1:00 PM - 2:00 PM</strong><br>
             दोपहर का भोजन</p>
-          <p><strong>3:00 PM</strong><br>
-            भाव भरे पूज्य स्वामीजी के आशीर्वाद के साथ<br>
-            सुंदर साथ जी की माया में वापसी</p>
 
-          
+
+
         </div>
       </div>
     </div>
@@ -1216,34 +1214,38 @@
       <h2>विशेष संध्या & चर्चा आयोजन</h2>
       <div class="events-container">
         <div class="event-timeline">
-          <ul>
-            <li class="highlight">
+          <ul id="eventList">
+            <li class="highlight"
+              data-content='<iframe width="100%" height="315" src="https://www.youtube.com/embed/ee9DAn5tuB4" frameborder="0" allowfullscreen></iframe>'>
+              <h4>आत्मीय प्रेमभरा निमन्त्रण</h4>
+              <p>श्री प्राणनाथ ज्ञानपीठ के 19वें वार्षिकोत्सव 2025</p>
+            </li>
+            <li 
+              data-content='<iframe width="100%" height="315" src="https://www.youtube.com/embed/kCtGGzoL09Q?si=J39Zf3PuidoDM_gU" frameborder="0" allowfullscreen></iframe>'>
               <h4>ब्रह्मवाणी की दिव्य चर्चा</h4>
               <p>विभिन्न वक्ताओं द्वारा आत्मा, ब्रह्म और धर्म पर गहन विचार-विमर्श।</p>
             </li>
-            <li>
+            <li data-content='<iframe width="100%" height="315" src="https://www.youtube.com/embed/N-ZoiRtNf-Q?si=r9xXQ3t7HA2oMzJ2" frameborder="0"
+            allowfullscreen></iframe>'>
               <h4>सुप्रसिद्ध शास्त्रीय कलाकारों द्वारा ब्रह्मवाणी गायन</h4>
               <p>प्रसिद्ध कलाकारों द्वारा रागबद्ध शैली में दिव्य वाणी का गायन।</p>
             </li>
-            <li>
+            <li data-content='<iframe width="100%" height="315" src="https://www.youtube.com/embed/HeeZJijXbHg?si=jq6EEazIRugLnomp" frameborder="0"
+            allowfullscreen></iframe>'>
               <h4>प्रातः सामूहिक चितवनी</h4>
               <p>सभी सुंदरसाथों द्वारा एक साथ ध्यान और स्मरण का शुभारंभ।</p>
             </li>
-            <li>
+            <li data-content='<iframe width="100%" height="315" src="https://www.youtube.com/embed/E5stjjbZxhc?si=ZyK4ZquldNH0gRHN" frameborder="0"
+            allowfullscreen></iframe>'>
               <h4>बच्चों द्वारा सांस्कृतिक प्रस्तुतियाँ</h4>
               <p>नन्हें-मुन्नों द्वारा भक्ति और प्रेरणादायक नाट्य रूपांतरण।</p>
             </li>
-            <li>
-              <h4>आत्मिक मिलन और भक्ति का अनुपम संगम</h4>
-              <p>सभी आत्माओं का एक दिव्य मंच पर मिलन और प्रेमपूर्वक भक्ति का अनुभव।</p>
-            </li>
           </ul>
         </div>
-        <div class="event-image">
-          <iframe width="100%" height="315" src="https://www.youtube.com/embed/ee9DAn5tuB4?si=E4zEKaP0l0sKJUjg"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <div class="event-image" id="eventContent">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/ee9DAn5tuB4" frameborder="0"
+            allowfullscreen></iframe>
         </div>
       </div>
     </div>
@@ -1590,6 +1592,31 @@
     const scrolled = (scrollTop / scrollHeight) * 100;
 
     document.getElementById("scroll-progress").style.width = scrolled + "%";
+  });
+
+
+  const items = document.querySelectorAll("#eventList li");
+  const contentBox = document.getElementById("eventContent");
+  let index = 0;
+
+  function showEvent(i) {
+    items.forEach(li => li.classList.remove("highlight"));
+    items[i].classList.add("highlight");
+    contentBox.innerHTML = items[i].dataset.content;
+  }
+
+  // Auto loop every 4 sec
+  setInterval(() => {
+    index = (index + 1) % items.length;
+    showEvent(index);
+  }, 4000);
+
+  // Click manually to jump
+  items.forEach((li, i) => {
+    li.addEventListener("click", () => {
+      index = i;
+      showEvent(i);
+    });
   });
 </script>
 
