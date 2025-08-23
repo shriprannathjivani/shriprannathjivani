@@ -1117,7 +1117,7 @@ var bitakSahebList = [
         },
         reel: {
             youtube_embed: "",
-            facebook_embed: "2692424867755850",
+            facebook_embed: "2692424867755850 ",
             title: "#32 बीतक - प्यारे सतगुरु की मेहर ने संभव ने बना दिया",
             subtext: ""
         }
