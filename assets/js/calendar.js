@@ -24,6 +24,11 @@ var calendarList = [
         id: "5",
         name: 'अगस्त 2025 / Agust 2025',
         link: "assets/img/calendar/Spjv calendar august.png"
+    },
+    {
+        id: "6",
+        name: 'सितम्बर 2025 / September 2025',
+        link: "assets/img/calendar/Spjv calendar september.png"
     }
 ]
 
@@ -150,6 +155,54 @@ const events = {
     },
     "2025-08-17": {
         text: "श्री राज प्रगटन महोत्सव - भाद्रपद कृष्ण नवमी - रविवार",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-09-06": {
+        text: "श्री देवचंद्र जी अंतर्धान - शनिवार",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-09-14": {
+        text: "19वां वार्षिकोत्सव 2025 - श्री प्राणनाथ ज्ञानपीठ",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-09-15": {
+        text: "19वां वार्षिकोत्सव 2025 - श्री प्राणनाथ ज्ञानपीठ",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-09-16": {
+        text: "19वां वार्षिकोत्सव 2025 - श्री प्राणनाथ ज्ञानपीठ",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-09-17": {
+        text: "19वां वार्षिकोत्सव 2025 - श्री प्राणनाथ ज्ञानपीठ",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-09-18": {
+        text: "19वां वार्षिकोत्सव 2025 - श्री प्राणनाथ ज्ञानपीठ",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-09-19": {
+        text: "19वां वार्षिकोत्सव 2025 - श्री प्राणनाथ ज्ञानपीठ",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-09-20": {
+        text: "श्री प्राणनाथ जी प्रगटन महोत्सव + 19वां वार्षिकोत्सव - शनिवार",
         bgColor: "#99093a",
         textColor: "#fff",
         image: ""
