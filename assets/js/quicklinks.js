@@ -30,31 +30,36 @@ var quickLink = [
         name: 'वीडियो',
         link: "video.html",
         img: "video"
-    },{
+    }, {
         id: "7",
         name: 'ई-मंथन लेखन',
         link: "articles.html",
         img: "pen-tool"
-    },{
+    }, {
         id: "8",
         name: 'शिशु नामकरण',
         link: "babynames.html",
         img: "smile"
-    },{
+    }, {
         id: "9",
         name: 'सेवा कारखाना',
         link: "SevaKarkhana.html",
         img: "users"
-    },{
+    }, {
         id: "10",
         name: 'गूगल क्विज़',
         link: "quizzes.html",
         img: "file-text"
-    },{
+    }, {
         id: "11",
         name: 'मासिक कैलेंडर (डाउनलोड)',
         link: "monthlyCalendar.html",
         img: "calendar"
+    }, {
+        id: "12",
+        name: 'परमहंस श्री रामरतन दास जी <span class="quicklinksmall">श्री बीतक साहेब </span>',
+        link: "bitakSaheb_shri_RR_D_Ji.html",
+        img: "book"
     },
 ]
 

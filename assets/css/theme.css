@@ -504,6 +504,11 @@ hr {
   height: 16px;
 }
 
+.quicklinksmall{
+  font-size: 12px;
+  line-height: 5px;
+}
+
 /* quicklinks End */
 
 /* News */
