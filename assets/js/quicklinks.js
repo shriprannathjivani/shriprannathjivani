@@ -60,6 +60,11 @@ var quickLink = [
         name: 'परमहंस श्री रामरतन दास जी <span class="quicklinksmall">श्री बीतक साहेब </span>',
         link: "bitakSaheb_shri_RR_D_Ji.html",
         img: "book"
+    },{
+        id: "13",
+        name: 'श्री बीतक साहेब का अद्भुत सिलसिला <span class="quicklinksmall"> 30 सकारात्मक बदलावों के लिए</span>',
+        link: "bitakSaheb.html",
+        img: "book-open"
     },
 ]
 
