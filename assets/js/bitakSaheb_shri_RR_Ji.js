@@ -57,12 +57,12 @@ var bitakSahebListShriRRji = [
         qa: {
             question:  "ज्ञानवर्धक क्विज़",
             answer: "परमहंस महाराज श्री रामरतन दास जी की क्विज़ - 3",
-            link: ""
+            link: "https://forms.gle/ubEnQa3Yxg5Uzccm8"
         },
         game: {
             title: "ज्ञानवर्धक गेम्स",
             description: "परमहंस महाराज श्री रामरतन दास जी की गेम्स - 3",
-            link: "https://forms.gle/ubEnQa3Yxg5Uzccm8"
+            link: ""
         },
         reel: {
             youtube_embed: "X_4489xa0BA",
