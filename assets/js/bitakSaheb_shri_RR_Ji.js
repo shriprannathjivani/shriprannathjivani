@@ -62,7 +62,7 @@ var bitakSahebListShriRRji = [
         game: {
             title: "ज्ञानवर्धक गेम्स",
             description: "परमहंस महाराज श्री रामरतन दास जी की गेम्स - 3",
-            link: ""
+            link: "https://forms.gle/ubEnQa3Yxg5Uzccm8"
         },
         reel: {
             youtube_embed: "X_4489xa0BA",
