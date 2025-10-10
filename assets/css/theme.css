@@ -353,10 +353,25 @@ hr {
 .slider-caption .h-s-text {
   font-size: 1.3rem;
   background-color: #1e2352;
-  padding: 0px 8px;
+  padding: 0px 4px;
   color: #ffffff;
   margin-bottom: 8px;
   display: inline-flex;
+}
+
+.slider-caption .pointlist-text {
+  font-size: 1.2rem;
+  background-color: #e8decb;
+  padding: 1px 11px;
+  color: #890b30;
+  border-radius: 40px;
+  font-family: 'Arya';
+  line-height: 10px;
+}
+
+.slider-caption .sliderSubtitle-text {
+  font-size: 1.4rem;
+  display: block;
 }
 
 .slider-caption .h-l-text {
@@ -504,7 +519,7 @@ hr {
   height: 16px;
 }
 
-.quicklinksmall{
+.quicklinksmall {
   font-size: 12px;
   line-height: 5px;
 }
