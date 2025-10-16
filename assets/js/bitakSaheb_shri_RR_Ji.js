@@ -62,7 +62,7 @@ var bitakSahebListShriRRji = [
         game: {
             title: "ज्ञानवर्धक गेम्स",
             description: "परमहंस महाराज श्री रामरतन दास जी की गेम्स - 3",
-            link: ""
+            link: "https://wordwall.net/play/98950/161/565"
         },
         reel: {
             youtube_embed: "X_4489xa0BA",
@@ -164,6 +164,30 @@ var bitakSahebListShriRRji = [
             youtube_embed: "Y5O-PCGgWGE",
             facebook_embed: "",
             title: "परमहंस महाराज श्री रामरतन दास जी की बीतक रील 7",
+            subtext: ""
+        }
+    },
+    {
+        id: 8,
+        date: { day: "29", month: "September", year: "2025" },
+        quote: {
+            text: "️",
+            image: "",
+        },
+        qa: {
+            question:  "ज्ञानवर्धक क्विज़",
+            answer: "परमहंस महाराज श्री रामरतन दास जी की क्विज़ - 7",
+            link: ""
+        },
+        game: {
+            title: "ज्ञानवर्धक गेम्स",
+            description: "परमहंस महाराज श्री रामरतन दास जी की गेम्स - 7",
+            link: ""
+        },
+        reel: {
+            youtube_embed: "omlRBYwm9bQ",
+            facebook_embed: "",
+            title: "#8 परमहंस श्री रामरतन दास महाराज जी की बीतक - तू प्रेम में जीते रे प्यारे।",
             subtext: ""
         }
     }
