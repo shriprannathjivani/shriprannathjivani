@@ -81,12 +81,12 @@ var bitakSahebListShriRRji = [
         qa: {
             question:  "ज्ञानवर्धक क्विज़",
             answer: "परमहंस महाराज श्री रामरतन दास जी की क्विज़ - 4",
-            link: ""
+            link: "https://forms.gle/z21qvptN8Kon4ihT8"
         },
         game: {
             title: "ज्ञानवर्धक गेम्स",
             description: "परमहंस महाराज श्री रामरतन दास जी की गेम्स - 4",
-            link: ""
+            link: "https://wordwall.net/play/99867/033/876"
         },
         reel: {
             youtube_embed: "5TKE5hfRv70",
@@ -100,7 +100,7 @@ var bitakSahebListShriRRji = [
         date: { day: "29", month: "September", year: "2025" },
         quote: {
             text: "️",
-            image: "",
+            image: "/assets/img/bitaksahebshriRRDji/prem_pati_5.jpeg",
         },
         qa: {
             question:  "ज्ञानवर्धक क्विज़",
@@ -188,6 +188,30 @@ var bitakSahebListShriRRji = [
             youtube_embed: "omlRBYwm9bQ",
             facebook_embed: "",
             title: "#8 परमहंस श्री रामरतन दास महाराज जी की बीतक - तू प्रेम में जीते रे प्यारे।",
+            subtext: ""
+        }
+    },
+    {
+        id: 9,
+        date: { day: "29", month: "September", year: "2025" },
+        quote: {
+            text: "️",
+            image: "",
+        },
+        qa: {
+            question:  "ज्ञानवर्धक क्विज़",
+            answer: "परमहंस महाराज श्री रामरतन दास जी की क्विज़ - 7",
+            link: ""
+        },
+        game: {
+            title: "ज्ञानवर्धक गेम्स",
+            description: "परमहंस महाराज श्री रामरतन दास जी की गेम्स - 7",
+            link: ""
+        },
+        reel: {
+            youtube_embed: "",
+            facebook_embed: "1219844683496457",
+            title: "#9 परमहंस श्री रामरतन दास महाराज जी की बीतक - एही आहार आसिकन",
             subtext: ""
         }
     }
