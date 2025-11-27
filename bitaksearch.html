@@ -636,7 +636,7 @@
             position: fixed;
             bottom: 20px;
             right: 20px;
-            padding: 10px 14px;
+            padding: 10px 11px;
             font-size: 18px;
             border: none;
             border-radius: 88px;
@@ -655,10 +655,10 @@
         #resultNavigator {
             position: fixed;
             left: 50%;
-            bottom: 30px;
+            bottom: 20px;
             transform: translateX(-50%);
             background: #ffffffee;
-            padding: 10px 18px;
+            padding: 8px 16px;
             border-radius: 30px;
             display: flex;
             gap: 15px;
@@ -672,7 +672,7 @@
         .nav-arrow {
             background: #ffbf00;
             border: none;
-            padding: 8px 15px;
+            padding: 8px 10px;
             border-radius: 25px;
             font-size: 20px;
             cursor: pointer;
@@ -680,8 +680,9 @@
         }
 
         .nav-arrow:hover {
-            background: #ff9f00;
+            background: #ff6a00;
             transform: scale(1.1);
+            color: white;
         }
 
         .active-result {
@@ -716,6 +717,58 @@
                 display: none;
             }
 
+            .result-card {
+                padding: 8px;
+            }
+
+            .result-card .meaning {
+                font-size: 16px;
+            }
+
+            .result-card .chopai {
+                font-size: 18px;
+            }
+
+            .ai-avtar-container {
+                height: 222px;
+            }
+
+            .search-box input {
+                padding: 12px 16px;
+                font-size: 18px;
+            }
+
+            .search-box button {
+                padding: 8px 16px;
+                font-size: 16px;
+            }
+
+            .speech-bubble {
+                font-size: 16px;
+            }
+
+            .search-interface h2 {
+                color: #2d3748;
+                margin-bottom: 8px;
+                font-family: 'Arya', Courier, monospace;
+                font-size: 16px;
+            }
+
+            #resultNavigator {
+                gap: 8px;
+                padding: 8px 8px;
+            }
+
+            span#resultCounter {
+                max-width: 110px;
+                text-align: center;
+                width: max-content;
+            }
+
+            .common-hero,
+            .uptext {
+                display: none;
+            }
         }
     </style>
 </head>
