@@ -29,6 +29,11 @@ var calendarList = [
         id: "6",
         name: 'सितम्बर 2025 / September 2025',
         link: "assets/img/calendar/Spjv calendar september.png"
+    },
+    {
+        id: "7",
+        name: 'दिसंबर 2025 / December 2025',
+        link: "assets/img/calendar/Spjv calendar december.png"
     }
 ]
 
@@ -203,6 +208,12 @@ const events = {
     },
     "2025-09-20": {
         text: "श्री प्राणनाथ जी प्रगटन महोत्सव + 19वां वार्षिकोत्सव - शनिवार",
+        bgColor: "#99093a",
+        textColor: "#fff",
+        image: ""
+    },
+    "2025-12-07": {
+        text: "अमीरुल मोमिन श्री छत्रसाल अंतर्ध्यान तिथि सकुंडल सखी जी - रविवार",
         bgColor: "#99093a",
         textColor: "#fff",
         image: ""
