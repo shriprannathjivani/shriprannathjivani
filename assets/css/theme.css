@@ -4239,6 +4239,19 @@ div#babyNameslistingBoy {
   color: #9C27B0;
 }
 
+.custom-text-quote-talkone {
+  display: block;
+  font-family: 'Arya';
+  font-size: 22px;
+  color: #b02763;
+}
+.custom-text-quote-talktwo {
+  display: block;
+  font-family: 'Arya';
+  font-size: 22px;
+  color: #d6510f;
+}
+
 /* timeline for kids */
 
 /* end of timeline for kids */
