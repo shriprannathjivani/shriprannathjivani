@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3D Anant Yatra | 1638 - 2025</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Gotu&family=Rozha+One&family=Sahitya:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root { --saffron: #FF9933; --gold: #D4AF37; --deep-bg: #050508; }
+        
+        body, html { margin: 0; padding: 0; background: var(--deep-bg); color: white; font-family: 'Gotu', sans-serif; overflow-x: hidden; }
+        
+        /* 3D Canvas fixed to background */
+        canvas#webgl-canvas { position: fixed; top: 0; left: 0; z-index: 1; outline: none; }
+
+        /* UI Content Layer */
+        #ui-layer { position: relative; z-index: 10; pointer-events: none; }
+        
+        .section {
+            height: 150vh; /* Lengthens the scroll for a cinematic feel */
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+            opacity: 0;
+            filter: blur(10px);
+            transform: translateY(50px);
+            transition: all 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .section.active { opacity: 1; filter: blur(0px); transform: translateY(0); }
+        .section:nth-child(even) { justify-content: flex-end; }
+
+        .content-card {
+            width: 380px;
+            padding: 2.5rem;
+            background: rgba(10, 8, 5, 0.75);
+            border-left: 4px solid var(--saffron);
+            backdrop-filter: blur(20px);
+            box-shadow: 0 20px 50px rgba(0,0,0,0.6);
+            pointer-events: auto;
+        }
+
+        .year { font-family: 'Rozha One'; font-size: 4rem; color: var(--gold); display: block; line-height: 1; }
+        h2 { font-family: 'Sahitya'; color: var(--saffron); margin: 15px 0; font-size: 2rem; }
+        p { color: #B2BEB5; line-height: 1.8; font-size: 1rem; }
+
+        .scroll-hint {
+            position: fixed; bottom: 30px; left: 50%; transform: translateX(-50%);
+            z-index: 20; font-size: 0.7rem; letter-spacing: 4px; opacity: 0.4;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="scroll-hint">Scroll to begin the sacred journey</div>
+    <canvas id="webgl-canvas"></canvas>
+    <div id="ui-layer"></div>
+
+<script>
+    gsap.registerPlugin(ScrollTrigger);
+
+    // --- 1. CONFIGURATION & DATA ---
+    // You can add all 45 events here.
+    const eventData = [
+        { year: "1638", title: "The Revelation", desc: "Mahamati Prannath Ji manifests the divine wisdom in the heart of Jamnagar." },
+        { year: "1671", title: "Kingdom of Truth", desc: "The meeting with Chhatrasal Maharaja creates a sanctuary for the souls." },
+        { year: "1720", title: "Eternal Bitak", desc: "The sacred history is recorded, ensuring the lamp of truth never fades." },
+        { year: "1850", title: "Universal Message", desc: "The awakening spreads across Bharat, uniting all under one divine light." },
+        { year: "2025", title: "Digital Mahaprasthan", desc: "The legacy is eternalized in the digital realm for generations to come." }
+    ];
+
+    // --- 2. THREE.JS INITIALIZATION ---
+    const canvas = document.querySelector('#webgl-canvas');
+    const scene = new THREE.Scene();
+    scene.fog = new THREE.FogExp2(0x050508, 0.04);
+
+    const camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 0.1, 1000);
+    const renderer = new THREE.WebGLRenderer({ canvas: canvas, antialias: true });
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+
+    // --- 3. ENVIRONMENT & BACKGROUND ---
+    // Floating "Spirit Particles" (Stars)
+    const starGeo = new THREE.BufferGeometry();
+    const starPoints = [];
+    for(let i=0; i<6000; i++) {
+        starPoints.push((Math.random()-0.5)*400, (Math.random()-0.5)*400, (Math.random()-0.5)*400);
+    }
+    starGeo.setAttribute('position', new THREE.Float32BufferAttribute(starPoints, 3));
+    const starMat = new THREE.PointsMaterial({ color: 0xFFFFFF, size: 0.15, transparent: true, opacity: 0.8 });
+    const stars = new THREE.Points(starGeo, starMat);
+    scene.add(stars);
+
+    // Procedural Landscape (Valley)
+    const terrainGeo = new THREE.PlaneGeometry(120, 800, 60, 120);
+    const posAttr = terrainGeo.attributes.position;
+    for (let i = 0; i < posAttr.count; i++) {
+        const x = posAttr.getX(i);
+        const y = posAttr.getY(i);
+        if (Math.abs(x) > 10) { // Create a path in the middle
+            const h = Math.random() * 4 + (Math.sin(y * 0.1) * 6);
+            posAttr.setZ(i, h);
+        }
+    }
+    terrainGeo.computeVertexNormals();
+    const terrainMat = new THREE.MeshStandardMaterial({ 
+        color: 0x111122, wireframe: true, transparent: true, opacity: 0.1 
+    });
+    const terrain = new THREE.Mesh(terrainGeo, terrainMat);
+    terrain.rotation.x = -Math.PI / 2;
+    terrain.position.y = -4;
+    scene.add(terrain);
+
+    // --- 4. THE 3D PATH ---
+    const curvePoints = [];
+    for (let i = 0; i < eventData.length * 8; i++) {
+        curvePoints.push(new THREE.Vector3(
+            Math.sin(i * 0.4) * 6, // Zig zag
+            0, 
+            -i * 12 // Spacing depth
+        ));
+    }
+    const curve = new THREE.CatmullRomCurve3(curvePoints);
+    
+    // Golden Road
+    const tubeGeo = new THREE.TubeGeometry(curve, 300, 0.08, 8, false);
+    const tubeMat = new THREE.MeshStandardMaterial({ 
+        color: 0xD4AF37, emissive: 0xD4AF37, emissiveIntensity: 0.6, wireframe: true 
+    });
+    scene.add(new THREE.Mesh(tubeGeo, tubeMat));
+
+    // --- 5. THE CHARACTER (SAMPLE) ---
+    // NOTE: You can replace this group content with your GLTFLoader model later.
+    const charGroup = new THREE.Group();
+    const body = new THREE.Mesh(
+        new THREE.CapsuleGeometry(0.4, 1.2, 4, 12),
+        new THREE.MeshStandardMaterial({ color: 0xFF9933, emissive: 0xFF9933, emissiveIntensity: 0.2 })
+    );
+    charGroup.add(body);
+    
+    const halo = new THREE.Mesh(
+        new THREE.TorusGeometry(0.5, 0.02, 16, 60),
+        new THREE.MeshBasicMaterial({ color: 0xD4AF37 })
+    );
+    halo.position.y = 1.2;
+    halo.rotation.x = Math.PI / 2;
+    charGroup.add(halo);
+    scene.add(charGroup);
+
+    // Light following the character
+    const charLight = new THREE.PointLight(0xFF9933, 35, 40);
+    scene.add(charLight);
+    const ambLight = new THREE.AmbientLight(0xffffff, 0.2);
+    scene.add(ambLight);
+
+    // --- 6. UI CONTENT GENERATION ---
+    const uiLayer = document.getElementById('ui-layer');
+    eventData.forEach((item, i) => {
+        const sec = document.createElement('div');
+        sec.className = 'section';
+        sec.innerHTML = `
+            <div class="content-card">
+                <span class="year">${item.year}</span>
+                <h2>${item.title}</h2>
+                <p>${item.desc}</p>
+            </div>
+        `;
+        uiLayer.appendChild(sec);
+
+        ScrollTrigger.create({
+            trigger: sec,
+            start: "top center",
+            end: "bottom center",
+            onEnter: () => sec.classList.add('active'),
+            onLeaveBack: () => sec.classList.remove('active')
+        });
+    });
+
+    // --- 7. ANIMATION RENDER LOOP ---
+    function render() {
+        // Calculate scroll progress (0 to 1)
+        const scrollPercent = window.scrollY / (document.body.scrollHeight - window.innerHeight);
+        const progress = Math.min(scrollPercent, 0.999);
+
+        // 1. Move Character along curve
+        const pos = curve.getPointAt(progress);
+        charGroup.position.copy(pos);
+        charLight.position.copy(pos).y += 3;
+
+        // 2. Orient Character to look ahead
+        const lookTarget = curve.getPointAt(Math.min(progress + 0.01, 1));
+        charGroup.lookAt(lookTarget);
+
+        // 3. Cinematic Camera Follow (Lerp for smoothness)
+        // Camera stays behind and above the character
+        const camOffset = new THREE.Vector3(0, 4, 14); 
+        const targetCamPos = pos.clone().add(camOffset);
+        camera.position.lerp(targetCamPos, 0.06); 
+        camera.lookAt(pos);
+
+        // 4. Subtle background animations
+        stars.rotation.y += 0.0003;
+        halo.rotation.z += 0.02;
+
+        renderer.render(scene, camera);
+        requestAnimationFrame(render);
+    }
+
+    render();
+
+    // Handle Resize
+    window.addEventListener('resize', () => {
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+</script>
+</body>
+</html>

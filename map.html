@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>श्री प्राणनाथजी जागनी अभियान - समयरेखा</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Sans+Devanagari:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the new Timeline UI */
+        body {
+            font-family: 'Noto Sans Devangari', 'Inter', sans-serif;
+            background-color: #e5e7eb; /* Light gray background */
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 2rem;
+        }
+        .timeline-container {
+            max-width: 1200px;
+            width: 100%;
+            min-height: 80vh;
+            background: #ffffff;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
+            border-radius: 1.5rem;
+            display: flex;
+            overflow: hidden;
+            transition: all 0.5s ease-in-out;
+        }
+        
+        .content-area {
+            flex: 1;
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .visual-area {
+            flex: 1;
+            background: #f3f4f6; /* Very light gray background for visual */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        /* Timeline Axis Styling */
+        .timeline-axis {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 100%;
+            height: 1px;
+            background-color: #d1d5db;
+        }
+        .timeline-item {
+            position: relative;
+            margin-bottom: 2rem; /* Spacing between years */
+            cursor: pointer;
+            transition: transform 0.3s ease-in-out;
+        }
+        .timeline-year {
+            font-size: 0.8rem;
+            color: #4b5563;
+            transition: all 0.3s;
+        }
+        .timeline-dot {
+            position: absolute;
+            top: 50%;
+            right: -25px;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background-color: #9ca3af;
+            transition: all 0.3s;
+        }
+        .timeline-item.active .timeline-year {
+            font-size: 1.25rem; /* Larger font for active year */
+            font-weight: 700;
+            color: #ef4444; /* Red highlight */
+            transform: translateX(-10px);
+        }
+        .timeline-item.active .timeline-dot {
+            width: 16px;
+            height: 16px;
+            background-color: #ef4444;
+            box-shadow: 0 0 10px rgba(239, 68, 68, 0.8);
+            right: -28px;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 1024px) {
+            .timeline-container {
+                flex-direction: column;
+                min-height: auto;
+            }
+            .content-area {
+                padding: 2rem;
+            }
+            .visual-area {
+                min-height: 300px;
+            }
+        }
+    </style>
+</head>
+    <body>
+        <div class="timeline-container">
+            
+            <!-- Left Side: Content, Timeline Axis, and Controls -->
+            <div class="content-area">
+                
+                <div class="text-content">
+                    <h1 class="text-5xl font-extrabold text-gray-900 mb-6">
+                        श्री प्राणनाथजी जागनी अभियान
+                    </h1>
+                    
+                    <p class="text-xl text-gray-700 mb-10">
+                        <span id="eventLocation" class="text-blue-700 font-semibold mr-1"></span>
+                        <span id="eventYear" class="text-red-600 font-bold"></span>
+                    </p>
+
+                    <!-- Current Event Description -->
+                    <p id="eventDescription" class="text-2xl font-light leading-relaxed text-gray-700 mb-10">
+                        अगला पड़ाव बटन दबाकर यात्रा शुरू करें और प्रमुख घटनाओं के बारे में जानें।
+                    </p>
+
+                    <!-- Navigation Buttons -->
+                    <div class="flex space-x-4">
+                        <button id="previousEventButton" onclick="previousEvent()" disabled class="flex items-center space-x-2 bg-gray-200 text-gray-700 font-bold py-3 px-6 rounded-lg text-lg hover:bg-gray-300 transition duration-150 ease-in-out disabled:opacity-50 disabled:cursor-not-allowed">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" /></svg>
+                            <span>पिछला</span>
+                        </button>
+                        <button id="nextEventButton" onclick="nextEvent()" class="flex items-center space-x-2 bg-red-600 text-white font-bold py-3 px-8 rounded-lg text-lg hover:bg-red-700 shadow-lg transition duration-150 ease-in-out">
+                            <span>अगला पड़ाव</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Vertical Timeline Axis -->
+                <div id="timelineList" class="hidden md:block absolute left-20 top-0 bottom-0 py-8">
+                    <!-- Timeline items will be injected here -->
+                </div>
+                
+            </div>
+
+            <!-- Right Side: Visual Display Area -->
+            <div class="visual-area">
+                <div class="relative w-full h-full flex justify-center items-center">
+                    <!-- Main Visual (Placeholder for character image, inspired by your upload) -->
+                    <img id="mainVisual" src="https://placehold.co/300x500/004080/FFFFFF/png?text=Shri+Pran+Nath+Ji" 
+                        alt="श्री प्राणनाथजी की छवि" 
+                        class="max-h-full max-w-full object-contain p-6 transform hover:scale-105 transition duration-500 ease-in-out" />
+                    
+                    <!-- Overlay for Step Counter -->
+                    <div class="absolute top-8 right-8 bg-white/90 backdrop-blur-sm p-3 rounded-xl shadow-xl">
+                        <span class="text-xl font-bold text-gray-900">चरण: <span id="currentStep">1</span> / <span id="totalSteps">0</span></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <script>
+            // 1. GAME DATA
+            const journeyData = {
+                "stops": [
+                    { id: 0, year: "प्रारंभ", location: "जामनगर (गुजरात)", description: "श्री देवचन्द्रजी और श्री प्राणनाथजी की जन्मभूमि और आरंभिक जागनी का केंद्र।"},
+                    { id: 1, year: "1645 AD", location: "जामनगर", description: "श्री देवचन्द्रजी द्वारा श्री प्राणनाथजी को तारतम ज्ञान की दीक्षा देना।"},
+                    { id: 2, year: "1654 AD", location: "धामका (कच्छ)", description: "श्री प्राणनाथजी का पहली बार श्री देवचन्द्रजी की आज्ञानुसार धामका की यात्रा (30 वर्ष की आयु में)।"},
+                    { id: 3, year: "1675 AD", location: "अब्बास बंदर (ईरान)", description: "पश्चिम की ओर यात्रा, सत्य धर्म के संदेश का प्रचार। यह यात्रा ज्ञान के प्रसार में महत्वपूर्ण थी।"},
+                    { id: 4, year: "1680 AD", location: "सूरत", description: "सूरत में धर्म चर्चा और जागनी अभियान का विस्तार।"},
+                    { id: 5, year: "1680 AD", location: "धामका (कच्छ)", description: "श्री प्राणनाथजी का धामका में बैठकर कुलजम स्वरुप का लेखन करना (यह क्रम 10 वर्षों तक चला)।"},
+                    { id: 6, year: "1700 AD", location: "मांडवी", description: "कुलजम स्वरूप (रास, श्री मद्द भागवत, ब्रह्मज्ञान) का प्रकटीकरण।"},
+                    { id: 7, year: "1722 AD", location: "औरंगाबाद (महाराष्ट्र)", description: "जागनी अभियान यात्रा का दूसरा चरण: दक्कन क्षेत्र में ज्ञान का प्रसार।"},
+                    { id: 8, year: "1725 AD", location: "भोपाल (मालवा)", description: "मध्य भारत में धार्मिक संवाद और ज्ञान का आदान-प्रदान।"},
+                    { id: 9, year: "1730 AD", location: "दिल्ली", description: "उत्तर भारत की यात्रा और तत्कालीन सत्ताधारियों से संपर्क।"},
+                    { id: 10, year: "1732 AD", location: "कानपुर/अयोध्या (पूर्व)", location: "पूर्वी क्षेत्रों की ओर बढ़ते हुए, जागनी का संदेश।"},
+                    { id: 11, year: "1734 AD", location: "बनारस (वाराणसी)", description: "बनारस में धार्मिक विद्वानों से ज्ञान चर्चा और ब्रह्मज्ञान का महत्व समझाना।"},
+                    { id: 12, year: "1742 AD", location: "धामका", description: "श्री प्राणनाथजी का धाम गमन। जागनी अभियान की पूर्णता।"}
+                ]
+            };
+
+            // 2. APP STATE
+            let currentState = {
+                currentStopIndex: 0,
+                isJourneyComplete: false,
+            };
+
+            // 3. UTILITY FUNCTIONS
+            const getElement = (id) => document.getElementById(id);
+
+            // 4. TIMELINE DRAWING AND INITIALIZATION
+            function initTimeline() {
+                const timelineList = getElement('timelineList');
+                const stops = journeyData.stops;
+                
+                // Add a single vertical line to represent the axis
+                timelineList.innerHTML = `<div class="timeline-axis"></div>`;
+
+                // Draw Points and Labels for the years
+                stops.forEach((stop, index) => {
+                    const item = document.createElement('div');
+                    item.className = 'timeline-item';
+                    item.dataset.index = index;
+                    item.onclick = () => updateTimeline(index);
+
+                    // Calculate vertical position (normalized)
+                    // Position items more closely when there are many, using padding/margin
+                    const normalizedTop = (index / (stops.length - 1)) * 100;
+                    item.style.top = `${normalizedTop}%`;
+                    item.style.position = 'absolute';
+                    item.style.transform = 'translateY(-50%)'; // Center vertically
+
+                    item.innerHTML = `
+                        <div class="timeline-year">${stop.year}</div>
+                        <div class="timeline-dot"></div>
+                    `;
+                    timelineList.appendChild(item);
+                });
+
+                // Initialize total steps display
+                getElement('totalSteps').textContent = journeyData.stops.length;
+
+                // Load the starting event immediately
+                updateTimeline(0);
+            }
+
+            // 5. JOURNEY LOGIC
+            function nextEvent() {
+                const nextIndex = currentState.currentStopIndex + 1;
+                if (nextIndex < journeyData.stops.length) {
+                    updateTimeline(nextIndex);
+                }
+            }
+
+            function previousEvent() {
+                const prevIndex = currentState.currentStopIndex - 1;
+                if (prevIndex >= 0) {
+                    updateTimeline(prevIndex);
+                }
+            }
+
+            function updateTimeline(index) {
+                const stop = journeyData.stops[index];
+                const totalStops = journeyData.stops.length;
+
+                // 1. Update Text Display
+                getElement('currentStep').textContent = index + 1;
+                getElement('eventYear').textContent = stop.year;
+                getElement('eventLocation').textContent = stop.location;
+                getElement('eventDescription').textContent = stop.description;
+
+                // 2. Update Timeline Highlight (Active State)
+                document.querySelectorAll('.timeline-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+                const activeItem = document.querySelector(`.timeline-item[data-index="${index}"]`);
+                if (activeItem) {
+                    activeItem.classList.add('active');
+                }
+
+                // 3. Update State
+                currentState.currentStopIndex = index;
+                
+                // 4. Update Button States
+                const nextBtn = getElement('nextEventButton');
+                const prevBtn = getElement('previousEventButton');
+
+                const isEnd = index === totalStops - 1;
+                const isStart = index === 0;
+
+                nextBtn.disabled = isEnd;
+                prevBtn.disabled = isStart;
+
+                if (isEnd) {
+                    nextBtn.textContent = 'यात्रा समाप्त';
+                    nextBtn.classList.remove('bg-green-600', 'hover:bg-green-700');
+                    nextBtn.classList.add('bg-gray-400');
+                } else {
+                    nextBtn.textContent = 'अगला पड़ाव';
+                    nextBtn.classList.remove('bg-gray-400');
+                    nextBtn.classList.add('bg-red-600', 'hover:bg-red-700');
+                }
+                
+                if (isStart) {
+                    prevBtn.classList.remove('bg-blue-500', 'hover:bg-blue-600');
+                    prevBtn.classList.add('bg-gray-200', 'text-gray-700');
+                } else {
+                    prevBtn.classList.remove('bg-gray-200', 'text-gray-700');
+                    prevBtn.classList.add('bg-blue-500', 'hover:bg-blue-600', 'text-white');
+                }
+            }
+
+            // 6. INITIALIZATION
+            window.onload = initTimeline;
+        </script>
+    </body>
+</html>
+
+
