@@ -1,0 +1,1150 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://shriprannathjivani.com/assets/img/webiste%20thubnail.png" />
+    <meta property="og:title" content="Shri Prannath Ji Vani" />
+    <meta property="og:description"
+        content="श्री प्राणनाथ जी का स्वरूप ज्ञान की दोपहरी का वह सूरज है, जिसके उग जाने पर अध्यात्म जगत में किसी भी प्रकार का अन्धकार रूपी संशय नहीं रहता। वेदों की ऋचायें जिस को खोजती हैं, दर्शन ग्रन्थ जिस सत्य को पाना चाहते हैं, गीता और भागवत जिस परम लक्ष्य उत्तम पुरुष की ओर संकेत करते हैं, कुरान की आयतें जिस अल्लाह तआला का वर्णन करना चाहती हैं, बाइबल जिस प्रेम के स्वरूप का वर्णन करने का प्रयास करती है और सन्तों की वाणियाँ जिस सत्य की ओर संकेत करती हैं, उसकी पूर्ण प्राप्ति श्री प्राणनाथ जी की वाणी में निहित है।" />
+    <title>Shri Prannath Ji Vani</title>
+    <link href="assets/img/favicon_icon.png" rel="icon" sizes="192x192" type="image/png">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/theme.css">
+    <script src="assets/js/icon.js"></script>
+    <style>
+        /* Floating background shapes */
+        .bg-shape {
+            position: absolute;
+            border-radius: 50%;
+            opacity: 0.3;
+            animation: floatShape 15s ease-in-out infinite;
+        }
+
+        .bg-shape:nth-child(1) {
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, #ffb3d9, transparent);
+            top: 17%;
+            left: 17%;
+            animation-delay: 0s;
+            z-index: -1;
+        }
+
+        .bg-shape:nth-child(2) {
+            width: 100px;
+            height: 100px;
+            background: radial-gradient(circle, #ffd9b3, transparent);
+            top: 60%;
+            left: 15%;
+            animation-delay: 2s;
+        }
+
+        .bg-shape:nth-child(3) {
+            width: 120px;
+            height: 120px;
+            background: radial-gradient(circle, #e91e63, transparent);
+            top: 40%;
+            right: 20%;
+            animation-delay: 4s;
+        }
+
+        .bg-shape:nth-child(4) {
+            width: 80px;
+            height: 80px;
+            background: radial-gradient(circle, #e91e63, #e91e6300);
+            left: 22%;
+            top: 12%;
+            animation-delay: 1s;
+        }
+
+        .bg-shape:nth-child(5) {
+            width: 90px;
+            height: 90px;
+            background: radial-gradient(circle, #ffb3f0, transparent);
+            top: 15%;
+            right: 5%;
+            animation-delay: 3s;
+        }
+
+        @keyframes floatShape {
+
+            0%,
+            100% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            33% {
+                transform: translate(30px, -30px) scale(1.1);
+            }
+
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
+        }
+
+
+
+        .character-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 8x;
+        }
+
+        .character-container {
+            position: relative;
+            width: 350px;
+            height: 272px;
+            margin-bottom: 30px;
+        }
+
+        .character {
+            width: 100%;
+            height: 100%;
+            position: relative;
+            animation: float 3s ease-in-out infinite;
+            filter: drop-shadow(0 20px 40px rgba(0, 0, 0, 0.15));
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0px) rotate(-2deg);
+            }
+
+            50% {
+                transform: translateY(-25px) rotate(2deg);
+            }
+        }
+
+        /* Cute droplet character */
+        .character-body {
+            width: 230px;
+            height: 230px;
+            background: linear-gradient(180deg, #e8f4ff 0%, #ffb5ce 40%, #ff83ad 100%);
+            border-radius: 45% 45% 50% 50% / 55% 55% 45% 45%;
+            position: absolute;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: inset 0 30px 60px rgba(255, 255, 255, 0.5), inset 0 -20px 40px rgb(255 112 161 / 30%), 0 30px 60px rgba(125, 211, 252, 0.4);
+            border: 3px solid rgba(255, 255, 255, 0.8);
+        }
+
+        /* Shine effect on character */
+        .character-body::before {
+            content: '';
+            position: absolute;
+            width: 80px;
+            height: 120px;
+            background: radial-gradient(ellipse, rgba(255, 255, 255, 0.8), transparent);
+            top: 40px;
+            left: 32px;
+            border-radius: 50%;
+            filter: blur(10px);
+        }
+
+        .character-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+
+        .eye {
+            width: 28px;
+            height: 32px;
+            background: #1a202c;
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            position: absolute;
+            top: 75px;
+            animation: blink 5s infinite;
+        }
+
+        .eye-left {
+            left: 70px;
+            transform: rotate(-8deg);
+        }
+
+        .eye-right {
+            right: 70px;
+            width: 32px;
+            height: 36px;
+            transform: rotate(5deg);
+        }
+
+        @keyframes blink {
+
+            0%,
+            96%,
+            100% {
+                transform: scaleY(1);
+            }
+
+            98% {
+                transform: scaleY(0.1);
+            }
+        }
+
+        /* Eye shine */
+        .eye::after {
+            content: '';
+            width: 10px;
+            height: 10px;
+            background: white;
+            border-radius: 50%;
+            position: absolute;
+            top: 6px;
+            left: 6px;
+        }
+
+        /* Small eyebrow curve for left eye */
+        .eye-left::before {
+            content: '';
+            width: 35px;
+            height: 20px;
+            border-top: 3px solid #1a202c;
+            border-radius: 50%;
+            position: absolute;
+            top: -12px;
+            left: -3px;
+            opacity: 0.4;
+        }
+
+        .mouth {
+            width: 50px;
+            height: 28px;
+            border: 4px solid #1a202c;
+            border-top: none;
+            border-radius: 0 0 50px 50px;
+            position: absolute;
+            bottom: 65px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* Blush */
+        .blush {
+            width: 30px;
+            height: 18px;
+            background: radial-gradient(ellipse, rgba(255, 150, 170, 0.5), transparent);
+            border-radius: 50%;
+            position: absolute;
+            top: 155px;
+        }
+
+        .blush-left {
+            left: 45px;
+        }
+
+        .blush-right {
+            right: 45px;
+        }
+
+        /* Shadow under character */
+        .character-shadow {
+            width: 200px;
+            height: 40px;
+            background: radial-gradient(ellipse, rgba(0, 0, 0, 0.15), transparent);
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 50%;
+            animation: shadowPulse 3s ease-in-out infinite;
+        }
+
+        @keyframes shadowPulse {
+
+            0%,
+            100% {
+                width: 200px;
+                opacity: 0.15;
+            }
+
+            50% {
+                width: 220px;
+                opacity: 0.25;
+            }
+        }
+
+        .speech-bubble {
+            background: white;
+            color: #2d3748;
+            padding: 16px 8px;
+            border-radius: 25px;
+            position: relative;
+            max-width: 450px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 0.5s;
+            font-size: 1.15rem;
+            text-align: center;
+            border: 3px solid rgb(255 133 174 / 30%);
+            font-family: 'Arya', Courier, monospace;
+            line-height: 28px;
+        }
+
+        .speech-bubble::before {
+            content: '';
+            position: absolute;
+            top: -22px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 14px solid transparent;
+            border-bottom-color: rgb(255 133 174 / 30%);
+        }
+
+        .speech-bubble::after {
+            content: '';
+            position: absolute;
+            top: -16px;
+            left: 50%;
+            transform: translateX(-50%);
+            border: 11px solid transparent;
+            border-bottom-color: white;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .results-section {
+            flex: 1;
+            padding: 40px;
+            overflow-y: auto;
+            background: rgba(255, 255, 255, 0.4);
+            backdrop-filter: blur(20px);
+        }
+
+        .search-interface {
+            background: rgba(255, 255, 255, 0.7);
+            padding: 35px;
+            border-radius: 25px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255, 255, 255, 0.8);
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-interface h2 {
+            color: #2d3748;
+            margin-bottom: 20px;
+            font-family: 'Arya', Courier, monospace;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 20px;
+
+            flex-flow: wrap;
+        }
+
+        .search-box input {
+            flex: 1;
+            padding: 18px 25px;
+            border: 3px solid rgb(233 30 99 / 53%);
+            border-radius: 20px;
+            font-size: 1.3rem;
+            background: white;
+            color: #2d3748;
+            transition: all 0.3s;
+        }
+
+        .search-box input:focus {
+            outline: none;
+            border-color: rgb(233 30 99 / 53%);
+            box-shadow: 0 0 20px rgba(125, 211, 252, 0.3);
+        }
+
+        .search-box input::placeholder {
+            color: #94a3b8;
+        }
+
+        .search-box button {
+            padding: 18px 45px;
+            background: linear-gradient(135deg, #e91e63 0%, #bf1e61 100%);
+            color: white;
+            border: none;
+            border-radius: 100px;
+            cursor: pointer;
+            font-size: 1.3rem;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 8px 20px rgba(125, 211, 252, 0.4);
+
+        }
+
+        .search-box button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 12px 30px rgba(125, 211, 252, 0.5);
+        }
+
+        .loading-animation {
+            text-align: center;
+            padding: 60px;
+        }
+
+        .spinner {
+            width: 70px;
+            height: 70px;
+            border: 6px solid rgba(125, 211, 252, 0.3);
+            border-top: 6px solid #e91e63;
+            border-radius: 50%;
+            margin: 0 auto 25px;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+
+        .result-card {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            border-bottom: 6px solid #e91e631f;
+            backdrop-filter: blur(10px);
+            animation: slideIn 0.5s;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .result-card h3 {
+            color: #e91e63;
+            margin-bottom: 16px;
+            font-size: 1.0rem;
+        }
+
+        .result-card .chopai {
+            color: #2c2c2c;
+            padding-bottom: 16px;
+            font-weight: 600;
+            border-bottom: 1px dashed #979797;
+            margin-bottom: 16px;
+            line-height: normal;
+            font-size: 22px;
+        }
+
+        .result-card .meaning {
+            color: #626262;
+            font-size: 20px;
+        }
+
+        .result-text {
+            line-height: 1.8;
+            margin-bottom: 15px;
+            color: #475569;
+        }
+
+        .highlight {
+            background: linear-gradient(120deg, #fef08a 0%, #fde047 100%);
+            color: #2d3748;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+        }
+
+        .meaning-box {
+            background: linear-gradient(135deg, #e0f2fe 0%, #bae6fd 100%);
+            padding: 18px;
+            border-radius: 12px;
+            margin-top: 15px;
+            border-left: 4px solid #0284c7;
+        }
+
+        .meaning-box strong {
+            color: #0284c7;
+        }
+
+        .stats {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 18px 30px;
+            border-radius: 15px;
+            display: inline-block;
+            margin-bottom: 25px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+            color: #2d3748;
+            font-weight: 600;
+        }
+
+        /* Floating particles */
+        .particle {
+            position: fixed;
+            border-radius: 50%;
+            pointer-events: none;
+            animation: particleFloat 6s infinite;
+            opacity: 0.6;
+        }
+
+        .particle:nth-child(odd) {
+            background: radial-gradient(circle, #ffb3d9, transparent);
+        }
+
+        .particle:nth-child(even) {
+            background: radial-gradient(circle, #ffb3d9, transparent);
+        }
+
+        @keyframes particleFloat {
+            0% {
+                transform: translateY(100vh) scale(0) rotate(0deg);
+                opacity: 0;
+            }
+
+            50% {
+                opacity: 0.8;
+            }
+
+            100% {
+                transform: translateY(-100vh) scale(1.5) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        .search-box-input {
+            position: relative;
+            display: flex;
+            flex: 1;
+        }
+
+        .search-box-input input {
+            padding-right: 35px;
+            /* space for the clear icon */
+        }
+
+        .searchclear-btn {
+            position: absolute;
+            right: 15px;
+            top: 47%;
+            transform: translateY(-50%);
+            font-size: 18px;
+            cursor: pointer;
+            color: #e91e63;
+            display: none;
+            user-select: none;
+        }
+
+        .searchclear-btn:hover {
+            color: #ff0909;
+        }
+
+        .ai-avtar img {
+            width: 360px;
+            display: block;
+            margin: 0px auto;
+        }
+
+        .ai-avtar-shadow {
+            width: 200px;
+            height: 40px;
+            background: radial-gradient(ellipse, rgba(0, 0, 0, 0.15), transparent);
+            position: absolute;
+            bottom: -317px;
+            left: 40%;
+            transform: translateX(-50%);
+            border-radius: 50%;
+            animation: shadowPulse 3s ease-in-out infinite;
+        }
+
+        .ai-avtar-container {
+            position: relative;
+            width: 350px;
+            height: 272px;
+            margin-bottom: 30px;
+        }
+
+        .ai-avtar-eye {
+            width: 14px;
+            height: 10px;
+            background: linear-gradient(45deg, #fad8b6, #c3a78d);
+            border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+            position: absolute;
+            top: 77px;
+            animation: blink 5s infinite;
+        }
+
+        .ai-avtar-eye-left {
+            left: 110px;
+            transform: rotate(-8deg);
+        }
+
+        .ai-avtar-eye-right {
+            width: 14px;
+            height: 11px;
+            left: 40%;
+            transform: rotate(5deg);
+        }
+
+        /* Eye shine */
+        .ai-avtar-eye::after {
+            content: '';
+            width: 8px;
+            height: 9px;
+            background: #070707;
+            border-radius: 50%;
+            position: absolute;
+            top: 2px;
+            left: 6px;
+        }
+
+        /* Small eyebrow curve for left eye */
+        .ai-avtar-eye-left::before {
+            content: '';
+            width: 22px;
+            height: 15px;
+            border-top: 3px solid #5b290d;
+            border-radius: 50%;
+            position: absolute;
+            top: -10px;
+            left: -7px;
+            opacity: 0.4;
+            transform: rotate(-25deg);
+        }
+
+        #scrollTopBtn {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 11px;
+            font-size: 18px;
+            border: none;
+            border-radius: 88px;
+            background: #e91e63;
+            color: #fff;
+            cursor: pointer;
+            display: none;
+            /* hidden by default */
+            z-index: 1000;
+        }
+
+        #scrollTopBtn:hover {
+            background: #e91e63;
+        }
+
+        #resultNavigator {
+            position: fixed;
+            left: 50%;
+            bottom: 15px;
+            transform: translateX(-50%);
+            background: #ffffffee;
+            padding: 8px 16px;
+            border-radius: 30px;
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            font-size: 16px;
+            font-weight: bold;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+            z-index: 9999;
+        }
+
+        .nav-arrow {
+            background: #ffbf00;
+            border: none;
+            padding: 8px 10px;
+            border-radius: 25px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.2s ease;
+        }
+
+        .nav-arrow:hover {
+            background: #ff6a00;
+            transform: scale(1.1);
+            color: white;
+        }
+
+        .active-result {
+            outline: 3px solid #ff6a00;
+            border-radius: 10px;
+            scroll-margin-top: 80px;
+        }
+
+        #resultNavigator {
+            display: none;
+            /* Hidden until search happens */
+        }
+
+        .chapter-list {
+            padding: 10px;
+            margin-bottom: 15px;
+            margin-top: 12rem;
+        }
+
+        .chapter-item {
+            padding: 12px 15px;
+            margin: 6px 0;
+            background: #f5f5f5;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: 0.2s;
+        }
+
+        .chapter-item:hover {
+            background: #e4e4e4;
+            border-left: 5px solid #ff6a00;
+        }
+
+        .active-chapter {
+            background: #dfe8ff !important;
+            border-left: 5px solid #ffbf00;
+            font-weight: 600;
+        }
+
+        .chapter-title {
+            color: #e91e63;
+            font-size: 21px;
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 18px;
+            font-family: "Arya";
+        }
+
+        .clear-chapter-btn {
+            background: #e74c3c;
+            color: white;
+            padding: 8px 14px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-bottom: 10px;
+            display: none;
+            /* Hidden until a chapter opens */
+        }
+
+        .clear-chapter-btn:hover {
+            background: #c0392b;
+        }
+        div#results{
+            padding: 0px 40px;
+        }
+        
+        @media (max-width: 480px) {
+            .results-section {
+                padding: 8px;
+            }
+
+            .search-interface {
+                padding: 8px;
+            }
+
+            .search-box {
+                margin-bottom: 0;
+            }
+
+            .character {
+                animation: none;
+            }
+
+            .bg-shape {
+                display: none;
+            }
+
+            .result-card {
+                padding: 8px;
+            }
+
+            .result-card .meaning {
+                font-size: 16px;
+            }
+
+            .result-card .chopai {
+                font-size: 18px;
+            }
+
+            .ai-avtar-container {
+                height: 222px;
+            }
+
+            .search-box input {
+                padding: 12px 16px;
+                font-size: 18px;
+            }
+
+            .search-box button {
+                padding: 8px 16px;
+                font-size: 16px;
+            }
+
+            .speech-bubble {
+                font-size: 16px;
+            }
+
+            .search-interface h2 {
+                color: #2d3748;
+                margin-bottom: 8px;
+                font-family: 'Arya', Courier, monospace;
+                font-size: 16px;
+            }
+
+            #resultNavigator {
+                gap: 8px;
+                padding: 8px 8px;
+            }
+
+            span#resultCounter {
+                max-width: 110px;
+                text-align: center;
+                width: max-content;
+            }
+
+            .common-hero,
+            .uptext {
+                display: none;
+            }
+
+            .chapter-list {
+                height: 300px;
+                overflow: scroll;
+                margin-top: 0rem;
+                z-index: 11;
+                position: relative;
+                background: rgba(255, 255, 255, 0.4);
+                backdrop-filter: blur(20px);
+            }
+            div#results{
+                padding: 8px;
+            }
+
+        }
+
+        #chapterListMobile {
+            display: none;
+        }
+
+        @media (max-width: 768px) {
+            #chapterList {
+                display: none;
+                /* hide old list */
+            }
+
+            #chapterListMobile {
+                display: block;
+                /* show mobile dropdown */
+                width: 100%;
+            }
+
+            #chapterListMobile select {
+                width: 100%;
+                padding: 12px 16px;
+                font-size: 18px;
+                border: 3px solid rgb(255 152 0 / 45%);
+                border-radius: 20px;
+                color: #282726a6;
+                text-align: left;
+                margin-top: 16px;
+            }
+        }
+    </style>
+</head>
+</head>
+
+<body data-bs-spy="scroll ">
+    <main class="">
+        <nav class="navbar navbar-expand-lg  fixed-top bg-body-tertiary rounded border-bottom " aria-label="spjiv">
+            <div class="container">
+                <a class="navbar-brand col-lg-3 me-0" href="index.html">
+                    <img src="assets/img/logo.svg" class="brand-logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsspjiv"
+                    aria-controls="navbarsspjiv" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="menu"><i data-feather="menu"></i></span>
+                </button>
+
+                <div class="collapse navbar-collapse d-lg-flex" id="navbarsspjiv">
+
+                    <ul class="navbar-nav col-lg-10 justify-content-lg-end">
+                        <li class="nav-item">
+                            <a class="nav-link " href="satguruji.html">सतगुरु व परमहंस</a>
+                        </li>
+                        <li class="nav-item dropdown d-sm-none d-md-block">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                आत्मदर्शनम्
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="atmadarshanam.html">आत्मदर्शनम्</a></li>
+                                <li><a class="dropdown-item" href="atmadarshanam_games.html">खेल-खेल में ज्ञान </a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="events.html">कार्यक्रम</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="kidscorner.html">बाल केंद्र</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="temple.html">मंदिर</a>
+                        </li>
+                        <li class="nav-item dropdown d-sm-none d-md-block">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                साहित्य
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" target="_blank"
+                                        href="https://drive.google.com/drive/folders/1gLm214M5g71RT397XsWfCxHbCyoNxqKv">ज्ञानपीठ
+                                        वाणी साहित्य <img style="width:34px;vertical-align: top;"
+                                            src="assets/img/shrispjin.png"> </a></li>
+                                <li><a class="dropdown-item" href="sahitya.html">पुस्तकालय</a></li>
+                                <li><a class="dropdown-item" href="audio.html">ऑडियो</a></li>
+                                <li><a class="dropdown-item" href="video.html">वीडियो</a></li>
+                                <li><a class="dropdown-item" href="articles.html">ई-मंथन लेखन</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item navbar-toggler px-0">
+                            <a class="nav-link" href="babynames.html">शिशु नामकरण</a>
+                        </li>
+                        <li class="nav-item navbar-toggler px-0">
+                            <a class="nav-link" href="quizzes.html">गूगल क्विज़</a>
+                        </li>
+                        <li class="nav-item dropdown d-sm-none d-md-block">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                अधिक
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="dropdown-item" href="babynames.html">शिशु नामकरण</a></li>
+                                <li><a class="dropdown-item" href="SevaKarkhana.html">सेवा कारखाना (सेवा केंद्र)</a>
+                                </li>
+                                <li><a class="dropdown-item" href="quizzes.html">गूगल क्विज़</a></li>
+                                <li><a class="dropdown-item" href="monthlyCalendar.html">मासिक कैलेंडर (डाउनलोड)</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <!-- <li>
+                            <a class="nav-link">
+                                <div id="google_translate_element"></div>
+                            </a>
+                        </li> -->
+                    </ul>
+                    <div class="d-lg-flex col-lg-2  justify-content-lg-end">
+                        <a href="contactus.html" class="btn btn-primary">संपर्क करें</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="falling-leaves"></div>
+        <button id="scrollTopBtn"><i data-feather="chevrons-up" class="me-0"></i> <span class="uptext">ऊपर
+                जाएँ</span></button>
+        <div id="resultNavigator">
+            <button id="prevResult" class="nav-arrow"><i data-feather="chevron-left" class="me-0"></i> </button>
+            <span id="resultCounter">0 / 0</span>
+            <button id="nextResult" class="nav-arrow"><i data-feather="chevron-right" class="me-0"></i></button>
+            <button id="clearChapterBtn" class="nav-arrow"><span class="uptext">क्लियर चैप्टर </span><i data-feather="x-circle"
+                    class="me-0"></i></button>
+        </div>
+
+        <section class="common-section home-bg container-fluid h-100 p-0 ">
+            <section class="common-hero">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <div class="spjv-box">
+                                <h2 class="spjv-subtitle">श्री बीतक साहेब </h2>
+                                <h3 class="spjv-title mb-4">चौपाइयाँ — खोज</h3>
+
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <p class="mb-2">
+                                निर्देश : <br>
+                                खोज करने के लिए शब्द डालें और “खोजें” दबाएँ।<br>
+                                यहाँ शब्द डालें (उदा. बिटक का नाम, श्लोक या विषय)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="character-section">
+                            <div class="ai-avtar-container">
+
+                                <!-- Background floating shapes -->
+                                <div class="bg-shape"></div>
+                                <div class="bg-shape"></div>
+                                <div class="bg-shape"></div>
+                                <div class="bg-shape"></div>
+                                <div class="bg-shape"></div>
+                                <div class="character">
+                                    <div class="ai-avtar">
+                                        <div class="ai-avtar-eye ai-avtar-eye-left"></div>
+                                        <div class="ai-avtar-eye ai-avtar-eye-right"></div>
+                                        <img src="assets/img/bitaksearch_avtar.png" class="ai-avtat-img">
+                                    </div>
+                                    <div class="ai-avtar-shadow"></div>
+                                </div>
+                            </div>
+                            <div class="speech-bubble" id="speechBubble">
+                                नमस्ते! मैं आपकी AI खोज सहायक हूँ। 🌟
+                                आज आप क्या ढूँढना चाहेंगे?”
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+
+                        <div class="results-section">
+                            <div class="search-interface">
+                                <h2>🔍 चौपाइयाँ — खोज</h2>
+                                <div class="search-box">
+                                    <div class="search-box-input">
+                                        <input id="searchInput" type="text" placeholder="कृपया कोई शब्द टाइप करें।...">
+                                        <span id="clearSearch" class="searchclear-btn"><i
+                                                data-feather="x-circle"></i></span>
+                                    </div>
+                                    <button id="searchBtn">खोज शुरू करें</button>
+                                </div>
+                                <div id="chapterListMobile">खोज शुरू करें</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3">
+                        <div id="chapterList" class="chapter-list"></div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div id="results"></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+    </main>
+    <footer class="bg-footer-black">
+        <div class="container py-7">
+            <div class="row g-0 align-items-center">
+                <div class="col-md-3 mb-5 mb-md-0 text-left">
+                    <h3 class="footer-title">क्विक लिंक्स</h3>
+                    <ul class="footer-link">
+                        <li><a href="satguruji.html">सतगुरु व परमहंस </a></li>
+                        <li><a href="sahitya.html">पुस्तकालय</a></li>
+                        <li><a href="audio.html">ऑडियो </a></li>
+                        <li><a href="video.html">वीडियो</a></li>
+                        <li><a href="events.html">कार्यक्रम</a></li>
+                        <li><a href="kidscorner.html">बाल केंद्र</a></li>
+                        <li><a href="temple.html">मंदिर</a></li>
+                        <li><a href="babynames.html">शिशु नामकरण</a></li>
+                        <li><a href="SevaKarkhana.html">सेवा कारखाना (सेवा केंद्र)</a></li>
+                        <li><a href="quizzes.html">गूगल क्विज़</a></li>
+                        <li><a href="atmadarshanam.html">आत्मदर्शनम्</a></li>
+                        <li><a href="atmadarshanam_games.html">खेल-खेल में ज्ञान</a></li>
+                        <li><a href="monthlyCalendar.html">मासिक कैलेंडर (डाउनलोड)</a></li>
+                        <li><a href="articles.html">ई-मंथन लेखन</a></li>
+                        <li><a target="_blank"
+                                href="https://drive.google.com/drive/folders/1gLm214M5g71RT397XsWfCxHbCyoNxqKv">ज्ञानपीठ
+                                वाणी साहित्य <img style="width:28px;vertical-align: top;"
+                                    src="assets/img/shrispjin.png"> </a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-5 mb-md-0 text-center">
+                    <div class="mb-4 d-inline-block">
+                        <a class="" href="index.html">
+                            <img class="img-fluid footer-logo" src="assets/img/logo_footer.svg" alt="" width="226"
+                                height="25" />
+                        </a>
+                        <p class="mb-4">अक्षरातीत परब्रह्म के साथ परमधाम की आत्माओं का पदार्पण इस माया के खेल में होने
+                            से तारतम ज्ञान का अलौकिक प्रकाश हुआ और संशय का घेरा टूट गया। सारे ब्रह्मांड के लिए
+                            पूर्णब्रह्म के दर्शनों का मार्ग सुगम व सुलभ हो गया। आइये ज्ञान का प्रकाश लेकर आगे बढ़ें और
+                            सबके हृदय में इस अलौकिक ज्योति को पहुँचाने का पावन कार्य करें।</p>
+                        <hr>
+                        <div class="d-flex align-items-center justify-content-between mt-4">
+                            <p class="mb-2 text-center">
+                                <a href="https://www.facebook.com/ShriPrannathJiVani/"> <i data-feather="facebook"
+                                        class="mb-2"></i> <br> फेसबुक</a>
+                            </p>
+                            <p class="mb-2 text-center">
+                                <a href="https://www.youtube.com/c/shriprannathjivani/videos"> <i data-feather="youtube"
+                                        class="mb-2"></i> <br> यूट्यूब </a>
+                            </p>
+                            <p class="mb-2 text-center">
+                                <a href="https://www.instagram.com/shriPrannathJiVani/"> <i data-feather="instagram"
+                                        class="mb-2"></i> <br> इंस्टाग्राम </a>
+                            </p>
+                            <p class="mb-2 text-center">
+                                <a href="https://www.youtube.com/c/shriprannathjivani/videos"> <i data-feather="twitter"
+                                        class="mb-2"></i> <br> ट्विटर </a>
+                            </p>
+                            <p class="mb-2 text-left">
+                                <a href="mailto:shriprannathjivani@gmail.com"> <i data-feather="mail" class="mb-2"></i>
+                                    <br>
+                                    shriprannathjivani@gmail.com </a>
+                            </p>
+                        </div>
+                        <hr>
+                        <p class="mb-4 mt-4 text-quote">
+                            <i data-feather="">
+                                <img class="mb-2" src="assets/img/namaste.svg">
+                            </i> <br>
+                            सुन्दरसाथ द्वारा, सुन्दरसाथ के लिए, सुन्दरसाथ को समर्पित
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5 mb-md-0 text-end">
+                    <div class="col-12 col-md-10  mb-3">
+                        <h3 class="footer-title">अन्य लिंक्स</h3>
+                        <ul class="footer-link">
+                            <li><a href="privacyPolicy.html">प्राइवेसी पालिसी </a></li>
+                            <li><a href="faq.html">अक्सर पूछे जाने वाले सवाल</a></li>
+                            <li><a href="sahitya.html">पुस्तकालय</a></li>
+                            <li><a href="contactus.html">संपर्क करें</a></li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+<script src="assets/js/base.js"></script>
+<script src="assets/js/jquery.js"></script>
+<script src="assets/js/slick.min.js"></script>
+<script src="assets/js/theme.js"></script>
+<script src="assets/js/icon.js"></script>
+<script src="assets/js/sagarsearch.js"></script>
+<script>
+
+</script>
+
+<!-- <script type="text/javascript"
+    src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script> -->
+
+</html>
