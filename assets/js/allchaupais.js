@@ -4,6 +4,7 @@ let rawChaupaisData = [];
 // DOM Element Selectors
 const searchInput = document.getElementById('searchInput');
 const exactMatchCheckbox = document.getElementById('exactMatchCheckbox');
+const bookSelect = document.getElementById('bookSelect');
 const searchBtn = document.getElementById('searchBtn');
 const clearBtn = document.getElementById('clearBtn');
 const resultsList = document.getElementById('resultsList');
@@ -19,6 +20,20 @@ function initializeFuse(data) {
   });
 }
 
+// Dynamically populate book options based on JSON data
+function populateBookDropdown(data) {
+  const books = Array.from(new Set(data.map(item => item.bookName).filter(Boolean)));
+  books.sort((a, b) => a.localeCompare(b, 'hi'));
+
+  bookSelect.innerHTML = '<option value="">सभी पुस्तकें (All)</option>';
+  books.forEach(book => {
+    const option = document.createElement('option');
+    option.value = book;
+    option.textContent = book;
+    bookSelect.appendChild(option);
+  });
+}
+
 // Fetch JSON Dataset
 async function loadChaupais() {
   try {
@@ -26,6 +41,7 @@ async function loadChaupais() {
     if (!response.ok) throw new Error('JSON डेटा लोड करने में समस्या हुई');
     
     rawChaupaisData = await response.json();
+    populateBookDropdown(rawChaupaisData);
     initializeFuse(rawChaupaisData);
 
   } catch (error) {
@@ -36,7 +52,7 @@ async function loadChaupais() {
   }
 }
 
-// Toggle Clear Icon Visibility based on input text
+// Toggle Clear Icon Visibility
 searchInput.addEventListener('input', () => {
   if (searchInput.value.trim().length > 0) {
     clearBtn.classList.remove('d-none');
@@ -48,6 +64,12 @@ searchInput.addEventListener('input', () => {
 // Event Bindings
 searchBtn.addEventListener('click', performSearch);
 clearBtn.addEventListener('click', clearSearch);
+bookSelect.addEventListener('change', () => {
+  if (searchInput.value.trim()) performSearch();
+});
+exactMatchCheckbox.addEventListener('change', () => {
+  if (searchInput.value.trim()) performSearch();
+});
 
 // Search automatically on Enter
 searchInput.addEventListener('keydown', (e) => {
@@ -59,6 +81,7 @@ function clearSearch() {
   searchInput.value = '';
   clearBtn.classList.add('d-none');
   exactMatchCheckbox.checked = false;
+  bookSelect.value = '';
   resultsList.innerHTML = '';
   resultsCount.textContent = '';
   searchInput.focus();
@@ -72,18 +95,30 @@ function performSearch() {
     return;
   }
 
+  const selectedBook = bookSelect.value;
   const isExact = exactMatchCheckbox.checked;
 
+  // Filter dataset by book name if selected
+  const datasetToSearch = selectedBook
+    ? rawChaupaisData.filter(item => item.bookName === selectedBook)
+    : rawChaupaisData;
+
   if (isExact) {
-    // 1. Exact Word/Phrase Match Search
-    const exactMatches = rawChaupaisData.filter(item => 
+    // 1. Exact Match Search
+    const exactMatches = datasetToSearch.filter(item => 
       item.title && item.title.toLowerCase().includes(query.toLowerCase())
     );
     renderResults(exactMatches, query, true);
   } else {
     // 2. Fuzzy Search using Fuse.js
-    if (!fuseInstance) return;
-    const fuseMatches = fuseInstance.search(query).map(res => res.item);
+    const tempFuse = new Fuse(datasetToSearch, {
+      keys: ['title'],
+      threshold: 0.35,
+      ignoreLocation: true,
+      minMatchCharLength: 2
+    });
+
+    const fuseMatches = tempFuse.search(query).map(res => res.item);
     renderResults(fuseMatches, query, false);
   }
 }
@@ -102,14 +137,16 @@ function renderResults(items, query, isExact) {
     return;
   }
 
-  resultsCount.textContent = `कुल ${isExact ? 'सटीक परिणाम' : 'परिणाम'}: ${items.length}`;
+  const selectedBook = bookSelect.value;
+  const filterLabel = selectedBook ? ` (${selectedBook})` : '';
+  resultsCount.textContent = `कुल ${isExact ? 'सटीक परिणाम' : 'परिणाम'}${filterLabel}: ${items.length}`;
+  
   const fragment = document.createDocumentFragment();
 
   items.forEach(item => {
     const card = document.createElement('div');
     card.className = 'chaupai-card';
 
-    // Format title into 2-lines with ending number joined inline on the 2nd line
     const formattedTitle = formatChaupaiText(item.title);
     const highlightedTitle = highlightQuery(formattedTitle, query);
 
@@ -117,7 +154,7 @@ function renderResults(items, query, isExact) {
       <div class="chaupai-text">${highlightedTitle}</div>
       <div class="d-flex flex-wrap align-items-center gap-2">
         <span class="badge bg-primary-subtle text-primary border border-primary-subtle badge-compact">
-          <i class="bi bi-journal-bookmark me-1"></i>श्री तारतम वाणी: ${escapeHTML(item.bookName || 'N/A')}
+          <i class="bi bi-journal-bookmark me-1"></i>पुस्तक: ${escapeHTML(item.bookName || 'N/A')}
         </span>
         <span class="badge bg-info-subtle text-info-emphasis border border-info-subtle badge-compact">
           <i class="bi bi-bookmark-dash me-1"></i>प्रकरण: ${escapeHTML(item.prakaranName || 'N/A')}
@@ -156,13 +193,9 @@ function highlightQuery(text, query) {
   const words = query.trim().split(/\s+/).filter(Boolean);
   if (words.length === 0) return escapedText;
 
-  // Build flexible search patterns by stripping trailing Devanagari vowel matras (ُ , ू, ो, ौ, etc.)
   const patterns = words.map(word => {
-    // Stem trailing matras (e.g., "सतगुरु" -> "सतगुर")
     const stem = word.replace(/[\u093e-\u094c\u0962\u0963]+$/g, '');
     const escapedStem = escapeRegExp(stem);
-    
-    // Match the stem plus optional trailing vowel matras
     return `${escapedStem}[\u093e-\u094c\u0962\u0963]?`;
   });
 
