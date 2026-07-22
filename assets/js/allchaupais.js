@@ -20,10 +20,10 @@ function initializeFuse(data) {
   });
 }
 
-// Dynamically populate book options based on JSON data
+// Dynamically populate book options in exact JSON order
 function populateBookDropdown(data) {
+  // Extract unique book names while preserving JSON insertion order
   const books = Array.from(new Set(data.map(item => item.bookName).filter(Boolean)));
-  books.sort((a, b) => a.localeCompare(b, 'hi'));
 
   bookSelect.innerHTML = '<option value="">सभी पुस्तकें (All)</option>';
   books.forEach(book => {
